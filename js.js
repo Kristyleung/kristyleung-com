@@ -1,6 +1,6 @@
 
 var typed = new Typed('.element', {
-  strings: ["speed eating", "speed reading", "speed dating", "speed walking"],
+  strings: ["watching Dad use Facebook", "extreme knitting","Larry David",  "r/natureismetal", "true crime podcasts", "shipwrecks","Toonie Tuesdays"],
   typeSpeed: 70,
   backDelay: 1500,
   loop: true
