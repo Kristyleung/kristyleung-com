@@ -1,0 +1,217 @@
+#indigo{
+	color: #0074D8;
+}
+
+
+html {
+	margin: 0px;
+	padding: 0px;
+	font-size: 62%;
+	font-family: "Josefin Sans";
+	font-weight: normal;
+	color: white;
+}
+
+
+p{
+	max-width: 100%;
+}
+
+header{
+	margin-top: 2px;
+}
+
+
+
+h1{
+	margin-left: 15%;
+	margin-top: 10%;
+/*	margin-bottom: 2%;
+*/
+
+}
+.intro{
+	opacity: .89;
+}
+
+h2 {
+	margin-top: 3%;
+/*	opacity: .7;
+*/	margin-left:19%;
+bottom:2%;
+line-height: 1.3em;
+max-width: 60%;
+font-size: 3.5vw;
+color: white;
+font-weight: bold;
+
+}  
+
+
+/*nav bar*/
+.header-bar{
+	width: 100%;
+}
+ul{
+	list-style-type: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	width: 82%;
+	height: 30px%;
+	overflow: hidden;
+/*	background-color: white;
+*//*	font-style: italic;
+*/	
+}
+
+li{
+	font-family: "Lato"; 
+	font-weight: lighter;
+	float:right;
+	padding-right: 1%;
+	margin-top: 16px;
+	margin-bottom: 10px;
+/*	background-color: white;
+*/}
+
+
+li a{
+	display: block;	
+	width: 100%;
+	font-size: 1.3vw;
+	color: white;
+	font-weight: bolder;
+	padding: 2px;
+
+}
+
+
+li:hover{
+
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+a.action_link{
+	font-family: "Josefin Sans";
+	font-weight: 400;
+	font-weight: lighter;
+	font-style: italic;
+	text-decoration: none;
+
+}
+
+div.element{
+	display: inline;
+
+}
+i{
+	display: block;
+	margin-top: 35%;
+	margin-left: 50%;
+	line-height: 12em;
+	margin-bottom: 70%;
+
+}
+
+hr { 
+	display: block;
+	opacity: .6;
+	display: block;
+	margin-top: 8em;
+	margin-bottom: 0.5em;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-style: inset;
+	border-width: 1px;
+
+} 
+
+h3{
+	margin-left: 15%;
+	margin-top: 7%;
+	margin-bottom: 3%
+
+}
+
+
+/* 2x2 image grid */
+
+
+h4{
+	margin-left: 19%;
+	margin-right: 8%;
+
+}
+
+
+
+div.gallery {
+	margin:1px;
+	float: left;
+	margin-right: 3%;
+
+
+}
+
+div.gallery:hover {
+	opacity: .9;
+	color: #5EC1A0;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+div.gallery img {
+	width: 100%; 
+	max-width: 425px;
+	height: auto;
+
+}
+
+
+    div.desc {   	/*IMAGE CAPTION*/
+    	opacity: .8;
+    	font-size: 1.7vw;
+    	font-weight: 300;	
+    	letter-spacing: 1px;
+
+    	padding-left: 0px;
+    	padding-top: 4%;
+    	padding-bottom: .4%;
+    	text-align: left;
+
+    }
+    div.desc1{
+    	opacity: .7;
+    	font-size: 1.3vw;
+    	font-weight: 100;	
+    	font-style: italic;				
+    	padding-left: 0px;
+    	padding-top: 0px;
+    	padding-bottom: 8%;
+
+    }
+/*footer*/
+
+h5{
+
+	opacity: .5;
+	font-weight: lighter;
+	font-size: .9vw;
+
+	color: white;
+}
+
+    .footer {
+    	text-align: right;
+    	clear: both;
+    	position: relative;
+    	z-index: 10;
+    	height: 3em;
+    	margin-top: -5em;   
+    	width:82%;
+    	color: white;
+    }
+

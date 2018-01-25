@@ -1,0 +1,126 @@
+html {
+	margin: 0px;
+	padding: 0px;
+	font-size: 10vw;
+	font-family: "Josefin Sans";
+	font-weight: normal;
+	color: #4F5E7C;
+}
+
+
+section{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0em;
+
+}
+.intro{
+
+    
+}
+h1{
+            padding-top: 3em;
+
+    font-family: "Josefin Sans";
+    font-size: 50%;
+    font-weight: normal;
+
+    
+}
+
+sub{
+    	opacity: .7;
+    	font-size: 10%;
+    	font-weight: 100;	
+    	font-style: italic;				
+    	padding-left: 0px;
+    	padding-top: 0px;
+    	padding-bottom: 8%;
+
+    }
+/*
+h2{
+    clear: none;
+    display: inline;
+    font-family: "Josefin Sans";
+    font-size: 2.828em;
+    font-weight: normal;
+
+    
+}
+*/
+/*nav bar*/
+.header-bar{
+	width: 100%;
+}
+ul{
+	list-style-type: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	width: 82%;
+	height: 30px%;
+	overflow: hidden;
+/*	background-color: white;
+*//*	font-style: italic;
+*/	
+}
+
+li{
+	font-family: "Lato"; 
+	font-weight: lighter;
+	float:right;
+	padding-right: 1%;
+	margin-top: 16px;
+	margin-bottom: 10px;
+/*	background-color: white;
+*/}
+
+
+li a{
+	display: block;	
+	width: 100%;
+	font-size: 1.3vw;
+	color: black;
+	font-weight: bolder;
+	padding: 2px;
+
+}
+
+
+li:hover{
+
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+a.action_link{
+	font-family: "Josefin Sans";
+	font-weight: 400;
+	font-weight: lighter;
+	font-style: italic;
+	text-decoration: none;
+
+}
+
+div.element{
+	display: inline;
+
+}
+
+i{
+	display: block;
+	margin-top: 35%;
+	margin-left: 55%;
+	line-height: 12em;
+	margin-bottom: 70%;
+
+}
+
+.footer {
+  font-size: 10%;
+  padding-top: 0rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
