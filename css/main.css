@@ -141,7 +141,7 @@ h3{
 
 
 h4{
-	margin-left: 19%;
+	margin-left: 17%;
 	margin-right: 8%;
 
 }
@@ -165,7 +165,7 @@ div.gallery:hover {
 
 div.gallery img {
 	width: 100%; 
-	max-width: 425px;
+	max-width: 1000px;
 	height: auto;
 
 }
