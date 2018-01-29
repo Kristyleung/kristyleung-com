@@ -7,12 +7,17 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Josefin+Sans:600|Josefin+Sans:400|Josefin+Sans:300|
 	Josefin+Sans:200|Josefin+Sans:100">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
 
 	<link rel="shortcut icon" type="image/x-icon" href="landing_pics/favicon.ico">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
+    
 <body bgcolor="#E5EFFD">
 
 <header class="header-bar">
@@ -24,13 +29,16 @@
 	</ul>
 </header>
 <body>
+    
 	<section class="intro">
         <sub>academic · experience design</sub>
         <h1><b>Visier — </b>sharing a workforce plan across mutliple collaborators</h1>
-        
-
 </section>
-<body>
+<div class = "images">
+        <img src = "visier_overview.png" width=100% height= auto>
+
+    </div>
+
     <div class="row marketing">
         <div class="col-lg-6">
          
@@ -67,10 +75,30 @@ So if designing the sharing feature were easy, a plan would, at the very least, 
             A later reiteration encapsulated all three requirements determined before. The toggle from before was replaced by buttons that also double as status indicators. This design was developed in the mockups attached, and was implemented into the platform.</p>
 
           
-      </div>
-</body>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+    <div class="numbertext">Slide: 1 / 11</div>
+        <div class = "images">
+    <img src="visier_slides/1.jpg" style="width:100%" height=auto>
+</div>
+        <!--    <div class="text">Caption Text</div>-->
+  </div>
     
-<!--
+        <div class="mySlides fade">
+    <div class="numbertext">2 / 11</div>
+    <img src="visier_slides/2.jpg" style="width:100%">
+<!--    <div class="text">Caption Text</div>-->
+  </div>
+    
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div> 
+      </div>
+
+            <!--
 <div class="footer">
 	<br>
 	<br><br>
@@ -81,6 +109,34 @@ So if designing the sharing feature were easy, a plan would, at the very least, 
         <p>&copy; Company 2017</p>
       </footer>
 
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 
 </body>
 </html>
