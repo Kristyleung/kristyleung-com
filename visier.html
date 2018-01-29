@@ -25,28 +25,51 @@
 </header>
 <body>
 	<section class="intro">
-
+        <sub>academic · experience design</sub>
         <h1><b>Visier — </b>sharing a workforce plan across mutliple collaborators</h1>
         
-        <sub>academic · experience design</sub>
 
 </section>
-
+<body>
     <div class="row marketing">
         <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
          
         </div>
 
         <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p> id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+          
+            <p>Workforce Planning (WFP) is a powerful application that allows users to project and analyze labor supply and demand based on economic factors by creating plans. During my 12-month work term as a UX Design Intern at Visier, I spent the majority of my time dedicated to designing features with the PM and Design Lead of WFP.</p>
+        
+            <h4>Problem</h4>
+          <p>In many use cases, there are multiple users within an organization who need to collaborate across teams to make decisions about a workforce. WFP needed a feature that allowed users to manage both sharing and editing rights in a plan.</p>
+
+            
+           <h4>Understanding Constraints</h4> 
+<p>Upon speaking to the development team, I learned that WFP could not allow multiple users to edit simultaneously edits to a plan because a single edit generate changes to values across the grid. Unsurprisingly, this constraint added a new layer of complexity to my mental model of the application’s behavior. 
+<br><br>
+This sketch details one of many early attempts to visually represent the behavior of the plan-sharing feature: a switch that could be toggled by an editor to turn editing capabilities on and off to allow another user to edit. However, certain back-end complications surfaced which required the user to manually refresh the plan in order for the sharing status to change. The toggle did not provide adequate visual cues to support this behavior. </p>
+
+<h4>“What might this look like if it were easy?”</h4>
+<p>At this point in the design process, I was bogged down by concerns like: How are rights of the shared users are specified? How multiple users with editing rights determine the sole current editor? How would an editor know to relinquish their role for another user? In moments like this, I returned to this prompt (borrowed from <a href="https://tim.blog/2017/10/03/tribe-of-mentors/">Tim Ferriss</a>) I often pondered during my work term at Visier. Since I was consistently facing new data or metric related concepts that I did not understand, I used this question to unshackle myself from the complexities and regain my bearings.
+<br>
+So if designing the sharing feature were easy, a plan would, at the very least, would need the following things:
+<br><br>
+<div class="list">
+    1. Ability to give another user editing or reading access to a plan 
+<br>
+    2.	Simple method for an editor to start and end editing
+<br>
+    3.	Clear indicator of who the current and only editor is
+</div>
+
+<p>After identifying these components, I was able to find a jumping off point and create a mind map and another iteration of the interface sketch. 
+<br><br>
+            A later reiteration encapsulated all three requirements determined before. The toggle from before was replaced by buttons that also double as status indicators. This design was developed in the mockups attached, and was implemented into the platform.</p>
 
           
       </div>
-
+</body>
+    
 <!--
 <div class="footer">
 	<br>
