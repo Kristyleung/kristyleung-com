@@ -4,6 +4,8 @@
 	<link rel="stylesheet" type="text/css" href="css/pages.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:700|Lato:600|Lato:400|Lato:300|
+	Lato:200|Lato:100">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Josefin+Sans:600|Josefin+Sans:400|Josefin+Sans:300|
 	Josefin+Sans:200|Josefin+Sans:100">
@@ -19,7 +21,7 @@
     <title>Kristy Leung Portfolio</title>
 </head>
     
-<body bgcolor="#E5EFFD">
+<body bgcolor="#E4EEFF">
 
     
     <header class="header-bar">
@@ -55,21 +57,18 @@
         
             <h4>Problem</h4>
           <p>In many use cases, there are multiple users within an organization who need to collaborate across teams to make decisions about a workforce. WFP needed a feature that allowed users to manage both sharing and editing rights in a plan.</p>
-
             
            <h4>Understanding Constraints</h4> 
 <p>Upon speaking to the development team, I learned that WFP could not allow multiple users to edit simultaneously edits to a plan because a single edit generate changes to values across the grid. Unsurprisingly, this constraint added a new layer of complexity to my mental model of the application’s behavior. </p>
     
     <center><img src = "visier_sketch1.png" width=60% height= auto></center>
 
-
 <p>This sketch details one of many early attempts to visually represent the behavior of the plan-sharing feature: a switch that could be toggled by an editor to turn editing capabilities on and off to allow another user to edit. However, certain back-end complications surfaced which required the user to manually refresh the plan in order for the sharing status to change. The toggle did not provide adequate visual cues to support this behavior. </p>
 
 <h4>“What might this look like if it were easy?”</h4>
             <p>At this point in the design process, I was bogged down by concerns like: <em>How are rights of the shared users are specified? How multiple users with editing rights determine the sole current editor? How would an editor know to relinquish their role for another user? </em>In moments like this, I returned to this prompt (borrowed from <a href="https://tim.blog/2017/10/03/tribe-of-mentors/">Tim Ferriss</a>) which I often pondered during my work term at Visier. Since I was consistently facing new data or metric related concepts that I did not understand, I used this question to unshackle myself from the complexities and regain my bearings.
-<br>
-So if designing the sharing feature were easy, a plan would, at the very least, would need the following things:
-<br><br>
+
+                So if designing the sharing feature were easy, a plan would, at the very least, would need the following things:
 <div class="list">
     1. Ability to give another user editing or reading access to a plan 
 <br><br>
@@ -82,7 +81,7 @@ So if designing the sharing feature were easy, a plan would, at the very least, 
     
 <br><br><br><br><br>
 
-    <img src = "visier_mindnode.png" width=100% height= auto>
+    <img src = "visier_mindnode.png" width=102% height= auto>
 
 
 <br><br><br><br><br>
