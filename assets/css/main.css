@@ -1,0 +1,399 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #272E3D;
+    font-family: "Josefin Sans", "Roboto", sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.project__pages{
+    background-color: rgb(249, 249, 249);
+    font-family: "Josefin Sans", "Roboto", sans-serif;
+    font-weight: normal;
+    color: rgb(127, 127, 127);
+}
+
+.page {
+    margin: 2rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.intro{
+    padding: 6rem 2rem;
+    display: flex;
+    height: 30rem;
+    max-width: 72rem;
+    margin: 0 auto;
+}
+
+.intro p{
+    font-weight: bold;
+    font-family: Josefin Sans;
+    font-size: 4rem;
+    line-height: 1.25;
+    margin: 0;
+    transition: font-size .3s ease-in-out;
+}
+
+i.material-icons.bars{
+    display: none;
+}
+
+.branding{
+    background-image: url('../img/logos/logo_white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 11rem;
+    height: 5.25rem;  
+}
+
+.branding__projects{
+    background-image: url('../img/logos/logo_grey.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 11rem;
+    height: 5.25rem; 
+}
+.branding h1,
+.branding__projects h1 {
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height: 1px; width: 1px; 
+    margin: -1px; padding: 0; border: 0; 
+}
+
+
+/* navigation bar */
+
+.menu-open {
+    overflow: auto;
+}
+
+.menu-open .navigation__items {
+    display: flex;
+}
+
+.navigation {
+    display:flex;
+}
+
+.navigation__items {
+    display: flex;
+    padding: 0;
+    margin: 1rem;
+    list-style-type: none;
+}
+
+.navigation__item {
+    font-size: 1.25rem;
+    line-height: 4rem;
+}
+
+.navigation__link {
+    color: white;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.navigation__link:hover, 
+.navigation__link:focus, 
+.navigation__link__project:hover,
+.navigation__link__project:focus{
+    color: #F8AFB3;
+    text-decoration: underline;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+/* projects */
+
+.projects {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.project {
+    width: 25%;
+    padding: 1rem;
+}
+
+.project:hover,
+.project:focus {
+    text-decoration: underline;
+}
+
+.projects__heading {
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+
+.project__desc {
+    opacity: .7;
+    font-size: 1rem;
+    font-weight: 300;	
+    font-style: italic;				
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: .5rem;
+
+}
+
+/* styleguide */
+
+.page__content {
+    margin: 6rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+.metadata__items {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    list-style-type: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+
+}
+.metadata__header{
+    font-family: "Roboto";
+    font-size: 1rem; 
+    opacity: .6;
+}
+
+.metadata__item {
+    flex-grow: 3;
+    flex-basis: 8em;
+    line-height: 1rem;    
+}
+
+.metadata__info {
+    padding-top: .4rem; 
+}
+
+
+.content__items{
+    padding-bottom: 2rem;
+
+}
+.content__heading{
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.content__subheading{
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    border-top: 1px dotted white;
+}
+
+code {
+    font-size: .8rem;  
+}
+
+.link {
+    color: #5FC29F;
+    text-decoration: none;
+}
+
+.link:hover, 
+.link:focus {
+    color: #54707B;
+    text-decoration: underline;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.intro p{
+    color: white;
+    opacity: .9;
+}
+
+p {
+    font-family: "Roboto";
+    color: rgb(88, 88, 90);
+    font-size: 1rem;
+    line-height: 1.8rem;
+    padding-top: 1rem;
+}
+
+.card-text{
+    line-height: 1.4em;
+}
+
+.display-heading {
+    font-size: 3rem;
+    font-weight: 500;
+
+}
+
+.text-pink {
+    text-transform: uppercase;
+    font-size: .8em;
+    color: #DE788C;
+
+}
+
+.videoWrapper{
+    width: 100%
+}
+
+/* footer */
+.button{
+    background-color: #272E3D; /* Green */
+    border: 2px solid #FFF;
+    border-radius: 8px;
+    color: #FFF;
+    padding: .6em 1em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 2em; 
+
+}
+
+.button:hover,
+.button:focus{
+    background-color: #DE788C; /* Green */
+    border: 2px solid #DE788C;
+    border-radius: 8px;
+    color: #FFF;
+
+}
+
+.footer {
+    padding-top: 4rem;
+    font-size: .8rem;
+    opacity: .6;
+    text-align: center;
+}
+
+/* responsive */
+@media only screen and (max-width:64em) {     
+    .intro {
+        height: 24rem;
+
+    }
+
+    .intro p{
+        font-size: 3rem;
+    }
+
+    .display-heading{
+        font-size: 3rem;
+    }
+
+    .project {
+        width: 33.33335%;
+        padding: 1rem;    
+    }
+
+    .page__content{
+        margin: 2.2rem;   
+    }
+
+}
+
+@media only screen and (max-width:48em) { 
+
+    .page{
+        margin: 1rem;   
+    }
+
+    .menu-open {
+        overflow: hidden;
+    }
+
+    .navigation__items {
+        display: none;
+        position: fixed;
+        overflow: auto;
+        background: #8AA2A6;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+        z-index: 999;
+    }
+
+    .navigation__item {
+        line-height: 3rem;
+    }
+
+    .navigation__link {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    i.material-icons:hover,
+    i.material-icons:focus{
+        color:#F8AFB3;
+        transition-property: color;
+        transition-duration: 0.5s; 
+    }
+
+    i.material-icons.bars{
+        display: flex;
+        margin-top: 18px;
+        cursor: pointer;
+        padding: 1em;
+        z-index: 1000;
+    }
+
+    .intro {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .intro p{
+        font-size: 2rem;
+    }
+
+    .display-heading{
+        font-size: 1.66rem;
+    }
+
+    .content__heading{
+        font-size: 1.1rem;
+    }
+
+    .project {
+        width: 50%;
+    }
+
+}
