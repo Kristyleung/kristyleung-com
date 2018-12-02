@@ -1036,8 +1036,13 @@ return /******/ (function(modules) { // webpackBootstrap
 ;
 
 var typed = new Typed('.element', {
+<<<<<<< HEAD:assets/js/typed.js
         strings: ["wireframes and prototypes", "words of clarity and thoughtfulness", "workshops with real users", "waffles drowned in syrup"],
         typeSpeed: 30,
+=======
+        strings: ["people ", "donuts ", "sloths ", "Larry Davids "],
+        typeSpeed: 45,
+>>>>>>> 6c4b8c249498d779e6e40938a444aec759bd8b1a:assets/js/typed.js
         backSpeed: 0,
         backDelay: 1000,
         startDelay: 1000,

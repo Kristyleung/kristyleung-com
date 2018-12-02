@@ -32,7 +32,11 @@ header{
 }
 
 .intro{
+<<<<<<< HEAD
     padding: 6rem 2rem;
+=======
+    padding: 4rem 2rem;
+>>>>>>> 6c4b8c249498d779e6e40938a444aec759bd8b1a
     display: flex;
     height: 30rem;
     max-width: 72rem;
