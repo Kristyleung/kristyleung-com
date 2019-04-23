@@ -16,7 +16,7 @@ body {
     background-color: rgb(249, 249, 249);
     font-family: "Josefin Sans", "Roboto", sans-serif;
     font-weight: normal;
-    color: rgb(127, 127, 127);
+    color: #505050;
 }
 
 .page {
@@ -200,7 +200,6 @@ i.material-icons.bars{
     padding-top: .4rem; 
 }
 
-
 .content__items{
     padding-bottom: 2rem;
 
@@ -209,7 +208,9 @@ i.material-icons.bars{
     padding-top: 3rem;
     font-size: 1.5rem;
 }
-
+.content__smallheading{
+    font-size: 1rem;
+}
 .content__subheading{
     padding-top: 2rem;
     font-size: 1.2rem;
@@ -240,7 +241,7 @@ code {
 
 p {
     font-family: "Roboto";
-    color: rgb(88, 88, 90);
+    color: rgb(44, 44, 44);
     font-size: 1rem;
     line-height: 1.8rem;
     padding-top: 1rem;
