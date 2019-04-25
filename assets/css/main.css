@@ -70,7 +70,8 @@ i.material-icons.bars{
     height: 5.25rem; 
 }
 .branding h1,
-.branding__projects h1 {
+.branding__projects h1,
+.branding__projects div{
     position: absolute; 
     overflow: hidden; 
     clip: rect(0 0 0 0); 
