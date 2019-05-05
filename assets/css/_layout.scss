@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+.page {
+  overflow: hidden;
+}
+
 .navbar,
 .navbar-brand {
   font-size: 1.5rem;
