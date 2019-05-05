@@ -22,7 +22,10 @@ body {
 
 .nav-item a.btn.btn-sm {
   margin-top: .6rem;
-  margin-left: 1rem;
+  
+  @include respond-to(lg) {
+    margin-left: 1rem;
+  }
 }
 .navbar-light .navbar-nav .active>.nav-link {
   text-decoration: underline;
