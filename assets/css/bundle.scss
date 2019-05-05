@@ -1,20 +1,14 @@
-@import "normalize.css";
+@import "vendor/normalize.css";
+@import "vendor/animate.css";
 
 @import "variables";
 @import "breakpoints";
 @import "layout";
 
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 html,
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   background: #FCEDED;
   overflow-x: hidden;
 }
@@ -82,17 +76,17 @@ body {
       }
     }
 
-    &:before {
-      left: -20%;
-      top: 0;
-      background-image: url("../img/blob-header-left.svg");
-    }
-
-    &:after {
-      right: -20%;
-      top: 0;
-      background-image: url("../img/blob-header-right.svg");
-    }
+    //&:before {
+    //  left: -20%;
+    //  top: 0;
+    //  background-image: url("../img/blob-header-left.svg");
+    //}
+    //
+    //&:after {
+    //  right: -20%;
+    //  top: 0;
+    //  background-image: url("../img/blob-header-right.svg");
+    //}
   }
 
 }
@@ -102,39 +96,28 @@ body {
   &--green {
     background-color: $box-green;
     color: white;
-
-    a {
-      color: $link-color;
-
-      &:hover,
-      &:focus,
-      &:active {
-        color: $link-color;
-        border-color: $link-color;
-      }
-    }
   }
 
   &--blue {
     background-color: $box-blue;
-
-    a {
-      color: $link-color;
-
-      &:hover,
-      &:focus,
-      &:active {
-        color: $link-color;
-        border-color: $link-color;
-      }
-    }
   }
 
 }
 
 .box {
   min-height: 100vh;
-  overflow: hidden;
+
+  &__container {
+    img:nth-child(1) {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+
+    img:nth-child(2) {
+      filter: drop-shadow(0 0 5px rgba(0,0,0,.25));
+    }
+  }
 
   &__tags {
     list-style: none;
@@ -160,25 +143,10 @@ body {
   &__heading {
     font-size: 3rem;
     font-weight: 900;
-    font-style: italic;
   }
 
   &__description {
     font-size: 1.5rem;
-  }
-
-  &__target {
-    color: $lolly-pop;
-    border-bottom: 2px solid transparent;
-    transition: border .25s ease;
-
-    &:hover,
-    &:focus,
-    &:active {
-      text-decoration: none;
-      color: $lolly-pop;
-      border-color: $lolly-pop;
-    }
   }
 
 }

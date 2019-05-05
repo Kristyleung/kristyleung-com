@@ -1,3 +1,21 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.navbar,
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  font-weight: 900;
+}
+
 .footer {
   background-color: $footer_bg;
   padding: 4rem 0;
