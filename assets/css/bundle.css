@@ -32,6 +32,13 @@ body {
   transform: translate(-5%, -4%) rotate(-10deg);
   display: inline-block; }
 
+.nav-item a.btn.btn-sm {
+  margin-top: .6rem;
+  margin-left: 1rem; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  text-decoration: underline; }
+
 .header .row {
   position: relative;
   z-index: 1; }
