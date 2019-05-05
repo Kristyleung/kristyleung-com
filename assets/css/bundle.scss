@@ -19,6 +19,13 @@ body {
   overflow-x: hidden;
 }
 
+.handwritten {
+  font-family: 'Kalam', cursive;
+  color: $lolly-pop;
+  transform: translate(-5%, -4%) rotate(-10deg);
+  display: inline-block;
+}
+
 .header {
 
   .row {
@@ -42,15 +49,14 @@ body {
   }
 
   p {
-    font-size: 1.5rem;
-    font-weight: 900;
+    font-size: 1.25rem;
 
     @include respond-to(md) {
       font-size: 1.75rem;
     }
 
     @include respond-to(lg) {
-      font-size: 2rem;
+      font-size: 2.25rem;
     }
   }
 
@@ -91,13 +97,44 @@ body {
 
 }
 
-.box {
+.bg {
 
-  min-height: 100vh;
+  &--green {
+    background-color: $box-green;
+    color: white;
 
-  &__container {
+    a {
+      color: $link-color;
 
+      &:hover,
+      &:focus,
+      &:active {
+        color: $link-color;
+        border-color: $link-color;
+      }
+    }
   }
+
+  &--blue {
+    background-color: $box-blue;
+
+    a {
+      color: $link-color;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: $link-color;
+        border-color: $link-color;
+      }
+    }
+  }
+
+}
+
+.box {
+  min-height: 100vh;
+  overflow: hidden;
 
   &__tags {
     list-style: none;
@@ -109,6 +146,7 @@ body {
     display: inline-block;
     text-transform: lowercase;
     font-size: 1.5rem;
+    opacity: .5;
 
     &:after {
       content: " · ";
