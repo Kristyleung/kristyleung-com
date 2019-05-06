@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Workforce Planning by Visier | Kristy Leung</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,500,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="page bg--blue">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="/">Kristy Leung</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-sm btn-primary" href="/downloads/resume.pdf" download="">download resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header mb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="box col-11 mt-5 mb-5">
+                    <h1 class="box__display-sm">Workforce Planning<br> by <span class="handwritten">Visier</span>
+                        &#8212;</h1>
+                    <p class="box__description">Sharing a workforce plan across mutliple collaborators</p>
+
+                    <ul class="metadata__list mt-5">
+                        <li class="metadata__item">
+                            <span class="metadata__header">Type</span>
+                            <span class="metadata__info">Internship</span>
+                        </li>
+                        <li class="metadata__item">
+                            <span class="metadata__header">Date</span>
+                            <span class="metadata__info">Winter 2016</span>
+                        </li>
+                        <li class="metadata__item">
+                            <span class="metadata__header">Duration</span>
+                            <span class="metadata__info">2 weeks</span>
+                        </li>
+                        <li class="metadata__item">
+                            <span class="metadata__header">Deliverable</span>
+                            <span class="metadata__info"><a
+                                    href="https://www.visier.com/solutions/planning/">Web App</a></span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="row mb-5">
+
+                <div class="col-12 mb-5">
+                    <img class="img-fluid rounded lazyload blur"
+                         src="../assets/img/visier/visier_hero_min.png"
+                         data-src="../assets/img/visier/visier_hero.png" alt="Visier Hero Image"/>
+                    <figcaption class="figure-caption mt-4">The user interface of Visier's Workforce Planning platform
+                    </figcaption>
+                </div>
+
+                <div class="col-11 col-md-8 m-auto">
+
+                    <h3>Gathering domain knowledge</h3>
+                    <p>Workforce Planning (WFP) is a powerful application that allows users to project and analyze labor
+                        supply and demand based on economic factors by creating plans. During my 12-month work term as a
+                        UX Design Intern at Visier, I spent the majority of my time dedicated to designing features with
+                        the PM and Design Lead of WFP.</p>
+                    <h3>Understanding the problem</h3>
+                    <p>To better understand the brand, we did a deep dive into the creative processes of a Cirque du
+                        Soleil production. Every show begins with seeking within their diverse team of performers who
+                        represent over 40 nationalities. Extraordinary artists specializing in African dancing, Peking
+                        opera, and many other are asked to speak about their artistic journeys. Their stories and
+                        talents are then extracted, elaborated and materialized into narrative driven productions shared
+                        with the world. This was it. This was Cirque’s secret ingredient to artful productions: the
+                        ability to bring dreams into reality.</p>
+                    <p>Upon speaking to the development team, I learned that WFP could not allow multiple users to edit
+                        simultaneously edits to a plan because a single edit generate changes to values across the grid.
+                        Unsurprisingly, this constraint added a new layer of complexity to my mental model of the
+                        application’s behavior.</p>
+                    <h3>Pencils over pixels</h3>
+
+                </div>
+
+                <div class="col-8 m-auto">
+                    <div class="mb-5">
+                        <img class="img-fluid rounded lazyload blur"
+                             src="../assets/img/visier/visier_sketch_toggle_min.png"
+                             data-src="../assets/img/visier/visier_sketch_toggle.png" alt="Visier Sketch Toggle"/>
+                        <figcaption class="figure-caption mt-4">A preliminary sketch of a toggle controlled by the plan
+                            editor
+                        </figcaption>
+                    </div>
+                </div>
+
+                <div class="col-11 col-md-8 m-auto">
+                    <p>This sketch details one of many early attempts to visually represent the behavior of the
+                        plan-sharing feature: a switch that could be toggled by an editor to turn editing capabilities
+                        on and off to allow another user to edit. However, certain back-end complications surfaced which
+                        required the user to manually refresh the plan in order for the sharing status to change. The
+                        toggle did not provide adequate visual cues to support this behavior.</p>
+                    <h3>Taking a step back</h3>
+                    <p>At this point in the design process, I was bogged down by concerns like: How are rights of the
+                        shared users are specified? How multiple users with editing rights determine the sole current
+                        editor? How would an editor know to relinquish their role for another user? In moments like
+                        this, I returned to the prompt: “What might this look like if it were easy?” (borrowed from Tim
+                        Ferriss) which I often pondered during my work term at Visier. Since I was consistently facing
+                        new data or metric related concepts that I did not understand, I used this question to unshackle
+                        myself from the complexities and regain my bearings. So if designing the sharing feature were
+                        easy, a plan would, at the very least, would need the following things:
+                    </p>
+                    <ol>
+                        <li>The ability to give another user editing or reading access to a plan</li>
+                        <li>A simple method for an editor to start and end editing</li>
+                        <li>A clear indicator of who the current and only editor is</li>
+                    </ol>
+                    <p>After identifying these components, I was able to find a jumping off point and create a mind map
+                        and another iteration of the interface sketch.</p>
+                </div>
+
+                <div class="col-12 mb-5">
+                    <img class="img-fluid rounded lazyload blur"
+                         src="../assets/img/visier/visier_mindmap_min.png"
+                         data-src="../assets/img/visier/visier_mindmap.png"
+                         alt="Storybooks Customer Lifecycle"/>
+                    <figcaption class="figure-caption mt-4">Mapping out user decisions and software behavior helps to
+                        break down complexity
+                    </figcaption>
+                </div>
+
+                <div class="col-11 col-md-8 m-auto">
+                    <h3>The design</h3>
+                </div>
+
+                <div class="col-8 m-auto">
+                    <div class="mb-5">
+                        <img class="img-fluid rounded lazyload blur"
+                             src="../assets/img/visier/visier_sketch_states_min.png"
+                             data-src="../assets/img/visier/visier_sketch_states.png" alt="Visier States"/>
+                        <figcaption class="figure-caption mt-4">This design was developed in the mockups below, and was
+                            implemented into the platform.
+                        </figcaption>
+                    </div>
+                </div>
+
+                <div class="col-11 col-md-8 m-auto">
+                    <p>A later reiteration encapsulated all three requirements determined before. The toggle from before
+                        was replaced by buttons that also double as status indicators.</p>
+                </div>
+
+                <div class="col-12 mb-5">
+                    <img class="img-fluid rounded lazyload blur" src="../assets/img/visier/visier_slides/1.jpg"
+                         data-src="../assets/img/visier/visier_slides.gif" alt="Visier States"/>
+                    <figcaption class="figure-caption mt-4">This design was developed in the mockups below, and was
+                        implemented into the platform.
+                    </figcaption>
+                </div>
+
+                <div class="col-11 col-md-8 m-auto">
+                    <h3>The retrospective</h3>
+                    <p>Through the process of completing UX concepts and specifications for new features, I have learned
+                        the importance of finding the most feasible UX that supports the necessary functionality. To
+                        achieve this, I learned to be meticulous by questioning each moment in user interaction. Can I
+                        simply this method by using fewer affordances? How can I make this new functionality more
+                        accessible? Can I reuse an existing piece of UI or do I have to make a new one? If I propose a
+                        new interface, is it worthwhile for the developers to program? Can it reused? During the start
+                        of the work term, I often failed to ask these questions. As a result, I had to make many more
+                        iterations of the mockups to achieve the completeness I would have had if I considered the
+                        previous questions.</p>
+
+                    <h2 class="text-center m-5"><span class="handwritten">Other Projects</span></h2>
+
+                    <h4>Data Management Tool</h4>
+                    <p>I worked with a Data Engineer intern to design and help implement (using HTML and LESS) an
+                        overhaul for an internal tool that helped reconfigure, validate and load incoming data into the
+                        Visier database. My contribution laid down the groundwork for the tool to continuously grow and
+                        assist Data Engineers in other aspects of their work.</p>
+                    <h4>WFP Reintegration</h4>
+                    <p>Visier is currently in the process of integrating WFP into a new platform with other tools. By
+                        doing so, WFP will be more effective in sharing their plans, forecasts and budgets to the
+                        platform's business users. During the later months of my work term, I worked alongside the WFP
+                        PM and UX Lead to develop a comprehensive set of mockups which detailed end to end user work
+                        flows of the application.</p>
+
+                    <button class="btn btn-primary btn-lg btn-block mt-5" onclick="goBack()">Go back to Work</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-11 col-md-5 m-auto">
+                    <h3 class="mb-3">Welcome to <br>the <span class="handwritten">bottom </span>of the page!</h3>
+                    <p>If you want to learn more about me or what I'm working on, <a
+                            href="mailto:kristy.leung11@gmail.com">shoot me an email</a> or <a
+                            href="https://linkedin.com/kristyleung">check out my LinkedIn</a>.</p>
+                </div>
+                <div class="col-11 col-md-4 m-auto">
+                    <p class="text-muted">
+                        <small>Proudly made in Vancouver, BC © <span id="year"></span></small>
+                    </p>
+                    <img class="img-fluid" src="../assets/img/rain-couver.svg" width="100" alt="Raincouver"/>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+<script src="../assets/js/jquery.lazyload.js"></script>
+<script src="../assets/js/bundle.js"></script>
+
+</body>
+</html>

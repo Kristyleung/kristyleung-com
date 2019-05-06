@@ -1,107 +1,235 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kristy Leung</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,500,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="page bg--pink">
 
-        <title>Kristy Leung</title>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="/">Kristy Leung</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">work <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-sm btn-primary" href="/downloads/resume.pdf" download="">download resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <link rel="preload" href="https://kristyleung.me/assets/css/non-critical.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <link rel="stylesheet" type="text/css" href="https://kristyleung.me/assets/css/main.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet"type="text/css" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="box col-11 col-sm-10 col-md-8 col-lg-8 mt-5 mb-5">
+                    <h1 class="box__display">Hi there,<br> I’m <span class="handwritten">Kristy!</span></h1>
+                    <p class="box__description">I am a product design focused on creating human-centered experiences using words of clarity and
+                        thoughtfulness.</p>
+                </div>
+            </div>
+        </div>
+    </header>
 
-        <noscript><link rel="stylesheet" href="https://kristyleung.me/assets/css/non-critical.css"></noscript>
-        <script>!function(w){"use strict";var loadCSS=function(href,before,media){function loadCB(){ss.addEventListener&&ss.removeEventListener("load",loadCB),ss.media=media||"all"}var ref,doc=w.document,ss=doc.createElement("link");if(before)ref=before;else{var refs=(doc.body||doc.getElementsByTagName("head")[0]).childNodes;ref=refs[refs.length-1]}var sheets=doc.styleSheets;ss.rel="stylesheet",ss.href=href,ss.media="only x",function ready(cb){if(doc.body)return cb();setTimeout(function(){ready(cb)})}(function(){ref.parentNode.insertBefore(ss,before?ref:ref.nextSibling)});var onloadcssdefined=function(cb){for(var resolvedHref=ss.href,i=sheets.length;i--;)if(sheets[i].href===resolvedHref)return cb();setTimeout(function(){onloadcssdefined(cb)})};return ss.addEventListener&&ss.addEventListener("load",loadCB),(ss.onloadcssdefined=onloadcssdefined)(loadCB),ss};"undefined"!=typeof exports?exports.loadCSS=loadCSS:w.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
-    </head>
-    <body>
-        <div class="page">
+    <main class="main">
 
-            <header class="header">
-                <a href="#" class="sr-only sr-only-focusable">Skip to main content</a>
-                <a class="branding" href="/">
-                    <h1>Kristy Leung</h1>
-                </a>
-                <nav class="navigation">
-                    <ul class="navigation__items">
-                        <li class="navigation__item">
-                            <a class="navigation__link" href="about.html">about</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a class="navigation__link" href="mailto:kristy.leung11@gmail.com?Subject=Hello!">contact</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a class="navigation__link" href="resume.pdf">resume</a>
-                        </li>
-                    </ul>
-                    <i class="material-icons bars">menu</i>
-                </nav>	
-            </header><!-- .header -->
-
-            <div class="intro">
-                <p class="font-weight-bold">Hello! I design human-centered experiences using  <span class="element"></span></p>
-            </div><!-- .intro -->
-
-            <div class="container">                
-                <div class="row">
-                    <div class="card mb-5">
-                        <a href="visier.html"><img class="card-img-top img-fluid rounded lazyload blur" src="https://kristyleung.me/assets/img/visier_pics/visier_hero_min.png" data-src="https://kristyleung.me/assets/img/visier_pics/visier_hero.png" alt="Visier"></a>
-                        <div class="card-body">
-                            <strong class="d-inline-block mb-2 text-pink font-weight-bold">Interaction Design</strong>
-                            <h2 class="mb-0">
-                                <a class="text-dark" href="visier.html">Workforce Planning by Visier</a>
-                            </h2>                            
-                            <p class="card-text">A predictive analytic software that enables collaboration in workforce planning</p>
-                            <a class="link" href="visier.html">Read more</a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row box box--h100 justify-content-center mt-5 mb-5">
+                        <div class="box__container col-11 col-md-5 m-auto align-self-center order-1 order-md-0">
+                            <ul class="box__tags mb-3">
+                                <li class="box__tag">Project</li>
+                                <li class="box__tag">Professional</li>
+                            </ul>
+                            <h2 class="box__heading-sm mb-4">Taskforce Wildlife by United for Wildlife</h2>
+                            <div class="box__body">
+                                <p>A tool to assist Wildlife Rangers on the frontline of protecting vulnerable animals</p>
+                                <p><a class="btn btn-primary" href="/united-for-wildlife">Read about Taskforce Wildlife</a></p>
+                            </div>
                         </div>
-                    </div> <!--.card -->
-                    <div class="card mb-5">
-                        <a href="cirque.html"><img class="card-img-top img-fluid rounded lazyload blur" src="https://kristyleung.me/assets/img/cirque_pics/cirque_hero_min.jpeg" data-src="https://kristyleung.me/assets/img/cirque_pics/cirque_hero.jpeg" alt="Storybooks by Cirque du Soleil"></a>
-                        <div class="card-body">
-                            <strong class="d-inline-block mb-2 text-pink font-weight-bold">Content Strategy</strong>
-                            <h2 class="mb-0">
-                                <a class="text-dark" href="cirque.html">Storybooks by Cirque</a>
-                            </h2>                            
-                            <p class="card-text">A digital picture book created to entice a new generation of Cirque du Soleil fans</p>
-                            <a class="link" href="cirque.html">Read more</a>
+                        <div class="box__container col-11 col-md-6 align-self-center">
+                            <img class="img-fluid invisible"
+                                 src="assets/img/blob-united-for-wildlife.svg"
+                                 data-vp-add-class="visible animated fadeInUp"
+                                 data-vp-remove-class="invisible"
+                                 data-vp-offset="25%"/>
+                            <img class="img-fluid invisible p-5 delay"
+                                 src="assets/img/img-united-for-wildlife.png"
+                                 alt="United for Wildlife"
+                                 data-vp-add-class="visible animated fadeInUp"
+                                 data-vp-remove-class="invisible"
+                                 data-vp-offset="25%"/>
                         </div>
-                    </div> <!--.card -->
-                    <div class="card mb-5">
-                        <a href="trailguides.html"><img class="card-img-top img-fluid rounded lazyload blur" src="https://kristyleung.me/assets/img/trailguides_pics/trailguides_hero_min.jpeg" data-src="https://kristyleung.me/assets/img/trailguides_pics/trailguides_hero.jpeg" alt="Trail Guides by Google"></a>
-                        <div class="card-body">
-                            <strong class="d-inline-block mb-2 text-pink font-weight-bold">Experience Design</strong>
-                            <h2 class="mb-0">
-                                <a class="text-dark" href="trailguides.html">Trail Guides by Google</a>
-                            </h2>                            
-                            <p class="card-text">An experience that excites and prepares potential National Park visitors</p>
-                            <a class="link" href="trailguides.html">Read more</a>
-                        </div>
-                    </div> <!--.card -->
-                </div><!-- .row -->
-            </div><!-- .container --> 
-        
-           <p class="footer"> 
-               Kristy Leung ©
-                <script>
-                    const CurrentYear = new Date().getFullYear()
-                    document.write(CurrentYear)
-                </script>  
-            </p> <!-- .footer -->
-        
-        </div><!-- .page -->
-        
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <script src="https://kristyleung.me/assets/js/typed.js"></script>
-        <script src="https://kristyleung.me/assets/js/lazysizes.min.js"></script>
-        <script src="https://kristyleung.me/assets/js/bundle.js"></script>
-        
-        <noscript><img src="https://kristyleung.me/assets/img/visier_pics/visier_hero.png" alt="Visier Hero Image"></noscript>
-    </body>
+        <div class="container-fluid bg--blue">
+            <div class="row">
+                <div class="container">
+                    <div class="row box box--h100 justify-content-center mt-5 mb-5">
+                        <div class="box__container col-11 col-md-5 m-auto align-self-center order-1">
+                            <ul class="box__tags mb-3">
+                                <li class="box__tag">Project</li>
+                                <li class="box__tag">Professional</li>
+                            </ul>
+                            <h2 class="box__heading-sm mb-4">Workforce Planning by Visier</h2>
+                            <div class="box__body">
+                                <p>A predictive analytic software that enables collaboration in workforce planning</p>
+                                <p><a class="btn btn-primary" href="/visier">Read about Visier</a></p>
+                            </div>
+                        </div>
+                        <div class="box__container col-11 col-md-6 align-self-center">
+                            <img class="img-fluid invisible"
+                                 src="assets/img/blob-visier.svg"
+                                 data-vp-add-class="visible animated fadeInUp"
+                                 data-vp-remove-class="invisible"
+                                 data-vp-offset="25%"/>
+                            <img class="img-fluid invisible p-5 delay"
+                                 src="assets/img/img-visier.png"
+                                 alt="Workforce Planning by Visier"
+                                 data-vp-add-class="visible animated fadeInUp"
+                                 data-vp-remove-class="invisible"
+                                 data-vp-offset="25%"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg--green">
+            <div class="row">
+                <div class="container">
+                    <div class="row box box--h100 justify-content-center mt-5 mb-5">
+                        <div class="box__container col-11 col-md-5 m-auto align-self-center order-1 order-md-0">
+                            <ul class="box__tags mb-3">
+                                <li class="box__tag">Case Study</li>
+                                <li class="box__tag">Academic</li>
+                            </ul>
+                            <h2 class="box__heading-sm mb-4">Storybooks by Cirque du Soleil</h2>
+                            <div class="box__body">
+                                <p>A digital picture book created to entice a new generation of Cirque du Soleil fans</p>
+                                <p><a class="btn btn-primary" href="/cirque-du-soleil">Read about Storybooks</a></p>
+                            </div>
+                        </div>
+                        <div class="box__container col-11 col-md-6 align-self-center">
+                            <img class="img-fluid invisible"
+                                 src="assets/img/blob-storybooks.svg"
+                                 data-vp-add-class="visible animated fadeInUp"
+                                 data-vp-remove-class="invisible"
+                                 data-vp-offset="25%"/>
+                            <img class="img-fluid invisible p-5 delay"
+                                 src="assets/img/img-storybooks.png"
+                                 alt="Storybooks by Cirque du Soleil"
+                                 data-vp-add-class="visible animated fadeInUp"
+                                 data-vp-remove-class="invisible"
+                                 data-vp-offset="25%"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row box box--h100 justify-content-center mt-5 mb-5">
+                        <div class="box__container col-11 col-md-5 m-auto align-self-center order-1">
+                            <ul class="box__tags mb-3">
+                                <li class="box__tag">Case Study</li>
+                                <li class="box__tag">Academic</li>
+                            </ul>
+                            <h2 class="box__heading-sm mb-4">Trail Guides by Google</h2>
+                            <div class="box__body">
+                                <p>An experience that excites and prepares potential National Park visitors</p>
+                                <p><a class="btn btn-primary" href="/google">Read about Trail Guides</a></p>
+                            </div>
+                        </div>
+                        <div class="box__container col-11 col-md-6 align-self-center">
+                            <img class="img-fluid invisible"
+                                 src="assets/img/blob-google.svg"
+                                 data-vp-add-class="visible animated fadeInUp"
+                                 data-vp-remove-class="invisible"
+                                 data-vp-offset="25%"/>
+                            <img class="img-fluid invisible p-5 delay"
+                                 src="assets/img/img-google.png"
+                                 alt="Trail Guides by Google"
+                                 data-vp-add-class="visible animated fadeInUp"
+                                 data-vp-remove-class="invisible"
+                                 data-vp-offset="25%"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-11 col-md-5 m-auto">
+                    <h3 class="mb-3">Welcome to <br>the <span class="handwritten">bottom </span>of the page!</h3>
+                    <p>If you want to learn more about me or what I'm working on, <a
+                            href="mailto:kristy.leung11@gmail.com">shoot me an email</a> or <a
+                            href="https://linkedin.com/kristyleung">check out my LinkedIn</a>.</p>
+                </div>
+                <div class="col-11 col-md-4 m-auto">
+                    <p class="text-muted">
+                        <small>Proudly made in Vancouver, BC © <span id="year"></span></small>
+                    </p>
+                    <img class="img-fluid" src="assets/img/rain-couver.svg" width="100" alt="Raincouver"/>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+
+<script src="assets/js/jquery.viewportchecker.min.js"></script>
+<script>
+    $(function() {
+        $('img').viewportChecker({});
+    });
+</script>
+
+<script src="../assets/js/jquery.lazyload.js"></script>
+<script src="../assets/js/bundle.js"></script>
+
+</body>
 </html>
