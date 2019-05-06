@@ -4,3 +4,7 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 function goBack() {
     window.history.back();
 }
+// Jquery Plugins
+$(function() {
+    $("img.lazyload").lazyload();
+});
