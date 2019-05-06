@@ -31,6 +31,7 @@ body {
 .handwritten {
   font-family: 'Kalam', cursive;
   color: #f95b5b;
+  -webkit-transform: translate(-5%, -4%) rotate(-10deg);
   transform: translate(-5%, -4%) rotate(-10deg);
   display: inline-block; }
 
@@ -89,6 +90,7 @@ body {
   left: 0;
   bottom: 0; }
 .box__container img:nth-child(2) {
+  -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.25)); }
 .box__tags {
   list-style: none;

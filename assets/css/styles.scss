@@ -14,6 +14,7 @@ body {
 .handwritten {
   font-family: 'Kalam', cursive;
   color: $lolly-pop;
+  -webkit-transform: translate(-5%, -4%) rotate(-10deg);
   transform: translate(-5%, -4%) rotate(-10deg);
   display: inline-block;
 }
@@ -114,7 +115,8 @@ body {
     }
 
     img:nth-child(2) {
-      filter: drop-shadow(0 0 5px rgba(0, 0, 0, .25));
+      -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
+      filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
     }
   }
 
