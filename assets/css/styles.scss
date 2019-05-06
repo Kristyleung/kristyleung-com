@@ -1,6 +1,5 @@
 @import "vendor/normalize.css";
 @import "vendor/animate.css";
-
 @import "variables";
 @import "breakpoints";
 @import "layout";
@@ -21,12 +20,13 @@ body {
 
 .nav-item a.btn.btn-sm {
   margin-top: .6rem;
-  
+
   @include respond-to(lg) {
     margin-left: 1rem;
   }
 }
-.navbar-light .navbar-nav .active>.nav-link {
+
+.navbar-light .navbar-nav .active > .nav-link {
   text-decoration: underline;
 }
 
@@ -114,7 +114,7 @@ body {
     }
 
     img:nth-child(2) {
-      filter: drop-shadow(0 0 5px rgba(0,0,0,.25));
+      filter: drop-shadow(0 0 5px rgba(0, 0, 0, .25));
     }
   }
 
@@ -229,6 +229,7 @@ body {
   }
 
 }
+
 .main {
 
   .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
