@@ -9,7 +9,6 @@ html,
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  background: #FCEDED;
   overflow-x: hidden;
 }
 
@@ -52,60 +51,18 @@ body {
     }
   }
 
-  h1 {
-    font-size: 2.5rem;
-    font-weight: 900;
-    margin-bottom: 1rem;
-    font-style: italic;
-
-    @include respond-to(md) {
-      font-size: 4rem;
-    }
-
-    @include respond-to(lg) {
-      font-size: 7rem;
-    }
-  }
-
-  p {
-    font-size: 1.25rem;
-
-    @include respond-to(md) {
-      font-size: 1.75rem;
-    }
-
-    @include respond-to(lg) {
-      font-size: 2.25rem;
-    }
-  }
-
-  .container {
-    position: relative;
-
-    &:after,
-    &:before {
-      position: absolute;
-      background-size: contain;
-      content: " ";
-      width: 100px;
-      padding-bottom: 70%;
-      z-index: 0;
-      background-repeat: no-repeat;
-
-      @include respond-to(md) {
-        width: 250px;
-      }
-
-      @include respond-to(lg) {
-        width: 500px;
-      }
-    }
-
-  }
-
 }
 
 .bg {
+
+  &--black {
+    background-color: #222;
+    color: white;
+  }
+
+  &--pink {
+    background-color: $box-pink;
+  }
 
   &--green {
     background-color: $box-green;
@@ -119,7 +76,10 @@ body {
 }
 
 .box {
-  min-height: 100vh;
+
+  &--h100 {
+    min-height: 100vh;
+  }
 
   &__container {
     img:nth-child(1) {
@@ -154,18 +114,111 @@ body {
     }
   }
 
+  &__display {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    font-style: italic;
+
+    @include respond-to(md) {
+      font-size: 4rem;
+    }
+
+    @include respond-to(lg) {
+      font-size: 7rem;
+    }
+  }
+
+  &__display-sm {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    font-style: italic;
+
+    @include respond-to(md) {
+      font-size: 4rem;
+    }
+
+    @include respond-to(lg) {
+      font-size: 5rem;
+    }
+  }
+
+  &__description {
+    font-size: 1.25rem;
+
+    @include respond-to(md) {
+      font-size: 1.75rem;
+    }
+
+    @include respond-to(lg) {
+      font-size: 2.25rem;
+    }
+  }
+
   &__heading {
+    font-size: 3rem;
+    font-weight: 900;
+
+    @include respond-to(md) {
+      font-size: 4rem;
+    }
+
+    @include respond-to(lg) {
+      font-size: 5rem;
+    }
+  }
+
+  &__heading-sm {
     font-size: 3rem;
     font-weight: 900;
   }
 
-  &__description {
+  &__body {
     font-size: 1.5rem;
   }
 
 }
 
+.metadata {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    opacity: .5;
+  }
+
+  &__header {
+    font-weight: 400;
+
+    &:after {
+      content: ":";
+    }
+  }
+}
+.main {
+
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1.975rem;
+  }
+
+  p, ul, ol {
+    font-size: 1.25rem;
+    margin-bottom: 1.975rem;
+  }
+
+  b, strong {
+    font-weight: 700;
+  }
+}
+
 .footer {
+  color: black;
 
   h3 {
     font-size: 2.5rem;
