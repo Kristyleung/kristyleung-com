@@ -13,7 +13,7 @@ html {
 
 .navbar,
 .navbar-brand {
-  font-size: 1.5rem; }
+  font-size: 1.375rem; }
 
 .navbar-brand {
   font-weight: 900; }
@@ -149,13 +149,15 @@ body {
   font-size: 1.5rem; }
 
 .metadata__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   padding: 0;
   margin: 0;
   list-style-type: none;
   opacity: .75; }
+  @media (min-width: 992px) {
+    .metadata__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; } }
 .metadata__header {
   font-weight: 500; }
   .metadata__header:after {

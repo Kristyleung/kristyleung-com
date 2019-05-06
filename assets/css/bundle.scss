@@ -208,13 +208,16 @@ body {
 .metadata {
 
   &__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     padding: 0;
     margin: 0;
     list-style-type: none;
     opacity: .75;
+
+    @include respond-to(lg) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
   }
 
   &__header {
