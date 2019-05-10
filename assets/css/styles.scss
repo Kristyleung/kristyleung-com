@@ -6,9 +6,28 @@
 
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 300;
   overflow-x: hidden;
+}
+
+.page {
+
+  &--home {
+
+    .box__description {
+      height: 124px;
+
+      @include respond-to(md) {
+        height: 174px;
+      }
+
+      @include respond-to(lg) {
+        height: 220px;
+      }
+    }
+  }
+
 }
 
 .handwritten {
@@ -31,9 +50,32 @@ body {
   text-decoration: underline;
 }
 
-.figure-caption {
-  font-size: 1rem;
-  opacity: .5;
+.figure {
+
+  .figure-caption {
+    font-size: 1rem;
+    opacity: .5;
+  }
+
+}
+
+.btn-outline-dark {
+  color: $black;
+  border-color: $black;
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark:active,
+.btn-outline-dark:focus {
+  color: $blue;
+  background-color: $white;
+  border-color: $blue;
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled):active {
+  color: $white;
+  background-color: $blue;
+  border-color: $blue;
 }
 
 .header {
@@ -45,15 +87,15 @@ body {
 
   a {
     color: $link-color;
-    border-bottom: .125rem solid transparent;
-    transition: border .25s ease;
+    border-bottom: .125rem solid $link-color;
+    transition: all .25s ease;
 
     &:hover,
     &:focus,
     &:active {
       text-decoration: none;
-      color: $link-color;
-      border-color: $link-color;
+      color: $link-hover-color;
+      border-color: $link-hover-color;
     }
   }
 
@@ -62,11 +104,11 @@ body {
 .bg {
 
   &--black {
-    background-color: #222;
-    color: white;
+    background-color: $black;
+    color: $white;
 
     .figure-caption {
-      color: white;
+      color: $white;
       font-style: italic;
     }
   }
@@ -75,17 +117,16 @@ body {
     background-color: $box-pink;
 
     .figure-caption {
-      color: black;
+      color: $black;
       font-style: italic;
     }
   }
 
   &--green {
     background-color: $box-green;
-    color: white;
 
     .figure-caption {
-      color: white;
+      color: $black;
       font-style: italic;
     }
   }
@@ -94,7 +135,7 @@ body {
     background-color: $box-blue;
 
     .figure-caption {
-      color: black;
+      color: $black;
       font-style: italic;
     }
   }
@@ -143,7 +184,7 @@ body {
 
   &__display {
     font-size: 2.5rem;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 1rem;
     font-style: italic;
 
@@ -158,16 +199,15 @@ body {
 
   &__display-sm {
     font-size: 2.5rem;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 1rem;
-    font-style: italic;
 
     @include respond-to(md) {
-      font-size: 4rem;
+      font-size: 3rem;
     }
 
     @include respond-to(lg) {
-      font-size: 5rem;
+      font-size: 3.5rem;
     }
   }
 
@@ -185,7 +225,7 @@ body {
 
   &__heading {
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 700;
 
     @include respond-to(md) {
       font-size: 4rem;
@@ -198,7 +238,7 @@ body {
 
   &__heading-sm {
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 700;
   }
 
   &__body {
@@ -265,11 +305,10 @@ body {
 }
 
 .footer {
-  color: black;
 
   h3 {
     font-size: 2.5rem;
-    font-weight: 900;
+    font-weight: 700;
     font-style: italic;
   }
 
@@ -278,17 +317,52 @@ body {
   }
 
   a {
-    color: $link-color;
-    border-bottom: .125rem solid transparent;
-    transition: border .25s ease;
+    color: $white;
+    border-bottom: .125rem solid $white;
+    transition: all .25s ease;
 
     &:hover,
     &:focus,
     &:active {
       text-decoration: none;
-      color: $link-color;
-      border-color: $link-color;
+      color: $link-hover-color;
+      border-color: $link-hover-color;
     }
   }
 
+}
+
+#egg-white {
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  transform-box: fill-box;
+  -webkit-animation: rotate 5s linear infinite;
+  animation: rotate 5s linear infinite;
+}
+
+#egg-yolk {
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  transform-box: fill-box;
+  -webkit-animation: rotate 5s linear infinite;
+  animation: rotate 5s linear infinite;
+  animation-direction: reverse;
+}
+
+@-webkit-keyframes rotate {
+  50% {
+    -webkit-transform: rotate(360deg) scale(0.8);
+    transform: rotate(360deg) scale(0.8); }
+  100% {
+    -webkit-transform: rotate(720deg) scale(1);
+    transform: rotate(720deg) scale(1); }
+}
+
+@keyframes rotate {
+  50% {
+    -webkit-transform: rotate(360deg) scale(0.8);
+    transform: rotate(360deg) scale(0.8); }
+  100% {
+    -webkit-transform: rotate(720deg) scale(1);
+    transform: rotate(720deg) scale(1); }
 }
