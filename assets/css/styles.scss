@@ -333,24 +333,36 @@ body {
 }
 
 #egg-white {
+  -webkit-transform-origin: center center;
   transform-origin: center center;
   transform-box: fill-box;
+  -webkit-animation: rotate 5s linear infinite;
   animation: rotate 5s linear infinite;
 }
 
 #egg-yolk {
+  -webkit-transform-origin: center center;
   transform-origin: center center;
   transform-box: fill-box;
+  -webkit-animation: rotate 5s linear infinite;
   animation: rotate 5s linear infinite;
   animation-direction: reverse;
 }
 
+@-webkit-keyframes rotate {
+  50% {
+    -webkit-transform: rotate(360deg) scale(0.8);
+    transform: rotate(360deg) scale(0.8); }
+  100% {
+    -webkit-transform: rotate(720deg) scale(1);
+    transform: rotate(720deg) scale(1); }
+}
+
 @keyframes rotate {
   50% {
-    transform: rotate(360deg) scale(0.8);
-  }
-
+    -webkit-transform: rotate(360deg) scale(0.8);
+    transform: rotate(360deg) scale(0.8); }
   100% {
-    transform: rotate(720deg) scale(1);
-  }
+    -webkit-transform: rotate(720deg) scale(1);
+    transform: rotate(720deg) scale(1); }
 }
