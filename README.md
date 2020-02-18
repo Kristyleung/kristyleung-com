@@ -1,3 +1,3 @@
 # kristyleung.github.io
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e1b62b2d-156d-4173-8e52-ef07a77d47a7/deploy-status)](https://app.netlify.com/sites/vigilant-knuth-762323/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b7b7e364-f27a-450d-a55f-adbacdf2623b/deploy-status)](https://app.netlify.com/sites/kristyleung/deploys)
