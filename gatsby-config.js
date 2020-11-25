@@ -1,24 +1,37 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
 const path = require('path')
 
 module.exports = {
   siteMetadata: {
     title: 'Kristy Leung',
-    description: '',
+    description: 'Portfolio',
     author: '@kristyleung',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        defaultLayouts: { default: path.resolve('./src/components/layout.js') },
+        defaultLayouts: {
+          default: path.resolve('./src/templates/Default.js'),
+          posts: path.resolve('./src/components/Blog.js'),
+        },
+        extensions: ['.mdx', '.md'],
+        gatsbyRemarkPlugins: [
+          { resolve: `gatsby-remark-unwrap-images` },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+              quality: 75,
+              showCaptions: true,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
       },
     },
-    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -33,8 +46,32 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/src/posts/`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Public Sans:400,700'],
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-emotion`,
+      options: {
+        // Accepts the following options, all of which are defined by `babel-plugin-emotion` plugin.
+        // The values for each key in this example are the defaults the plugin uses.
+        sourceMap: true,
+        autoLabel: process.env.NODE_ENV !== 'production',
+        labelFormat: `[local]`,
+        cssPropOptimization: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

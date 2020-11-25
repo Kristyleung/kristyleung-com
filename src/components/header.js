@@ -1,33 +1,31 @@
+import React from 'react'
+import { css } from '@emotion/react'
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
-import React from 'react'
+
+const headerStyle = css({
+  fontFamily: 'Public Sans',
+  maxWidth: 960,
+  margin: 'auto',
+  padding: '1.5rem 1rem',
+})
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-      <Link to="/about">About</Link>
-    </div>
-  </div>
+  <header css={headerStyle}>
+    <h1 style={{ margin: 0 }}>
+      <Link
+        to="/"
+        style={{
+          textDecoration: 'none',
+        }}
+      >
+        {siteTitle}
+      </Link>
+    </h1>
+    <Link to="/">Projects</Link>
+    {` `}
+    <Link to="/about">About</Link>
+  </header>
 )
 
 Header.propTypes = {
