@@ -6,7 +6,7 @@ import Header from './Header'
 const Layout = ({ children, siteTitle, title, description, keywords }) => {
   return (
     <>
-      <SEO title={siteTitle || title} description={description} keywords={keywords} />
+      <SEO title={title} description={description} keywords={keywords} />
       <Header siteTitle={siteTitle} />
       <main role="main">{children}</main>
     </>
