@@ -1,5 +1,5 @@
 import React from 'react'
-import { useTheme, css } from '@emotion/react'
+import { useTheme } from '@emotion/react'
 
 const h1Style = ({ theme }) => ({
   fontFamily: theme.font.family.text,
