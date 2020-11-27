@@ -24,6 +24,7 @@ export const normalize = css`
    */
 
   body {
+    font-family: sans-serif;
     margin: 0;
   }
 

@@ -4,15 +4,15 @@ import { StaticQuery, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PropTypes from 'prop-types'
 
-const Blog = ({ children, pageContext }) => {
+const BlogPost = ({ children, pageContext }) => {
   const { title, description, keywords } = pageContext.frontmatter
   return (
     <StaticQuery
-      query={blogQuery}
+      query={blogPostQuery}
       render={data => {
         return (
           <Layout siteTitle={data.site.siteMetadata.title} title={title} description={description} keywords={keywords}>
-            <Page>{children}</Page>
+            {children}
           </Layout>
         )
       }}
@@ -20,14 +20,14 @@ const Blog = ({ children, pageContext }) => {
   )
 }
 
-Blog.propTypes = {
+BlogPost.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
 export default BlogPost
 
-const blogQuery = graphql`
-  query BlogQuery {
+const blogPostQuery = graphql`
+  query BlogPostQuery {
     site {
       siteMetadata {
         title

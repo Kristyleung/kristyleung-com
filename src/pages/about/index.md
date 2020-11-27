@@ -4,7 +4,7 @@ description: A product designer who loves tackling interesting problems with ele
 keywords: ['product designer', 'kristy']
 ---
 
-# Hi there, <br />I’m Kristy!
+# About
 
 A product designer who loves tackling interesting problems with elegant solutions.
 

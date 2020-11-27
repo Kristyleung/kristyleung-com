@@ -2,9 +2,10 @@
 title: Visier
 description: description
 keywords: ['visier', 'project']
+image: ./visier-hero.png
 ---
 
-# Workforce Planning <br/>by Visier
+# Workforce Planning by Visier
 
 Sharing a workforce plan across mutliple collaborators
 

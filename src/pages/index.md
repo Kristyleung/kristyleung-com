@@ -1,6 +1,6 @@
 ---
 title: Projects
-description: description
+description: I am a product designer focused on creating human-centered experiences using words of clarity and thoughtfulness
 keywords: ['product designer', 'ux']
 ---
 

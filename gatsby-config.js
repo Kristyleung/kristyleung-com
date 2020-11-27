@@ -10,12 +10,13 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {
           default: path.resolve('./src/templates/Default.js'),
-          blog: path.resolve('./src/templates/Blog.js'),
+          blogPost: path.resolve('./src/templates/BlogPost.js'),
         },
         extensions: ['.mdx', '.md'],
         gatsbyRemarkPlugins: [
@@ -27,6 +28,7 @@ module.exports = {
               quality: 75,
               showCaptions: true,
               linkImagesToOriginal: false,
+              wrapperStyle: `margin: 1em 0;`,
             },
           },
         ],
@@ -44,13 +46,6 @@ module.exports = {
       options: {
         name: `pages`,
         path: `${__dirname}/src/pages`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `blog`,
-        path: `${__dirname}/src/blog/`,
       },
     },
     {
