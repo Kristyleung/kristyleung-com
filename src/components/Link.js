@@ -10,7 +10,6 @@ const linkStyle = ({ theme }) => ({
 const Link = ({ children, to, activeClassName, partiallyActive, ...props }) => {
   const theme = useTheme()
   const internal = /^\/(?!\/)/.test(to)
-  console.log(props)
   if (internal) {
     return (
       <GatsbyLink
