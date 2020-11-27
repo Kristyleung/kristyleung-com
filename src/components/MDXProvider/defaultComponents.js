@@ -254,7 +254,7 @@ const components = {
   h5: H5,
   h6: H6,
   thematicBreak: ThematicBreak,
-  blockquote: Blockquote,  
+  blockquote: Blockquote,
   ul: Ul,
   ol: Ol,
   li: Li,
@@ -271,7 +271,7 @@ const components = {
   del: Del,
   inlineCode: InlineCode,
   hr: Hr,
-  a: Link
+  a: Link,
   // img is rendered by gatsby-remark-images
 }
 

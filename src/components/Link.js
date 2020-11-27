@@ -3,8 +3,8 @@ import { Link as GatsbyLink } from 'gatsby'
 import { useTheme } from '@emotion/react'
 
 const linkStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
   color: theme.colors.primary,
+  fontFamily: theme.font.family.text,
 })
 
 const Link = ({ children, to, activeClassName, partiallyActive, ...props }) => {
@@ -13,10 +13,10 @@ const Link = ({ children, to, activeClassName, partiallyActive, ...props }) => {
   if (internal) {
     return (
       <GatsbyLink
-        css={linkStyle({ theme })}
-        to={to}
         activeClassName={activeClassName}
+        css={linkStyle({ theme })}
         partiallyActive={partiallyActive}
+        to={to}
         {...props}
       >
         {children}

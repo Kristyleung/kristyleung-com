@@ -12,4 +12,5 @@ const ThemeProvider = ({ children }) => (
     {children}
   </EmotionThemeProvider>
 )
+
 export default ThemeProvider

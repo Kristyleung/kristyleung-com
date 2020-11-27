@@ -26,7 +26,7 @@ const navLinkStyle = {
   },
 }
 
-const linkActiveStyle = {
+const navLinkActiveStyle = {
   textDecoration: 'underline',
 }
 
@@ -38,13 +38,13 @@ const Header = ({ siteTitle }) => {
         {siteTitle}
       </Link>
       <nav>
-        <Link activeStyle={linkActiveStyle} css={navLinkStyle} to="/">
+        <Link activeStyle={navLinkActiveStyle} css={navLinkStyle} to="/">
           Projects
         </Link>
-        <Link activeStyle={linkActiveStyle} css={navLinkStyle} to="/blog">
+        <Link activeStyle={navLinkActiveStyle} css={navLinkStyle} to="/blog">
           Blog
         </Link>
-        <Link ctiveStyle={linkActiveStyle} css={navLinkStyle} to="/about">
+        <Link activeStyle={navLinkActiveStyle} css={navLinkStyle} to="/about">
           About
         </Link>
       </nav>

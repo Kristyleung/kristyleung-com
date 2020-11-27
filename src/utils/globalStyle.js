@@ -1,15 +1,16 @@
 import { css } from '@emotion/react'
 
 export const globalStyle = css`
-
   /* Good, Better, and (Probably) Best box-sizing Reset
   ========================================================================== */
-  
+
   html {
     box-sizing: border-box;
   }
-  
-  *, *:before, *:after {
+
+  *,
+  *:before,
+  *:after {
     box-sizing: inherit;
   }
 

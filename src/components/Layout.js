@@ -16,7 +16,7 @@ const layoutStyle = {
   minHeight: '100vh',
 }
 
-export const mainStyle = {
+const mainStyle = {
   gridArea: 'main',
   margin: '0 auto',
   maxWidth: 640,
