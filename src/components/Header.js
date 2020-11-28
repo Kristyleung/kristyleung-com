@@ -3,28 +3,31 @@ import Link from './Link'
 import PropTypes from 'prop-types'
 import { useTheme } from '@emotion/react'
 
-const headerStyle = {
+const headerStyle = ({ theme }) => ({
   display: 'flex',
-  fontFamily: 'Public Sans',
-  fontSize: 18,
   gridArea: 'header',
   justifyContent: 'space-between',
-  padding: '1em',
-}
+  padding: `${theme.spacing[3] + 'px ' + theme.spacing[2] + 'px'}`,
+})
 
 const brandLinkStyle = ({ theme }) => ({
-  color: theme.colors.black,
+  color: theme.colors.text,
+  fontFamily: theme.font.family.heading,
+  fontSize: theme.font.size[3],
   fontWeight: 'bold',
   textDecoration: 'none',
 })
 
-const navLinkStyle = {
+const navLinkStyle = ({ theme }) => ({
+  fontFamily: theme.font.family.heading,
+  fontSize: theme.font.size[3],
+  marginLeft: theme.spacing[2],
   padding: '0 .25em',
   textDecoration: 'none',
   ':hover, :focus': {
     textDecoration: 'underline',
   },
-}
+})
 
 const navLinkActiveStyle = {
   textDecoration: 'underline',
@@ -33,18 +36,18 @@ const navLinkActiveStyle = {
 const Header = ({ siteTitle }) => {
   const theme = useTheme()
   return (
-    <header css={headerStyle}>
+    <header css={headerStyle({ theme })}>
       <Link to="/" css={brandLinkStyle({ theme })}>
         {siteTitle}
       </Link>
       <nav>
-        <Link activeStyle={navLinkActiveStyle} css={navLinkStyle} to="/">
+        <Link activeStyle={navLinkActiveStyle} css={navLinkStyle({ theme })} to="/">
           Projects
         </Link>
-        <Link activeStyle={navLinkActiveStyle} css={navLinkStyle} to="/blog">
+        <Link activeStyle={navLinkActiveStyle} css={navLinkStyle({ theme })} to="/blog">
           Blog
         </Link>
-        <Link activeStyle={navLinkActiveStyle} css={navLinkStyle} to="/about">
+        <Link activeStyle={navLinkActiveStyle} css={navLinkStyle({ theme })} to="/about">
           About
         </Link>
       </nav>

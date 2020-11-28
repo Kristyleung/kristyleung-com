@@ -18,22 +18,21 @@ const BlogIndex = () => {
           >
             <ul css={{ listStyleType: 'none', padding: 0 }}>
               {data.allMdx.edges.map(({ node }) => (
-                <li css={{ marginBottom: '1em' }}>
+                <li css={{ marginBottom: '1em' }} key={node.id}>
                   <Link
                     css={{
                       display: 'block',
                       textDecoration: 'none',
-                      color: theme.colors.black,
+                      color: theme.colors.text,
                       fontFamily: theme.font.family.text,
                     }}
                     to={`/` + node.slug}
-                    key={node.slug}
                   >
-                    <span css={{ color: theme.colors.primary, fontSize: 12, textTransform: 'uppercase' }}>
+                    <span css={{ color: theme.colors.link, fontSize: theme.font.size[2], textTransform: 'uppercase' }}>
                       <b>{node.frontmatter.categories.join(' / ')}</b>
                     </span>
-                    <h3 css={{ fontSize: 32, lineHeight: 1.125, margin: '0.125em 0' }}>{node.frontmatter.title}</h3>
-                    <time css={{ color: 'grey', fontSize: 14 }} dateTime={node.frontmatter.date}>
+                    <h3 css={{ fontSize: theme.font.size[6], lineHeight: 1.125, margin: '0.125em 0' }}>{node.frontmatter.title}</h3>
+                    <time css={{ color: 'grey', fontSize: theme.font.size[2] }} dateTime={node.frontmatter.date}>
                       {node.frontmatter.date}
                     </time>
                   </Link>
@@ -60,6 +59,7 @@ const blogIndexQuery = graphql`
     allMdx(sort: { fields: frontmatter___date, order: DESC }, filter: { slug: { regex: "/blog/" } }) {
       edges {
         node {
+          id
           excerpt
           slug
           frontmatter {

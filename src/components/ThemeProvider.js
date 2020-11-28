@@ -1,16 +1,18 @@
 import React from 'react'
-import { Global } from '@emotion/react'
-import { globalStyle } from '../utils/globalStyle'
-import { normalize } from '../utils/normalize'
-import { ThemeProvider as EmotionThemeProvider } from '@emotion/react'
-import theme from '../utils/theme'
+import { Global, ThemeProvider as EmotionThemeProvider } from '@emotion/react'
+import { globalStyle } from '../theming/globalStyle'
+import { normalize } from '../theming/normalize'
+import { setTheme } from '../lib/set-theme'
 
-const ThemeProvider = ({ children }) => (
-  <EmotionThemeProvider theme={theme}>
-    <Global styles={normalize} />
-    <Global styles={globalStyle} />
-    {children}
-  </EmotionThemeProvider>
-)
+const ThemeProvider = ({ children }) => {
+  const theme = setTheme()
+  return (
+    <EmotionThemeProvider theme={theme}>
+      <Global styles={normalize} />
+      <Global styles={globalStyle({ theme })} />
+      {children}
+    </EmotionThemeProvider>
+  )
+}
 
 export default ThemeProvider

@@ -5,33 +5,39 @@ import { useTheme } from '@emotion/react'
 /** https://mdxjs.com/table-of-components */
 
 const paragraphStyle = ({ theme }) => ({
+  color: theme.colors.text,
   fontFamily: theme.font.family.text,
-  fontSize: theme.font.size[3],
+  fontSize: theme.font.size[4],
   lineHeight: 1.5,
-  color: theme.colors.black,
 })
 
 const h1Style = ({ theme }) => ({
+  color: theme.colors.text,
   fontFamily: theme.font.family.text,
 })
 
 const h2Style = ({ theme }) => ({
+  color: theme.colors.text,
   fontFamily: theme.font.family.text,
 })
 
 const h3Style = ({ theme }) => ({
+  color: theme.colors.text,
   fontFamily: theme.font.family.text,
 })
 
 const h4Style = ({ theme }) => ({
+  color: theme.colors.text,
   fontFamily: theme.font.family.text,
 })
 
 const h5Style = ({ theme }) => ({
+  color: theme.colors.text,
   fontFamily: theme.font.family.text,
 })
 
 const h6Style = ({ theme }) => ({
+  color: theme.colors.text,
   fontFamily: theme.font.family.text,
 })
 
@@ -40,6 +46,7 @@ const thematicBreakStyle = ({ theme }) => ({
 })
 
 const blockquoteStyle = ({ theme }) => ({
+  color: theme.colors.text,
   fontFamily: theme.font.family.text,
 })
 
@@ -48,8 +55,9 @@ const ulStyle = ({ theme }) => ({})
 const olStyle = ({ theme }) => ({})
 
 const liStyle = ({ theme }) => ({
+  color: theme.colors.text,
   fontFamily: theme.font.family.text,
-  fontSize: theme.font.size[3],
+  fontSize: theme.font.size[4],
   lineHeight: 1.5,
 })
 

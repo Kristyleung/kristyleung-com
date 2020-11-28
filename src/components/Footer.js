@@ -2,12 +2,12 @@ import React from 'react'
 import { useTheme } from '@emotion/react'
 
 const footerStyle = ({ theme }) => ({
-  backgroundColor: theme.colors.smoke,
-  color: theme.colors.primary,
-  fontFamily: 'Public Sans',
-  fontSize: 14,
+  backgroundColor: theme.colors.footer,
+  color: theme.colors.link,
+  fontFamily: theme.font.family.text,
+  fontSize: theme.font.size[2],
   gridArea: 'footer',
-  padding: 16,
+  padding: theme.spacing[2],
 })
 
 const Footer = () => {

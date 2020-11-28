@@ -3,7 +3,7 @@ import { Link as GatsbyLink } from 'gatsby'
 import { useTheme } from '@emotion/react'
 
 const linkStyle = ({ theme }) => ({
-  color: theme.colors.primary,
+  color: theme.colors.link,
   fontFamily: theme.font.family.text,
 })
 
