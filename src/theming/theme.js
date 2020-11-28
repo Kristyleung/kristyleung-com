@@ -36,7 +36,6 @@ export const light = {
     link: color.primary,
     text: color.caviar,
   },
-  
 }
 
 export const dark = {
@@ -48,5 +47,5 @@ export const dark = {
     header: color.white,
     link: color.primary,
     text: color.white,
-  }
+  },
 }

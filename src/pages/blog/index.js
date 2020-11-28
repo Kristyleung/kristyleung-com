@@ -31,7 +31,9 @@ const BlogIndex = () => {
                     <span css={{ color: theme.colors.link, fontSize: theme.font.size[2], textTransform: 'uppercase' }}>
                       <b>{node.frontmatter.categories.join(' / ')}</b>
                     </span>
-                    <h3 css={{ fontSize: theme.font.size[6], lineHeight: 1.125, margin: '0.125em 0' }}>{node.frontmatter.title}</h3>
+                    <h3 css={{ fontSize: theme.font.size[6], lineHeight: 1.125, margin: '0.125em 0' }}>
+                      {node.frontmatter.title}
+                    </h3>
                     <time css={{ color: 'grey', fontSize: theme.font.size[2] }} dateTime={node.frontmatter.date}>
                       {node.frontmatter.date}
                     </time>
