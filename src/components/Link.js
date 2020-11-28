@@ -5,6 +5,11 @@ import { useTheme } from '@emotion/react'
 const linkStyle = ({ theme }) => ({
   color: theme.colors.link,
   fontFamily: theme.font.family.text,
+  ':focus': {
+    outline: '2px dotted transparent',
+    outlineColor: theme.colors.focus,
+    outlineOffset: 4,
+  }
 })
 
 const Link = ({ children, to, activeClassName, partiallyActive, ...props }) => {

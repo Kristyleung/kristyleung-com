@@ -4,6 +4,7 @@ const fonts = {
 }
 
 const color = {
+  amber: '#fca623',
   black: '#000',
   bullet: '#1e1e1e',
   caviar: '#262626',
@@ -26,11 +27,11 @@ const baseTheme = {
 }
 
 export const light = {
-  id: 'Light',
   ...baseTheme,
   colors: {
     background: color.white,
     figcaption: color.grey,
+    focus: color.amber,
     footer: color.smoke,
     header: color.white,
     link: color.primary,
@@ -39,14 +40,14 @@ export const light = {
 }
 
 export const dark = {
-  id: 'Dark',
   ...baseTheme,
   colors: {
     background: color.caviar,
     figcaption: color.grey,
+    focus: color.amber,
     footer: color.bullet,
     header: color.white,
     link: color.primary,
-    text: color.white,
+    text: color.smoke,
   },
 }

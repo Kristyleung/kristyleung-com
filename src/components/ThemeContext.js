@@ -1,34 +1,32 @@
-import React, { useRef, useEffect, useState, createContext } from 'react'
-import { dark, light } from '../theming/theme'
-
-export const themes = {
-  light: light,
-  dark: dark,
-}
+import React, { useEffect, useState, createContext } from 'react'
 
 const ThemeContext = createContext()
 
 const ThemeContextProvider = props => {
-  const [currentTheme, setCurrentTheme] = useState(themes.light)
-  let useThemeRef = useRef()
+  const [themeState, setThemeState] = useState({
+    dark: false,
+    themeMounted: false,
+  })
 
   useEffect(() => {
-    const storedTheme = localStorage.getItem('theme')
-    if (storedTheme) {
-      const getTheme = (useThemeRef.current = storedTheme)
-      if (getTheme === 'dark') {
-        setCurrentTheme(themes.dark)
-      }
-    } else {
-      const matchMedia = window.matchMedia('(prefers-color-scheme: dark)').matches
-      if (matchMedia) {
-        setCurrentTheme(themes.dark)
-        localStorage.setItem('theme', 'dark')
-      }
-    }
-  }, [setCurrentTheme])
+    const getLocalStorage = localStorage
 
-  return <ThemeContext.Provider value={[currentTheme, setCurrentTheme]}>{props.children}</ThemeContext.Provider>
+    const dark = getLocalStorage.getItem('dark') === 'true'
+    setThemeState(themeState => ({ ...themeState, dark: dark }))
+
+    const matchMedia = window.matchMedia('(prefers-color-scheme: dark)').matches
+    if (getLocalStorage.length === 0 && matchMedia) {
+      setThemeState(themeState => ({ ...themeState, dark: true }))
+    }
+
+    setThemeState(themeState => ({ ...themeState, themeMounted: true }))
+  }, [setThemeState])
+
+  if (!themeState.themeMounted) {
+    return null
+  }
+
+  return <ThemeContext.Provider value={[themeState, setThemeState]}>{props.children}</ThemeContext.Provider>
 }
 
 export { ThemeContext, ThemeContextProvider }
