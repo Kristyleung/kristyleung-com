@@ -10,23 +10,23 @@ const ThemeContext = createContext()
 
 const ThemeContextProvider = props => {
   const [currentTheme, setCurrentTheme] = useState(themes.light)
-  
   let useThemeRef = useRef()
+
   useEffect(() => {
     const storedTheme = localStorage.getItem('theme')
     if (storedTheme) {
-      let getTheme = useThemeRef.current = storedTheme
+      const getTheme = (useThemeRef.current = storedTheme)
       if (getTheme === 'dark') {
         setCurrentTheme(themes.dark)
       }
     } else {
-      const matchTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
-      if (matchTheme) {
+      const matchMedia = window.matchMedia('(prefers-color-scheme: dark)').matches
+      if (matchMedia) {
         setCurrentTheme(themes.dark)
         localStorage.setItem('theme', 'dark')
       }
     }
-    },[setCurrentTheme])
+  }, [setCurrentTheme])
 
   return <ThemeContext.Provider value={[currentTheme, setCurrentTheme]}>{props.children}</ThemeContext.Provider>
 }
