@@ -36,12 +36,16 @@ const navLinkActiveStyle = {
 
 const Header = ({ siteTitle }) => {
   const theme = useTheme()
-
   const [currentTheme, setCurrentTheme] = useContext(ThemeContext)
 
   const toggleTheme = () => {
-    if (currentTheme === themes.light) setCurrentTheme(themes.dark)
-    else setCurrentTheme(themes.light)
+    if (currentTheme === themes.light) {
+      setCurrentTheme(themes.dark)
+      localStorage.setItem('theme', 'dark')
+    } else {
+      setCurrentTheme(themes.light)
+      localStorage.setItem('theme', 'light')
+    }
   }
 
   return (
