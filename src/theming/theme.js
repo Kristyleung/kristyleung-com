@@ -22,11 +22,11 @@ const baseTheme = {
     family: fonts,
     size: sizes,
   },
-  size: sizes,
   spacing: spacings,
 }
 
 export const light = {
+  id: 'Light',
   ...baseTheme,
   colors: {
     background: color.white,
@@ -39,6 +39,7 @@ export const light = {
 }
 
 export const dark = {
+  id: 'Dark',
   ...baseTheme,
   colors: {
     background: color.caviar,

@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext, themes } from './ThemeContext'
+import { useTheme } from '@emotion/react'
 import Link from './Link'
 import PropTypes from 'prop-types'
-import { useTheme } from '@emotion/react'
 
 const headerStyle = ({ theme }) => ({
   display: 'flex',
@@ -35,6 +36,14 @@ const navLinkActiveStyle = {
 
 const Header = ({ siteTitle }) => {
   const theme = useTheme()
+
+  const [currentTheme, setCurrentTheme] = useContext(ThemeContext)
+
+  const toggleTheme = () => {
+    if (currentTheme === themes.light) setCurrentTheme(themes.dark)
+    else setCurrentTheme(themes.light)
+  }
+
   return (
     <header css={headerStyle({ theme })}>
       <Link to="/" css={brandLinkStyle({ theme })}>
@@ -50,6 +59,7 @@ const Header = ({ siteTitle }) => {
         <Link activeStyle={navLinkActiveStyle} css={navLinkStyle({ theme })} to="/about">
           About
         </Link>
+        <button onClick={() => toggleTheme()}>{currentTheme.id} mode</button>
       </nav>
     </header>
   )

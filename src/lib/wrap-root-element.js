@@ -1,11 +1,16 @@
 import React from 'react'
-import ThemeProvider from '../components/ThemeProvider'
+import { ThemeContextProvider } from '../components/ThemeContext'
 import MDXProvider from '../components/MDXProvider'
+import ThemeProvider from '../components/ThemeProvider'
 
-const wrapRootElement = ({ element }) => (
-  <ThemeProvider>
-    <MDXProvider element={element} />
-  </ThemeProvider>
-)
+const wrapRootElement = ({ element }) => {
+  return (
+    <ThemeContextProvider>
+      <ThemeProvider>
+        <MDXProvider element={element} />
+      </ThemeProvider>
+    </ThemeContextProvider>
+  )
+}
 
 export default wrapRootElement

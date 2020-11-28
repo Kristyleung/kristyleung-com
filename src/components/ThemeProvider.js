@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Global, ThemeProvider as EmotionThemeProvider } from '@emotion/react'
 import { globalStyle } from '../theming/globalStyle'
 import { normalize } from '../theming/normalize'
-import { setTheme } from '../lib/set-theme'
+import { ThemeContext } from '../components/ThemeContext'
 
 const ThemeProvider = ({ children }) => {
-  const theme = setTheme()
+  const setTheme = useContext(ThemeContext)
+  const theme = setTheme[0]
   return (
     <EmotionThemeProvider theme={theme}>
       <Global styles={normalize} />
