@@ -31,6 +31,7 @@ module.exports = {
               wrapperStyle: `margin: 1em 0;`,
             },
           },
+          { resolve: `gatsby-remark-responsive-iframe` },
         ],
       },
     },
