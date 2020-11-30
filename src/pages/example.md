@@ -161,16 +161,32 @@ plugins: [
 ```
 
 ```jsx
-class FlavorForm extends React.Component {
-  // highlight-line
-  constructor(props) {
-    super(props)
-    this.state = { value: 'coconut' }
-
-    this.handleChange = this.handleChange.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this)
-  }
-}
+import React from "react";
+import Highlight, { defaultProps } from "prism-react-renderer";
+const SyntaxHiglight = (props) => {
+  return (
+    <Highlight
+      {...defaultProps}
+      theme={theme}
+      code={props.children.props.children.trim()}
+      language="jsx"
+    >
+      {({ className, style, tokens, getLineProps, getTokenProps }) => (
+        <pre className={className} style={style}>
+          {tokens.map((line, i) => (
+            <div {...getLineProps({ line, key: i })}>
+              {line.map((token, key) => (
+                <span {...getTokenProps({ token, key })} />
+              ))}
+            </div>
+          ))}
+        </pre>
+      )}
+    </Highlight>
+  );
+};
+const Code = (props) => <SyntaxHiglight {...props} />;
+export default Code;
 ```
 
 ```css

@@ -6,6 +6,8 @@ import theme from 'prism-react-renderer/themes/dracula'
 const preStyle = css({
   padding: 16,
   fontSize: 18,
+  lineHeight: 1.25,
+  overflow: 'auto',
 })
 
 const CodeBlock = ({ children, className, ...props }) => {
