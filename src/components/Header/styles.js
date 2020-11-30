@@ -9,7 +9,6 @@ export const headerStyle = ({ theme }) => ({
   alignItems: 'center',
   display: 'flex',
   flexFlow: 'wrap',
-  gridArea: 'header',
   justifyContent: 'space-between',
   padding: theme.spacing[2],
 })

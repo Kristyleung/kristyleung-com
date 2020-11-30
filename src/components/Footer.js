@@ -6,7 +6,6 @@ const footerStyle = ({ theme }) => ({
   color: theme.colors.link,
   fontFamily: theme.font.family.text,
   fontSize: theme.font.size[2],
-  gridArea: 'footer',
   padding: theme.spacing[2],
 })
 

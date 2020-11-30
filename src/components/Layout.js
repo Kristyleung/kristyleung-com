@@ -28,17 +28,8 @@ const skipToContentStyle = css(`
 
 const layoutStyle = {
   display: 'grid',
-  gridTemplateAreas: `
-  'header'
-  'main'
-  'footer'
-  `,
   gridTemplateRows: 'auto 1fr auto',
   minHeight: '100vh',
-}
-
-const mainStyle = {
-  gridArea: 'main',
 }
 
 const sectionStyle = {
@@ -49,9 +40,9 @@ const sectionStyle = {
   },
   figure: {
     gridColumn: '1 / -1',
+    margin: 'auto !important',
     maxWidth: 960,
     width: '100%',
-    margin: 'auto !important',
   },
 }
 
@@ -64,7 +55,7 @@ const Layout = ({ children, siteTitle, title, description, keywords }) => {
       <div css={layoutStyle}>
         <SEO title={title} description={description} keywords={keywords} />
         <Header siteTitle={siteTitle} />
-        <main id="content" role="main" css={mainStyle}>
+        <main id="content" role="main">
           <section css={sectionStyle}>{children}</section>
         </main>
         <Footer />
