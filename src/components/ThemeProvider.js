@@ -7,12 +7,7 @@ import { dark, light } from '../theming/theme'
 
 const ThemeProvider = ({ children }) => {
   const useTheme = useContext(ThemeContext)
-  let theme = {}
-  if (useTheme[0].dark) {
-    theme = dark
-  } else {
-    theme = light
-  }
+  const theme = useTheme[0].isDark ? dark : light
   return (
     <EmotionThemeProvider theme={theme}>
       <Global styles={normalize} />

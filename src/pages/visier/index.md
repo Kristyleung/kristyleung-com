@@ -16,7 +16,7 @@ Sharing a workforce plan across mutliple collaborators
 
 ![The user interface of Visier's Workforce Planning platform](./visier-hero.png)
 
-### Gathering domain knowledge
+## Gathering domain knowledge
 
 Workforce Planning (WFP) is a powerful application that allows users to project and analyze labor supply and demand based on economic factors by creating plans. During my 12-month work term as a UX Design Intern at Visier, I spent the majority of my time dedicated to designing features with the PM and Design Lead of WFP.
 

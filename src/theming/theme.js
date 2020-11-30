@@ -1,20 +1,24 @@
 const fonts = {
-  heading: 'Public Sans',
-  text: 'Public Sans',
+  heading:
+    '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"',
+  text:
+    '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"',
 }
 
 const color = {
   amber: '#fca623',
   black: '#000',
+  blue: '#0000ff',
   bullet: '#1e1e1e',
   caviar: '#262626',
   grey: '#767676',
   primary: '#707aed',
+  red: '#E34140',
   smoke: '#f5f5f7',
   white: '#fff',
 }
 
-const sizes = [8, 12, 14, 16, 18, 24, 32, 64]
+const sizes = [8, 12, 14, 16, 18, 20, 22, 24, 32, 42, 64]
 
 const spacings = [4, 8, 16, 24, 32, 64]
 

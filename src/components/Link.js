@@ -9,7 +9,7 @@ const linkStyle = ({ theme }) => ({
     outline: '2px dotted transparent',
     outlineColor: theme.colors.focus,
     outlineOffset: 4,
-  }
+  },
 })
 
 const Link = ({ children, to, activeClassName, partiallyActive, ...props }) => {

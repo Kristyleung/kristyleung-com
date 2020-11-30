@@ -1,105 +1,35 @@
 import React from 'react'
 import Link from '../Link'
 import { useTheme } from '@emotion/react'
+import {
+  paragraphStyle,
+  h1Style,
+  h2Style,
+  h3Style,
+  h4Style,
+  h5Style,
+  h6Style,
+  thematicBreakStyle,
+  blockquoteStyle,
+  ulStyle,
+  olStyle,
+  liStyle,
+  tableStyle,
+  theadStyle,
+  tbodyStyle,
+  trStyle,
+  tdStyle,
+  thStyle,
+  preStyle,
+  codeStyle,
+  emStyle,
+  strongStyle,
+  delStyle,
+  inlineCodeStyle,
+  hrStyle,
+} from './styles'
 
 /** https://mdxjs.com/table-of-components */
-
-const paragraphStyle = ({ theme }) => ({
-  color: theme.colors.text,
-  fontFamily: theme.font.family.text,
-  fontSize: theme.font.size[4],
-  lineHeight: 1.5,
-})
-
-const h1Style = ({ theme }) => ({
-  color: theme.colors.text,
-  fontFamily: theme.font.family.text,
-})
-
-const h2Style = ({ theme }) => ({
-  color: theme.colors.text,
-  fontFamily: theme.font.family.text,
-})
-
-const h3Style = ({ theme }) => ({
-  color: theme.colors.text,
-  fontFamily: theme.font.family.text,
-})
-
-const h4Style = ({ theme }) => ({
-  color: theme.colors.text,
-  fontFamily: theme.font.family.text,
-})
-
-const h5Style = ({ theme }) => ({
-  color: theme.colors.text,
-  fontFamily: theme.font.family.text,
-})
-
-const h6Style = ({ theme }) => ({
-  color: theme.colors.text,
-  fontFamily: theme.font.family.text,
-})
-
-const thematicBreakStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
-})
-
-const blockquoteStyle = ({ theme }) => ({
-  color: theme.colors.text,
-  fontFamily: theme.font.family.text,
-})
-
-const ulStyle = ({ theme }) => ({})
-
-const olStyle = ({ theme }) => ({})
-
-const liStyle = ({ theme }) => ({
-  color: theme.colors.text,
-  fontFamily: theme.font.family.text,
-  fontSize: theme.font.size[4],
-  lineHeight: 1.5,
-})
-
-const tableStyle = ({ theme }) => ({})
-
-const theadStyle = ({ theme }) => ({})
-
-const tbodyStyle = ({ theme }) => ({})
-
-const trStyle = ({ theme }) => ({})
-
-const tdStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
-})
-
-const thStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
-})
-
-const preStyle = ({ theme }) => ({})
-
-const codeStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
-})
-
-const emStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
-})
-
-const strongStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
-})
-
-const delStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
-})
-
-const inlineCodeStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
-})
-
-const hrStyle = ({ theme }) => ({})
 
 const Paragraph = props => {
   const theme = useTheme()

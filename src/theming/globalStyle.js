@@ -18,6 +18,6 @@ export const globalStyle = ({ theme }) => ({
     fontFamily: theme.font.family.text,
     fontSize: theme.font.size[2],
     color: theme.colors.figcaption,
-    margin: '1em auto',
+    margin: '16px',
   },
 })

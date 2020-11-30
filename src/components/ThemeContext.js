@@ -4,19 +4,19 @@ const ThemeContext = createContext()
 
 const ThemeContextProvider = props => {
   const [themeState, setThemeState] = useState({
-    dark: false,
+    isDark: false,
     themeMounted: false,
   })
 
   useEffect(() => {
     const getLocalStorage = localStorage
 
-    const dark = getLocalStorage.getItem('dark') === 'true'
-    setThemeState(themeState => ({ ...themeState, dark: dark }))
+    const isDark = getLocalStorage.getItem('isDark') === 'true'
+    setThemeState(themeState => ({ ...themeState, isDark: isDark }))
 
     const matchMedia = window.matchMedia('(prefers-color-scheme: dark)').matches
     if (getLocalStorage.length === 0 && matchMedia) {
-      setThemeState(themeState => ({ ...themeState, dark: true }))
+      setThemeState(themeState => ({ ...themeState, isDark: true }))
     }
 
     setThemeState(themeState => ({ ...themeState, themeMounted: true }))
