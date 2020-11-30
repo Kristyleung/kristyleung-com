@@ -23,7 +23,7 @@ const ThemeContextProvider = props => {
   }, [setThemeState])
 
   if (!themeState.themeMounted) {
-    return null
+    return <>...</>
   }
 
   return <ThemeContext.Provider value={[themeState, setThemeState]}>{props.children}</ThemeContext.Provider>
