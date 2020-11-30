@@ -49,14 +49,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Public Sans:400,700'],
-        },
-      },
-    },
-    {
       resolve: `gatsby-plugin-emotion`,
       options: {
         // Accepts the following options, all of which are defined by `babel-plugin-emotion` plugin.
