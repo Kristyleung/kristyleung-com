@@ -20,14 +20,13 @@ import {
   trStyle,
   tdStyle,
   thStyle,
-  preStyle,
-  codeStyle,
   emStyle,
   strongStyle,
   delStyle,
   inlineCodeStyle,
   hrStyle,
 } from './styles'
+import CodeBlock from '../CodeBlock'
 
 /** https://mdxjs.com/table-of-components */
 
@@ -146,13 +145,7 @@ const Th = props => {
 }
 
 const Pre = props => {
-  const theme = useTheme()
-  return <pre css={preStyle({ theme })} {...props} />
-}
-
-const Code = props => {
-  const theme = useTheme()
-  return <code css={codeStyle({ theme })} {...props} />
+  return <React.Fragment {...props} />
 }
 
 const Em = props => {
@@ -203,7 +196,7 @@ const components = {
   td: Td,
   th: Th,
   pre: Pre,
-  code: Code,
+  code: CodeBlock,
   em: Em,
   strong: Strong,
   del: Del,

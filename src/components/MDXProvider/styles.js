@@ -85,12 +85,6 @@ export const thStyle = ({ theme }) => ({
   fontFamily: theme.font.family.text,
 })
 
-export const preStyle = ({ theme }) => ({})
-
-export const codeStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
-})
-
 export const emStyle = ({ theme }) => ({
   fontFamily: theme.font.family.text,
 })
@@ -104,7 +98,12 @@ export const delStyle = ({ theme }) => ({
 })
 
 export const inlineCodeStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
+  backgroundColor: theme.colors.text,
+  display: 'inline-block',
+  fontFamily: 'monospace, monospace',
+  fontSize: '1rem',
+  padding: '0 4px',
+  color: theme.colors.background,
 })
 
 export const hrStyle = ({ theme }) => ({})
