@@ -8,6 +8,10 @@ keywords: ['product designer', 'ux']
 
 I am a product designer focused on creating human-centered experiences using words of clarity and thoughtfulness.
 
+## EA
+
+[Read about EA](/electronic-arts/)
+
 ## Taskforce Wildlife by United for Wildlife
 
 A tool to assist Wildlife Rangers on the frontline of protecting vulnerable animals
