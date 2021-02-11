@@ -127,19 +127,24 @@ Inline image syntax looks like this:
 Certain characters can be escaped with a preceding backslash to preserve the literal display of a character instead of its special Markdown meaning. This applies to the following characters:
 
 ```markdown
-\  backslash
-`  backtick
-*  asterisk
-_  underscore
-{} curly braces
-[] square brackets
-() parentheses
-#  hash mark
->  greater than
-+  plus sign
--  minus sign (hyphen)
-.  dot
-!  exclamation mark
+\ backslash
+` backtick
+
+- asterisk
+  \_ underscore
+  {} curly braces
+  [] square brackets
+  () parentheses
+
+# hash mark
+
+> greater than
+
+- plus sign
+
+* minus sign (hyphen)
+  . dot
+  ! exclamation mark
 ```
 
 ### iFrame
@@ -161,16 +166,11 @@ plugins: [
 ```
 
 ```jsx
-import React from "react";
-import Highlight, { defaultProps } from "prism-react-renderer";
-const SyntaxHiglight = (props) => {
+import React from 'react'
+import Highlight, { defaultProps } from 'prism-react-renderer'
+const SyntaxHiglight = props => {
   return (
-    <Highlight
-      {...defaultProps}
-      theme={theme}
-      code={props.children.props.children.trim()}
-      language="jsx"
-    >
+    <Highlight {...defaultProps} theme={theme} code={props.children.props.children.trim()} language="jsx">
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <pre className={className} style={style}>
           {tokens.map((line, i) => (
@@ -183,10 +183,10 @@ const SyntaxHiglight = (props) => {
         </pre>
       )}
     </Highlight>
-  );
-};
-const Code = (props) => <SyntaxHiglight {...props} />;
-export default Code;
+  )
+}
+const Code = props => <SyntaxHiglight {...props} />
+export default Code
 ```
 
 ```css
@@ -205,5 +205,5 @@ export default Code;
 ```
 
 ```tsx
-<div style={{backgroundColor: 'tomato', padding: '20px'}} />
+<div style={{ backgroundColor: 'tomato', padding: '20px' }} />
 ```

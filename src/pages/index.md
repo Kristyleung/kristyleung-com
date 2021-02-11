@@ -1,37 +1,54 @@
 ---
 title: Projects
-description: I am a product designer focused on creating human-centered experiences using words of clarity and thoughtfulness
+description: Kristy Leung creates human centered systems and experiences. Currently for Electronic Arts.
 keywords: ['product designer', 'ux']
 ---
 
-# Hi there, <br/>I’m Kristy!
+# Kristy Leung
 
-I am a product designer focused on creating human-centered experiences using words of clarity and thoughtfulness.
+Creates human centered systems and experiences. Currently — for Electronic Arts.
 
-## EA
+## Recent work
+
+### EA
+A crossplay design system to connect millions of players
 
 [Read about EA](/electronic-arts/)
 
-## Taskforce Wildlife by United for Wildlife
+### Taskforce Wildlife by United for Wildlife
 
-A tool to assist Wildlife Rangers on the frontline of protecting vulnerable animals
+A tool that uses reports from rangers to stop animal trafficking
 
 [Read about Taskforce Wildlife](/united-for-wildlife/)
 
-## Workforce Planning by Visier
+### Workforce Planning by Visier
 
-A predictive analytic software that enables collaboration in workforce planning
+A predictive solution that enables collaboration in workforce planning
 
 [Read about Visier](/visier/)
 
-## Storybooks by Cirque du Soleil
+### Storybooks by Cirque du Soleil
 
 A digital picture book created to entice a new generation of Cirque du Soleil fans
 
 [Read about Storybooks](/cirque-du-soleil/)
 
-## Trail Guides by Google
+## Experience
+Electronic Arts — Experience Designer
 
-An experience that excites and prepares potential National Park visitors
+8it — User Experience Designer
 
-[Read about Trail Guides](/google/)
+Edenspiekermann — Interaction Designer
+
+Visier — User Experience Designer
+
+## Connect
+[LinkedIn](/https://www.linkedin.com/in/kristyleung/ 'LinkedIn')
+
+[Resume](/Kristy-Leung-Product-Designer-Resume.pdf/)
+
+[Send me a message](mailto:kristy.leung11@gmail.com)
+
+## Good reads from my Goodreads
+
+[Everything I Never Told You — Celeste Ng](/https://www.goodreads.com/review/show/3764491209?book_show_action=false&from_review_page=1/)
