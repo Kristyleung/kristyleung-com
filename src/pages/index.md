@@ -46,12 +46,12 @@ Visier — User Experience Designer
 
 ## Connect
 
-[LinkedIn](/https://www.linkedin.com/in/kristyleung/ 'LinkedIn')
+[LinkedIn](https://www.linkedin.com/in/kristyleung/ 'LinkedIn')
 
-[Resume](/Kristy-Leung-Product-Designer-Resume.pdf/)
+[Resume](/Kristy-Leung-Product-Designer-Resume.pdf/ 'Resume')
 
-[Send me a message](mailto:kristy.leung11@gmail.com)
+[Send me a message](mailto:kristy.leung11@gmail.com 'Hello!')
 
 ## Good reads from my Goodreads
 
-[Everything I Never Told You — Celeste Ng](/https://www.goodreads.com/review/show/3764491209?book_show_action=false&from_review_page=1/)
+[Everything I Never Told You — Celeste Ng](https://www.goodreads.com/review/show/3764491209/ 'Good read')
