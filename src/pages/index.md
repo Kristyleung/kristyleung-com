@@ -11,6 +11,7 @@ Creates human centered systems and experiences. Currently — for Electronic Art
 ## Recent work
 
 ### EA
+
 A crossplay design system to connect millions of players
 
 [Read about EA](/electronic-arts/)
@@ -34,6 +35,7 @@ A digital picture book created to entice a new generation of Cirque du Soleil fa
 [Read about Storybooks](/cirque-du-soleil/)
 
 ## Experience
+
 Electronic Arts — Experience Designer
 
 8it — User Experience Designer
@@ -43,6 +45,7 @@ Edenspiekermann — Interaction Designer
 Visier — User Experience Designer
 
 ## Connect
+
 [LinkedIn](/https://www.linkedin.com/in/kristyleung/ 'LinkedIn')
 
 [Resume](/Kristy-Leung-Product-Designer-Resume.pdf/)
