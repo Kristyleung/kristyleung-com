@@ -8,7 +8,7 @@ keywords: ['product designer', 'ux']
 
 Creates human centered systems and experiences. Currently — for Electronic Arts.
 
-## Recent work
+<SectionHeader>Selected work</SectionHeader>
 
 ### EA
 
@@ -34,7 +34,7 @@ A digital picture book created to entice a new generation of Cirque du Soleil fa
 
 [Read about Storybooks](/cirque-du-soleil/)
 
-## Experience
+<SectionHeader>Experience</SectionHeader>
 
 Electronic Arts — Experience Designer
 
@@ -44,7 +44,7 @@ Edenspiekermann — Interaction Designer
 
 Visier — User Experience Designer
 
-## Connect
+<SectionHeader>Connect</SectionHeader>
 
 [LinkedIn](https://www.linkedin.com/in/kristyleung/ 'LinkedIn')
 
@@ -52,6 +52,6 @@ Visier — User Experience Designer
 
 [Send me a message](mailto:kristy.leung11@gmail.com 'Hello!')
 
-## Good reads from my Goodreads
+<SectionHeader>Good reads from my Goodreads</SectionHeader>
 
 [Everything I Never Told You — Celeste Ng](https://www.goodreads.com/review/show/3764491209/ 'Good read')
