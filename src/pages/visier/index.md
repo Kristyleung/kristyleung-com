@@ -9,11 +9,9 @@ image: ./visier-hero.png
 
 Creating a collaborative experience for workforce planners
 
-| Timeline           | Duration         |
-| ------------------ | --------------- |
-| Launched Fall 2016 | 2 weeks |
-
-
+| Timeline           | Duration |
+| ------------------ | -------- |
+| Launched Fall 2016 | 2 weeks  |
 
 ![The user interface of Visier's Workforce Planning platform](./visier-hero.png)
 
