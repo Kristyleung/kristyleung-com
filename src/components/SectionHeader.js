@@ -6,8 +6,8 @@ const sectionHeaderStyle = ({ theme }) =>
     fontFamily: theme.font.family.text,
     borderBottom: `1px solid transparent`,
     borderColor: theme.colors.text,
-    paddingTop: theme.spacing[2], 
-    paddingBottom: theme.spacing[2], 
+    paddingTop: theme.spacing[2],
+    paddingBottom: theme.spacing[2],
   })
 
 const SectionHeader = ({ children }) => {

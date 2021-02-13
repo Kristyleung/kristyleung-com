@@ -7,12 +7,13 @@ image: ./visier-hero.png
 
 # Workforce Planning by Visier
 
-Sharing a workforce plan across mutliple collaborators
+Creating a collaborative experience for workforce planners
 
-- Type: Internship
-- Date: Winter 2016
-- Duration: 2 weeks
-- Deliverable: Web App
+| Timeline           | Duration         |
+| ------------------ | --------------- |
+| Launched Fall 2016 | 2 weeks |
+
+
 
 ![The user interface of Visier's Workforce Planning platform](./visier-hero.png)
 
