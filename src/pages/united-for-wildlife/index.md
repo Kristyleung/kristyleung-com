@@ -2,11 +2,12 @@
 title: United for Wildlife
 description: description
 keywords: ['United for Wildlife', 'ux strategy']
+image: ./taskforce-wildlife-hero.png
 ---
 
-![The hero art for United for Wildlife's Taskforce Wildlife](./taskforce-wildlife-hero.png)
-
 # Taskforce Wildlife
+
+![The hero art for United for Wildlife's Taskforce Wildlife](./taskforce-wildlife-hero.png)
 
 ## Supporting transport businesses in planning safe routes to avoid wildlife traffickers
 
@@ -20,7 +21,9 @@ keywords: ['United for Wildlife', 'ux strategy']
 
 At Edenspiekermann, a design agency based in Amsterdam, I worked closely with one other designer and a technical director on Taskforce Wildlife.
 
-![Unifed for Wildlife](./taskforce-wildlife-UFW.png)_United for Wildlife, an initiative led by the Duke of Cambridge to stop wildlife, approached our team us for possible solutions to lower the rate of wildlife trafficking._
+![Unifed for Wildlife](./taskforce-wildlife-UFW.png)
+
+_United for Wildlife, an initiative led by the Duke of Cambridge to stop wildlife, approached our team us for possible solutions to lower the rate of wildlife trafficking._
 
 ### Context
 
@@ -32,7 +35,9 @@ To understand the perspective of transport businesses, we interviewed a logistic
 
 On the frontlines, wildlife rangers, appointed by UfW, would make reports when they detect any suspicious activity. But these reports would often get buried in a dense backlog, rarely reaching transport businesses in time if at all.
 
-![Current journey map of United for Wildlife and transport businesses](./taskforce-wildlife-current-journey.png)_I captured the journeys between UfW rangers and transport businesses in wildlife trafficking._
+![Current journey map of United for Wildlife and transport businesses](./taskforce-wildlife-current-journey.png)
+
+_I captured the journeys between UfW rangers and transport businesses in wildlife trafficking._
 
 I created a journey map to exhibit the pain points of the two parties and to highlight how their disconnection. By using this journey map, we were able to identify the juncture in which we would intervene.
 
@@ -47,21 +52,27 @@ Without live reports from the frontline, businesses are in the dark and resort t
 ### The Design
 
 ![The user interface of Taskforce Wildlife platform](taskforce-wildlife-risk-calculator.png)
+
 _Taskforce Wildlife was designed to allow logisticians to propose a route and would then output a bespoke risk report based reports made by rangers._
 
 Our final solution, Taskforce Wildlife, allowed logisticians to propose a route and would then output a bespoke risk report based on recent and historic reports made by rangers. The risk report creates a direct communication channel from rangers to logisticians.
 
 ![The user journey map of Taskforce Wildlife](taskforce-wildlife-user-journey-map.png)
+
 _I created a user journey that helped the team and client understand how the observations of rangers in the field would directly be equipping logisticians with the information they need to plan safe routes._
 
 We established two main guidelines for the Taskforce Wildlife design system.
 
-![Taskforce Wildlife aimed to prompt user action without fear-mongering](taskforce-wildlife-prompting-action.gif) _The design needed convey information in a manner that was approachable and actionable without downplaying the severity or urgency of what was at stake._
+![Taskforce Wildlife aimed to prompt user action without fear-mongering](taskforce-wildlife-prompting-action.gif)
+
+_The design needed convey information in a manner that was approachable and actionable without downplaying the severity or urgency of what was at stake._
 
 > Guideline #1: Prompt action without fear-mongering
 > The tool needed to present critical information and a ton of it. However, we knew that jampacking the tool with terrifying warnings and complicated jargon would only overwhelm transport businesses. The design needed to strike a balance between approachable and actionable without downplaying the severity or urgency of the issue.
 
-![Taskforce Wildlife needed to be accessible in the most dire situations](taskforce-wildlife-accessibility.gif) _We constructed a set of lightweight and responsive components so that rangers could load Taskforce Wildlife while patrolling rural areas with limited technological access._
+![Taskforce Wildlife needed to be accessible in the most dire situations](./taskforce-wildlife-accessibility.gif)
+
+_We constructed a set of lightweight and responsive components so that rangers could load Taskforce Wildlife while patrolling rural areas with limited technological access._
 
 > Guideline #2: Provide accessibility
 > Rangers needed to be able to access Taskforce Wildlife while patrolling rural areas with limited technological access and send reports in real time. It needed to be lightweight, yet reliable. The design system needed to lean enough that loading time would not be compromised. I worked closely with the technical director to develop a library of responsive components fluid across all screen sizes and browser versions. We also opted for typography and high contrast visual treatments that would be communicative in smaller and older devices.

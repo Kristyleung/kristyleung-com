@@ -14,7 +14,7 @@ const projectLinkStyle = ({ theme }) =>
     ':hover': {
       backgroundSize: '100% 100%',
       cursor: 'pointer',
-    }
+    },
   })
 
 const projectLinkTitleStyle = ({ theme }) =>
@@ -23,7 +23,7 @@ const projectLinkTitleStyle = ({ theme }) =>
     fontSize: theme.font.size[7],
   })
 
-export const ProjectLink = (props) => {
+export const ProjectLink = props => {
   const theme = useTheme()
   const { abstract, link, title } = props
   return (
@@ -41,7 +41,7 @@ const experienceStyle = ({ theme }) =>
     fontFamily: theme.font.family.heading,
   })
 
-export const Experience = (props) => {
+export const Experience = props => {
   const theme = useTheme()
   const { company, role } = props
   return (

@@ -7,7 +7,7 @@ image: ./ea.jpg
 
 # Designing design system to enable crossplay for millions of players
 
-## Building a unified approach for gaming for all EA game titles
+Building a unified approach for gaming for all EA game titles
 
 ![EA](./ea.jpg 'Electronic Arts')
 
