@@ -27,7 +27,7 @@ import {
   hrStyle,
 } from './styles'
 import CodeBlock from '../CodeBlock'
-import SectionHeader from '../SectionHeader'
+import { Experience, ProjectLink, SectionHeader } from './customComponents'
 
 /** https://mdxjs.com/table-of-components */
 
@@ -207,7 +207,9 @@ const components = {
   // img is rendered by gatsby-remark-images
 
   // Custom MDX components
+  Experience,
   SectionHeader,
+  ProjectLink,
 }
 
 export default components

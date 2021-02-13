@@ -4,6 +4,7 @@ import Footer from './Footer'
 import Header from './Header'
 import PropTypes from 'prop-types'
 import SEO from './SEO'
+import { mq } from '../theming/theme'
 
 const skipToContentStyle = css(`
   clip: rect(1px, 1px, 1px, 1px);
@@ -32,19 +33,19 @@ const layoutStyle = {
   minHeight: '100vh',
 }
 
-const sectionStyle = {
+const sectionStyle = mq({
   display: 'grid',
-  gridTemplateColumns: 'minmax(24px,1fr) minmax(auto,680px) minmax(24px,1fr)',
+  gridTemplateColumns: ['minmax(24px,1fr) minmax(auto, 768px) minmax(24px,1fr)'],
   '*': {
     gridColumn: 2,
   },
   figure: {
     gridColumn: '1 / -1',
     margin: 'auto !important',
-    maxWidth: 960,
+    maxWidth: [960, 960, 1200],
     width: '100%',
   },
-}
+})
 
 const Layout = ({ children, siteTitle, title, description, keywords }) => {
   return (

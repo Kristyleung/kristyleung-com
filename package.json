@@ -20,6 +20,7 @@
     "@fontsource/public-sans": "^4.2.1",
     "@mdx-js/mdx": "^1.6.21",
     "@mdx-js/react": "^1.6.21",
+    "facepaint": "^1.2.1",
     "gatsby": "^2.27.2",
     "gatsby-image": "^2.6.0",
     "gatsby-plugin-catch-links": "^2.5.0",

@@ -10,39 +10,23 @@ Creates human centered systems and experiences. Currently — for Electronic Art
 
 <SectionHeader>Selected work</SectionHeader>
 
-### EA
+<ProjectLink title={`Electronic Arts`} abstract={`A crossplay design system to connect millions of players`} link={`/electronic-arts/`} />
 
-A crossplay design system to connect millions of players
+<ProjectLink title={`Taskforce Wildlife by United for Wildlife`} abstract={`A tool that uses reports from rangers to stop animal trafficking`} link={`/united-for-wildlife/`} />
 
-[Read about EA](/electronic-arts/)
+<ProjectLink title={`Workforce Planning by Visier`} abstract={`A predictive solution that enables collaboration in workforce planning`} link={`/visier/`} />
 
-### Taskforce Wildlife by United for Wildlife
-
-A tool that uses reports from rangers to stop animal trafficking
-
-[Read about Taskforce Wildlife](/united-for-wildlife/)
-
-### Workforce Planning by Visier
-
-A predictive solution that enables collaboration in workforce planning
-
-[Read about Visier](/visier/)
-
-### Storybooks by Cirque du Soleil
-
-A digital picture book created to entice a new generation of Cirque du Soleil fans
-
-[Read about Storybooks](/cirque-du-soleil/)
+<ProjectLink title={`Storybooks by Cirque du Soleil`} abstract={`A digital picture book created to entice a new generation of Cirque du Soleil fans`} link={`/cirque-du-soleil/`} />
 
 <SectionHeader>Experience</SectionHeader>
 
-Electronic Arts — Experience Designer
+<Experience company={`Electronic Arts`} role={`Experience Designer`} />
 
-8it — User Experience Designer
+<Experience company={`8it`} role={`User Experience Designer`} />
 
-Edenspiekermann — Interaction Designer
+<Experience company={`Edenspiekermann`} role={`Interaction Designer`} />
 
-Visier — User Experience Designer
+<Experience company={`Visier`} role={`User Experience Designer`} />
 
 <SectionHeader>Connect</SectionHeader>
 
