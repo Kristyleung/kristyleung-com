@@ -1,9 +1,53 @@
 ---
 title: United for Wildlife
 description: description
-keywords: ['United for Wildlife', 'project']
+keywords: ['United for Wildlife', 'ux strategy']
 ---
+![The hero art for United for Wildlife's Taskforce Wildlife](./wildlife-hero.png)
 
-# united-for-wildlife
+# Taskforce Wildlife
+## Supporting transport businesses in planning safe routes to avoid wildlife traffickers
 
-Text
+
+| Timeline     | Company    | 
+| ------- | ------- | 
+| Launched Fall 2018  | Edenspiekermann   | 
+
+
+| The challenge      | The solution    | 
+| ------- | ------- | 
+|  Design a solution to help transport businesses assess their route risk and navigate paths compromised by illegal wildlife activity  | Taskforce Wildlife is a tool that uses intel from wildlife rangers to create risk assessments for transport businesses.|
+
+At Edenspiekermann, a design agency based in Amsterdam, I worked closely with one other designer and a technical director on Taskforce Wildlife.
+
+### Context
+Organized criminals networks across the globe have caused an unprecedented increase in the illegally hunting and trading of animals. Traffickers rely on unsuspecting transport businesses to move their contraband. United for Wildlife is an initiative led by the Duke of Cambridge to stop wildlife crime. UfW approached my team at Edenspiekermann, asking us to make a website to promote awareness among transport businesses, in turn reducing the rate of trafficking. This proposal raised a few eyebrows on the team. 
+
+Before we could jump into a solution, few questions needed to be answered: How does wildlife trafficking work? Who are the key stakeholders? What are their pain points?
+
+To understand the perspective of transport businesses, we interviewed a logistician from Bangkok Airways and inquired about the route planning process. He expressed that decisions surrounding route planning are based on outdated reports or historic trends. In other words, these routes were highly precarious. Logisticians are without real time data to plan safe routes that these businesses can rely on.  
+
+On the frontlines, wildlife rangers, appointed by UfW, would make reports when they detect any suspicious activity. But this time sensitive intel would not reach businesses directly. These reports would often get buried in a dense backlog, rarely reaching transport businesses in time if at all. 
+
+I captured the journeys between UfW rangers and transport businesses in wildlife trafficking. It exhibited their pain points and highlighted how disconnected the two were. By using this journey map, we were able to identify the juncture in which we would intervene.  
+
+### Goal 
+Without live reports from the frontline, businesses are in the dark and resort to dated news reports from scattered sources to make logistical decisions.  I helped the team come up with these questions based on the opportunities we discovered during the discovery phase.
+
+>How can we establish communication between rangers and businesses and leverage the knowledge of rangers to improve route planning for businesses?  
+
+>How can we help businesses make the most of this information and use it towards planning safer routes? 
+
+### The Design
+Our final solution, Taskforce Wildlife, allowed logisticians to propose a route and would then output a bespoke risk report based on recent and historic reports made by rangers. The risk report creates a direct communication channel from rangers to logisticians. I created a user journey that helped the team and client understand how the observations of rangers in the field would directly be equipping logisticians with the information they need to plan safe routes.
+
+We established two main guidelines for the Taskforce Wildlife design system. 
+
+> Guideline #1: Prompt action without fear-mongering
+The tool needed to present critical information and a ton of it. However, we knew that jampacking the tool with terrifying warnings and complicated jargon would only overwhelm transport businesses. The design needed to strike a balance between approachable and actionable without downplaying the severity or urgency of the issue.
+
+> Guideline #2: Provide accessibility
+Rangers needed to be able to access Taskforce Wildlife while patrolling rural areas with limited technological access and send reports in real time. It needed to be lightweight, yet reliable. The design system needed to lean enough that loading time would not be compromised. I worked closely with the technical director to develop a library of responsive components fluid across all screen sizes and browser versions. We also opted for typography and high contrast visual treatments that would be communicative in smaller and older devices.
+
+### Impact
+Taskforce Wildlife has since been released and used by rangers and logisticians regularly. United for Wildlife was very satisfied with how we approached the problem. This project was featured in a presentation led by the Duke of Cambridge at the 2018 Illegal Wildlife Trade Conference.
