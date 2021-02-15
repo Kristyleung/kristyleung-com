@@ -1,17 +1,19 @@
 ---
 title: Cirque du Soleil
-description: description
+description: A digital picture book created to entice a new generation of Cirque du Soleil fans.
 keywords: ['Cirque du Soleil', 'project']
 ---
 
 # Storybooks by Cirque du Soleil
 
-A digital picture book created to entice a new generation of Cirque du Soleil fans
+A digital picture book created to entice a new generation of Cirque du Soleil fans.
 
 - Type Academic team project
 - Date Fall 2018
 - Duration 4 weeks
 - Contribution Content Strategy
+
+![A few screens of the Storybooks final prototype](./cirque-du-soleil-hero.jpeg)
 
 ### Sussing out the problem
 
@@ -37,9 +39,13 @@ We wanted to design a product that:
 
 Identifying a well-rounded persona allowed us to strategically design for a specific audience: a parent and their young child.
 
+![Storybooks aims to capture a new generation of Cirque du Soleil fans](./cirque-du-soleil-persona.png)
+
 ### Detailing the customer’s experience
 
 In order to achieve brand loyalty, customers would remain within this lifecycle, but there’s opportunity to drift off and leave the brand after seeing the show. To secure the cycle, our area of intervention adds value to the existing product and puts the brand forefront of their minds so they would be more likely to purchase future tickets or be open to engage with the brand again.
+
+![Our design aims to promote a continued connection between the brand and its customers](./cirque-du-soleil-lifecycle.png)
 
 ### Testing our assumptions
 
@@ -50,9 +56,13 @@ Of course, we still had some unanswered questions that we kept in mind during th
 
 To answer these questions we decided to intervene during the moments after the show. We honed in on 2 main touchpoints in the journey to address our concerns about bridging the show to our product. We took advantage of the peak that occurs after the show and early in the day after when the show is still fresh in their minds.
 
+![Our two areas of intervention occur just before and after the show](./cirque-du-soleil-touchpoints.jpeg)
+
 ### The design
 
 Storybooks is an interactive children’s book for Cirque du Soleil has the potential to highlight the beauty, creativity, and wonder Cirque offers it’s live show-goers, while introducing and underscoring the brand’s values of imagination, emotion and sense to a new generation of audiences. By extending the dream-like experience of Cirque beyond the show, we can strengthen audience enthusiasm and develop lingering memories that may develop an ongoing relationship with the brand and drive repeat viewership over time.
+
+<iframe src="https://www.youtube.com/embed/267xJ-qFs18" width="600" height="400"></iframe>
 
 ## The retrospective
 
