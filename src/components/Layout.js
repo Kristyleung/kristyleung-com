@@ -46,7 +46,7 @@ const layoutStyle = {
   },
   ':after': {
     right: 0,
-    background: `linear-gradient(to bottom, #FFBFBF, #95AB41, #A7CFEF)`,
+    background: `linear-gradient(to bottom, #A7CFEF, #FFBFBF, #95AB41)`,
   }
 }
 
