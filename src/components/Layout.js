@@ -27,17 +27,18 @@ const skipToContentStyle = css(`
   }
 `)
 
-const layoutStyle = {
+const layoutStyle = mq({
   display: 'grid',
   gridTemplateRows: 'auto 1fr auto',
   minHeight: '100vh',
-  margin: '0 8px',
+  marginLeft: [6, 12],
+  marginRight: [6, 12],
   ':before, :after': {
     content: '""',
     position: 'fixed',
     top: 0, 
     bottom: 0,
-    width: 8,
+    width: [6, 12],
     zIndex: -1,
   },
   ':before': {
@@ -48,7 +49,7 @@ const layoutStyle = {
     right: 0,
     background: `linear-gradient(to bottom, #A7CFEF, #FFBFBF, #95AB41)`,
   }
-}
+})
 
 const sectionStyle = mq({
   display: 'grid',
