@@ -22,7 +22,7 @@ const color = {
   white: '#fff',
 }
 
-const sizes = [8, 12, 14, 16, 18, 20, 22, 24, 32, 42, 64]
+const sizes = [8, 12, 14, 16, 18, 20, 22, 24, 32, 52, 64]
 
 const spacings = [4, 8, 16, 24, 32, 64]
 

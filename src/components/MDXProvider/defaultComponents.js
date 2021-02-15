@@ -27,7 +27,7 @@ import {
   hrStyle,
 } from './styles'
 import CodeBlock from '../CodeBlock'
-import { Experience, ProjectLink, SectionHeader } from './customComponents'
+import { Experience, PageHeading, ProjectLink, SectionHeader } from './customComponents'
 
 /** https://mdxjs.com/table-of-components */
 
@@ -208,8 +208,9 @@ const components = {
 
   // Custom MDX components
   Experience,
-  SectionHeader,
+  PageHeading,
   ProjectLink,
+  SectionHeader,
 }
 
 export default components

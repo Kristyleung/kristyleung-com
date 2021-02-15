@@ -1,7 +1,8 @@
 import React from 'react'
 import { css, useTheme } from '@emotion/react'
 import { paragraphStyle } from './styles'
-import { Link } from 'gatsby'
+import Link from '../Link'
+import { mq } from '../../theming/theme'
 
 const projectLinkStyle = ({ theme }) =>
   css({
@@ -17,7 +18,7 @@ const projectLinkStyle = ({ theme }) =>
     },
   })
 
-const projectLinkTitleStyle = ({ theme }) =>
+const projectTitleStyle = ({ theme }) =>
   css({
     fontFamily: theme.font.family.heading,
     fontSize: theme.font.size[7],
@@ -29,8 +30,8 @@ export const ProjectLink = props => {
   return (
     <p css={paragraphStyle({ theme })}>
       <Link css={projectLinkStyle({ theme })} to={link}>
-        <span css={projectLinkTitleStyle({ theme })}>{title}</span>
-        {` — ` + abstract}
+        <span css={projectTitleStyle({ theme })}>{title}</span>
+        {abstract && ` — ` + abstract}
       </Link>
     </p>
   )
@@ -39,6 +40,7 @@ export const ProjectLink = props => {
 const experienceStyle = ({ theme }) =>
   css({
     fontFamily: theme.font.family.heading,
+    fontSize: theme.font.size[7],
   })
 
 export const Experience = props => {
@@ -54,6 +56,7 @@ export const Experience = props => {
 
 const sectionHeaderStyle = ({ theme }) =>
   css({
+    color: theme.colors.text,
     fontFamily: theme.font.family.text,
     borderBottom: `1px solid transparent`,
     borderColor: theme.colors.text,
@@ -64,4 +67,30 @@ const sectionHeaderStyle = ({ theme }) =>
 export const SectionHeader = ({ children }) => {
   const theme = useTheme()
   return <p css={sectionHeaderStyle({ theme })}>{children}</p>
+}
+
+const pageHeadingStyle = ({ theme }) =>
+  mq({
+    fontFamily: theme.font.family.heading,
+    fontSize: [theme.font.size[9], theme.font.size[9], '5vw'],
+    marginBottom: 0,
+  })
+
+const pageAbstractStyle = ({ theme }) =>
+  mq({
+    ...paragraphStyle,
+    fontSize: [theme.font.size[6], theme.font.size[7], '2.125vw'],
+    fontWeight: 300,
+    marginTop: '.5em',
+  })
+
+export const PageHeading = props => {
+  const theme = useTheme()
+  const { title, abstract } = props
+  return (
+    <>
+      <h1 css={pageHeadingStyle({ theme })}>{title}</h1>
+      <p css={pageAbstractStyle({ theme })}>{abstract}</p>
+    </>
+  )
 }

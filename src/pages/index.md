@@ -4,9 +4,7 @@ description: Kristy Leung creates human centered systems and experiences. Curren
 keywords: ['product designer', 'ux']
 ---
 
-# Kristy Leung
-
-Creates human centered systems and experiences. Currently — for Electronic Arts.
+<PageHeading title={`Kristy Leung`} abstract={`Creates human centered systems and experiences. Currently — for Electronic Arts.`} />
 
 <SectionHeader>Selected work</SectionHeader>
 
@@ -30,12 +28,12 @@ Creates human centered systems and experiences. Currently — for Electronic Art
 
 <SectionHeader>Connect</SectionHeader>
 
-[LinkedIn](https://www.linkedin.com/in/kristyleung/ 'LinkedIn')
+<ProjectLink title={`LinkedIn`} link={`https://www.linkedin.com/in/kristyleung/`} />
 
-[Resume](/Kristy-Leung-Product-Designer-Resume.pdf/ 'Resume')
+<ProjectLink title={`Resume`} link={`./Kristy-Leung-Product-Designer-Resume.pdf`} />
 
-[Send me a message](mailto:kristy.leung11@gmail.com 'Hello!')
+<ProjectLink title={`Send me a message`} link={`mailto:kristy.leung11@gmail.com`} />
 
 <SectionHeader>Good reads from my Goodreads</SectionHeader>
 
-[Everything I Never Told You — Celeste Ng](https://www.goodreads.com/review/show/3764491209/ 'Good read')
+<ProjectLink title={`Everything I Never Told You — Celeste Ng`} link={`https://www.goodreads.com/review/show/3764491209/`} />
