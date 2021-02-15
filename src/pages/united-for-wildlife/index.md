@@ -11,13 +11,10 @@ image: ./taskforce-wildlife-hero.png
 
 ## Supporting transport businesses in planning safe routes to avoid wildlife traffickers
 
-| Timeline           | Company         |
-| ------------------ | --------------- |
-| Launched Fall 2018 | Edenspiekermann |
-
-| The challenge                                                                                                                      | The solution                                                                                                            |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Design a solution to help transport businesses assess their route risk and navigate paths compromised by illegal wildlife activity | Taskforce Wildlife is a tool that uses intel from wildlife rangers to create risk assessments for transport businesses. |
+- Timeline: Launched Fall 2018
+- Company: Edenspiekermann
+- The challenge: Design a solution to help transport businesses assess their route risk and navigate paths compromised by illegal wildlife activity
+- The solution: Taskforce Wildlife is a tool that uses intel from wildlife rangers to create risk assessments for transport businesses.
 
 At Edenspiekermann, a design agency based in Amsterdam, I worked closely with one other designer and a technical director on Taskforce Wildlife.
 

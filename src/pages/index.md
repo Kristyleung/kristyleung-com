@@ -33,7 +33,3 @@ keywords: ['product designer', 'ux']
 <ProjectLink title={`Resume`} link={`./Kristy-Leung-Product-Designer-Resume.pdf`} />
 
 <ProjectLink title={`Send me a message`} link={`mailto:kristy.leung11@gmail.com`} />
-
-<SectionHeader>Good reads from my Goodreads</SectionHeader>
-
-<ProjectLink title={`Everything I Never Told You — Celeste Ng`} link={`https://www.goodreads.com/review/show/3764491209/`} />

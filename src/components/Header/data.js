@@ -4,10 +4,6 @@ export const navigationData = [
     to: '/',
   },
   {
-    label: 'Blog',
-    to: '/blog',
-  },
-  {
     label: 'About',
     to: '/about',
   },
