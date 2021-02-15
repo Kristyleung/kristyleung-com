@@ -31,6 +31,23 @@ const layoutStyle = {
   display: 'grid',
   gridTemplateRows: 'auto 1fr auto',
   minHeight: '100vh',
+  margin: '0 8px',
+  ':before, :after': {
+    content: '""',
+    position: 'fixed',
+    top: 0, 
+    bottom: 0,
+    width: 8,
+    zIndex: -1,
+  },
+  ':before': {
+    left: 0,
+    background: `linear-gradient(to bottom, #FFBFBF, #95AB41, #A7CFEF)`,
+  },
+  ':after': {
+    right: 0,
+    background: `linear-gradient(to bottom, #FFBFBF, #95AB41, #A7CFEF)`,
+  }
 }
 
 const sectionStyle = mq({
