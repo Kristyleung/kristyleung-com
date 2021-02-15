@@ -63,14 +63,14 @@ _I created a user journey that helped the team and client understand how the obs
 
 We established two main guidelines for the Taskforce Wildlife design system.
 
-![Taskforce Wildlife aimed to prompt user action without fear-mongering](taskforce-wildlife-prompting-action.gif)
+![Taskforce Wildlife aimed to prompt user action without fear-mongering](taskforce-wildlife-prompting-action.mp4)
 
 _The design needed convey information in a manner that was approachable and actionable without downplaying the severity or urgency of what was at stake._
 
 > Guideline #1: Prompt action without fear-mongering
 > The tool needed to present critical information and a ton of it. However, we knew that jampacking the tool with terrifying warnings and complicated jargon would only overwhelm transport businesses. The design needed to strike a balance between approachable and actionable without downplaying the severity or urgency of the issue.
 
-![Taskforce Wildlife needed to be accessible in the most dire situations](./taskforce-wildlife-accessibility.gif)
+![Taskforce Wildlife needed to be accessible in the most dire situations](./taskforce-wildlife-accessibility.mp4)
 
 _We constructed a set of lightweight and responsive components so that rangers could load Taskforce Wildlife while patrolling rural areas with limited technological access._
 
