@@ -47,7 +47,7 @@ const sectionStyle = mq({
   },
 })
 
-const Layout = ({ children, siteTitle, title, description, keywords }) => {
+const Layout = ({ children, location, siteTitle, title, description, keywords }) => {
   return (
     <>
       <a css={skipToContentStyle} href="#content">
@@ -55,7 +55,7 @@ const Layout = ({ children, siteTitle, title, description, keywords }) => {
       </a>
       <div css={layoutStyle}>
         <SEO title={title} description={description} keywords={keywords} />
-        <Header siteTitle={siteTitle} />
+        <Header siteTitle={siteTitle} location={location} />
         <main id="content" role="main">
           <section css={sectionStyle}>{children}</section>
         </main>

@@ -3,14 +3,14 @@ import { StaticQuery, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PropTypes from 'prop-types'
 
-const Default = ({ children, pageContext }) => {
+const Default = ({ children, location, pageContext }) => {
   const { title, description, keywords } = pageContext.frontmatter
   return (
     <StaticQuery
       query={pageQuery}
       render={data => {
         return (
-          <Layout siteTitle={data.site.siteMetadata.title} title={title} description={description} keywords={keywords}>
+          <Layout siteTitle={data.site.siteMetadata.title} title={title} description={description} keywords={keywords} location={location}>
             {children}
           </Layout>
         )

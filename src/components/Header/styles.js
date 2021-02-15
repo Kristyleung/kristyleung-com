@@ -15,7 +15,7 @@ export const headerStyle = ({ theme }) => ({
 
 export const brandLinkStyle = ({ theme }) => ({
   color: theme.colors.text,
-  fontFamily: theme.font.family.heading,
+  fontFamily: theme.font.family.text,
   fontSize: theme.font.size[3],
   padding: theme.spacing[1],
   textDecoration: 'none',
