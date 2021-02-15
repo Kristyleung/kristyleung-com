@@ -60,14 +60,14 @@ _I created a user journey that helped the team and client understand how the obs
 
 We established two main guidelines for the Taskforce Wildlife design system.
 
-<iframe src="https://youtu.be/Rs56Yv-ZqUY" width="600" height="400"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rs56Yv-ZqUY" width="600" height="400"></iframe>
 
 _The design needed convey information in a manner that was approachable and actionable without downplaying the severity or urgency of what was at stake._
 
 > Guideline #1: Prompt action without fear-mongering
 > The tool needed to present critical information and a ton of it. However, we knew that jampacking the tool with terrifying warnings and complicated jargon would only overwhelm transport businesses. The design needed to strike a balance between approachable and actionable without downplaying the severity or urgency of the issue.
 
-<iframe src="https://youtu.be/B60NKcKKRiM" width="600" height="400"></iframe>
+<iframe src="https://www.youtube.com/embed/B60NKcKKRiM" width="600" height="400"></iframe>
 
 _We constructed a set of lightweight and responsive components so that rangers could load Taskforce Wildlife while patrolling rural areas with limited technological access._
 
