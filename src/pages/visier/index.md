@@ -9,9 +9,8 @@ image: ./visier-hero.png
 
 Creating a collaborative experience for workforce planners
 
-| Timeline           | Duration |
-| ------------------ | -------- |
-| Launched Fall 2016 | 2 weeks  |
+- Timeline: Launched Fall 2016
+- Duration: 2 weeks
 
 ![The user interface of Visier's Workforce Planning platform](./visier-hero.png)
 
@@ -27,7 +26,7 @@ Upon speaking to the development team, I learned that WFP could not allow multip
 
 ### Pencils over pixels
 
-![A preliminary sketch of a toggle controlled by the plan editor](./visier-hero.png)
+![A preliminary sketch of a toggle controlled by the plan editor](./visier-sketch-toggle.png)
 
 This sketch details one of many early attempts to visually represent the behavior of the plan-sharing feature: a switch that could be toggled by an editor to turn editing capabilities on and off to allow another user to edit. However, certain back-end complications surfaced which required the user to manually refresh the plan in order for the sharing status to change. The toggle did not provide adequate visual cues to support this behavior.
 
@@ -41,15 +40,15 @@ At this point in the design process, I was bogged down by concerns like: How are
 
 After identifying these components, I was able to find a jumping off point and create a mind map and another iteration of the interface sketch.
 
-![Mapping out user decisions and software behavior helps to break down complexity](./visier-hero.png)
+![Mapping out user decisions and software behavior helps to break down complexity](./visier-mindmap.png)
 
 ### The design
 
-![This design was developed in the mockups below, and was implemented into the platform](./visier-hero.png)
+![This design was developed in the mockups below, and was implemented into the platform](./visier-sketch-states.png)
 
 A later reiteration encapsulated all three requirements determined before. The toggle from before was replaced by buttons that also double as status indicators.
 
-![This design was developed in the mockups below, and was implemented into the platform](./visier-hero.png)
+![This design was developed in the mockups below, and was implemented into the platform](./visier-slides.gif)
 
 ### The retrospective
 
