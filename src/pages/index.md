@@ -20,7 +20,7 @@ keywords: ['product designer', 'ux']
 
 <ProjectLink title={`Electronic Arts`} abstract={`Product Designer`} link={`https://www.ea.com/`} />
 
-<ProjectLink title={`8it`} abstract={`Product Designer`} />
+<Experience company={`8it`} role={`Product Designer`} />
 
 <ProjectLink title={`Edenspiekermann`} abstract={`UX Designer`} link={`https://www.edenspiekermann.com/`} />
 
