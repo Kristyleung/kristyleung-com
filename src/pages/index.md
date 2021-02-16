@@ -18,7 +18,7 @@ keywords: ['product designer', 'ux']
 
 <SectionHeader>Experience</SectionHeader>
 
-<Experience company={`Electronic Arts`} link={`/https://www.ea.com/`} role={`Product Designer`} />
+<ProjectLink title={`Electronic Arts`} abstract={`Product Designer`} link={`/https://www.ea.com/`}/>
 
 <Experience company={`8it`} role={`Product Designer`} />
 
