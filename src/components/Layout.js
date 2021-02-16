@@ -47,7 +47,7 @@ const layoutStyle = mq({
   },
   ':after': {
     right: 0,
-    background: `linear-gradient(to bottom, #9BB779, #95AB41)`,
+    background: `linear-gradient(to bottom, #9BB779, #A7E6EF)`,
   },
 })
 
