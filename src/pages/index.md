@@ -18,13 +18,13 @@ keywords: ['product designer', 'ux']
 
 <SectionHeader>Experience</SectionHeader>
 
-<ProjectLink title={`Electronic Arts`} abstract={`Product Designer`} link={`https://www.ea.com/`}/>
+<ProjectLink title={`Electronic Arts`} abstract={`Product Designer`} link={`https://www.ea.com/`} />
 
 <ProjectLink title={`8it`} abstract={`Product Designer`} />
 
-<ProjectLink title={`Edenspiekermann`} abstract={`UX Designer`} link={'https://www.edenspiekermann.com/`}/>
+<ProjectLink title={`Edenspiekermann`} abstract={`UX Designer`} link={'https://www.edenspiekermann.com/`} />
 
-<ProjectLink title={`Visier`} abstract={`UX Design Intern`} link={`https://www.visier.com/`}/>
+<ProjectLink title={`Visier`} abstract={`UX Design Intern`} link={`https://www.visier.com/`} />
 
 <SectionHeader>Connect</SectionHeader>
 
