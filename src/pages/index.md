@@ -8,13 +8,17 @@ keywords: ['product designer', 'ux']
 
 <SectionHeader>Selected work</SectionHeader>
 
-<ProjectLink title={`Electronic Arts`} abstract={`A crossplay design system to connect millions of players`} link={`/electronic-arts/`} />
+<ProjectLink title={`Electronic Arts`} abstract={`Pioneering a crossplay gaming experience for millions of players`} link={`/electronic-arts/`} />
 
-<ProjectLink title={`Taskforce Wildlife by United for Wildlife`} abstract={`A tool that uses reports from rangers to stop animal trafficking`} link={`/united-for-wildlife/`} />
+<ProjectLink title={`Taskforce Wildlife by United for Wildlife`} abstract={`Supporting transport businesses in planning safe routes to avoid wildlife traffickers`} link={`/united-for-wildlife/`} />
 
-<ProjectLink title={`Workforce Planning by Visier`} abstract={`A predictive solution that enables collaboration in workforce planning`} link={`/visier/`} />
+<ProjectLink title={`Workforce Planning by Visier`} abstract={` — Facilitating collaboration for businesses to analyse their headcount data`} link={`/visier/`} />
 
-<ProjectLink title={`Storybooks by Cirque du Soleil`} abstract={`A digital picture book created to entice a new generation of Cirque du Soleil fans`} link={`/cirque-du-soleil/`} />
+<ProjectLink title={`Storybooks by Cirque du Soleil`} abstract={`Enticing a new generation of circus-goers with storytelling`} link={`/cirque-du-soleil/`} />
+
+
+
+
 
 <SectionHeader>Experience</SectionHeader>
 
