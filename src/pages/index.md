@@ -22,7 +22,7 @@ keywords: ['product designer', 'ux']
 
 <ProjectLink title={`8it`} abstract={`Product Designer`} />
 
-<ProjectLink title={`Edenspiekermann`} abstract={`UX Designer`} link={'https://www.edenspiekermann.com/`} />
+<ProjectLink title={`Edenspiekermann`} abstract={`UX Designer`} link={`https://www.edenspiekermann.com/`} />
 
 <ProjectLink title={`Visier`} abstract={`UX Design Intern`} link={`https://www.visier.com/`} />
 
