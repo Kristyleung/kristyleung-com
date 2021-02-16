@@ -1,5 +1,3 @@
-import { mq } from '../../theming/theme'
-
 export const paragraphStyle = ({ theme }) => ({
   color: theme.colors.text,
   fontFamily: theme.font.family.text,
@@ -10,13 +8,11 @@ export const paragraphStyle = ({ theme }) => ({
   marginBottom: theme.spacing[3],
 })
 
-export const h1Style = ({ theme }) =>
-  mq({
-    color: theme.colors.text,
-    fontFamily: theme.font.family.heading,
-    fontSize: theme.font.size[9],
-    // fontSize: [theme.font.size[9], theme.font.size[9], '5vw'],
-  })
+export const h1Style = ({ theme }) => ({
+  color: theme.colors.text,
+  fontFamily: theme.font.family.heading,
+  fontSize: theme.font.size[10],
+})
 
 export const h2Style = ({ theme }) => ({
   color: theme.colors.text,

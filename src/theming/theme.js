@@ -1,6 +1,7 @@
 import facepaint from 'facepaint'
 import '../css/typography.css'
 import '@fontsource/public-sans/300.css'
+import '@fontsource/public-sans/700.css'
 
 export const mq = facepaint(['@media(min-width: 420px)', '@media(min-width: 920px)', '@media(min-width: 1120px)'])
 
@@ -22,9 +23,9 @@ const color = {
   white: '#fff',
 }
 
-const sizes = [8, 12, 14, 16, 18, 20, 22, 24, 32, 52, 64]
+const sizes = [8, 12, 14, 16, 18, 20, 22, 24, 32, 48, 52, 64, 96]
 
-const spacings = [4, 8, 16, 24, 32, 64]
+const spacings = [4, 8, 16, 24, 32, 64, 120]
 
 const baseTheme = {
   font: {

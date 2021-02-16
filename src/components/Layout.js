@@ -53,14 +53,14 @@ const layoutStyle = mq({
 
 const sectionStyle = mq({
   display: 'grid',
-  gridTemplateColumns: ['minmax(24px,1fr) minmax(auto, 768px) minmax(24px,1fr)'],
+  gridTemplateColumns: ['minmax(24px,1fr) minmax(auto, 960px) minmax(24px,1fr)'],
   '*': {
     gridColumn: 2,
   },
   figure: {
     gridColumn: '1 / -1',
     margin: 'auto !important',
-    maxWidth: [960, 960, 1200],
+    maxWidth: 960,
     width: '100%',
   },
 })

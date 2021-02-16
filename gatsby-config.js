@@ -22,7 +22,6 @@ module.exports = {
       options: {
         defaultLayouts: {
           default: path.resolve('./src/templates/Default.js'),
-          blogPost: path.resolve('./src/templates/BlogPost.js'),
         },
         extensions: ['.mdx', '.md'],
         gatsbyRemarkPlugins: [

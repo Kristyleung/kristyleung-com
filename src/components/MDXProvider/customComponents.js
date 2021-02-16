@@ -24,11 +24,24 @@ const projectTitleStyle = ({ theme }) =>
     fontSize: theme.font.size[7],
   })
 
-export const ProjectLink = props => {
+const projectParagraphStyle = ({ theme }) =>
+  css(paragraphStyle, {
+    borderTop: `1px solid transparent`,
+    borderColor: theme.colors.text,
+    fontFamily: theme.font.family.heading,
+    fontSize: theme.font.size[6],
+    fontWeight: 300,
+    lineHeight: 1.5,
+    paddingBottom: '1em',
+    paddingTop: '1em',
+    margin: 0,
+  })
+
+export const ProjectLink = (props) => {
   const theme = useTheme()
   const { abstract, link, title } = props
   return (
-    <p css={paragraphStyle({ theme })}>
+    <p css={projectParagraphStyle({ theme })}>
       <Link css={projectLinkStyle({ theme })} to={link}>
         <span css={projectTitleStyle({ theme })}>{title}</span>
         {abstract && ` — ` + abstract}
@@ -43,11 +56,23 @@ const experienceStyle = ({ theme }) =>
     fontSize: theme.font.size[7],
   })
 
-export const Experience = props => {
+const experienceParagraphStyle = ({ theme }) =>
+  css(paragraphStyle, {
+    borderTop: `1px solid transparent`,
+    borderColor: theme.colors.text,
+    fontSize: theme.font.size[6],
+    fontWeight: 300,
+    lineHeight: 1.5,
+    paddingBottom: '1em',
+    paddingTop: '1em',
+    margin: 0,
+  })
+
+export const Experience = (props) => {
   const theme = useTheme()
   const { company, role } = props
   return (
-    <p css={paragraphStyle({ theme })}>
+    <p css={experienceParagraphStyle({ theme })}>
       <span css={experienceStyle({ theme })}>{company}</span>
       {` — ` + role}
     </p>
@@ -58,10 +83,12 @@ const sectionHeaderStyle = ({ theme }) =>
   css({
     color: theme.colors.text,
     fontFamily: theme.font.family.text,
-    borderBottom: `1px solid transparent`,
-    borderColor: theme.colors.text,
-    paddingTop: theme.spacing[2],
-    paddingBottom: theme.spacing[2],
+    fontSize: theme.font.size[2],
+    fontWeight: 'bold',
+    paddingTop: theme.spacing[3],
+    paddingBottom: theme.spacing[3],
+    marginBottom: 0,
+    marginTop: theme.spacing[6],
   })
 
 export const SectionHeader = ({ children }) => {
@@ -72,19 +99,19 @@ export const SectionHeader = ({ children }) => {
 const pageHeadingStyle = ({ theme }) =>
   mq({
     fontFamily: theme.font.family.heading,
-    fontSize: [theme.font.size[9], theme.font.size[9], '5vw'],
+    fontSize: theme.font.size[9],
     marginBottom: 0,
   })
 
 const pageAbstractStyle = ({ theme }) =>
-  mq({
-    ...paragraphStyle,
-    fontSize: [theme.font.size[6], theme.font.size[7], '2.125vw'],
+  mq(paragraphStyle, {
+    fontSize: theme.font.size[8],
+    lineHeight: 1.3,
     fontWeight: 300,
-    marginTop: '.5em',
+    marginTop: '2rem',
   })
 
-export const PageHeading = props => {
+export const PageHeading = (props) => {
   const theme = useTheme()
   const { title, abstract } = props
   return (
