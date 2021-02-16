@@ -25,7 +25,8 @@ const projectTitleStyle = ({ theme }) =>
   })
 
 const projectParagraphStyle = ({ theme }) =>
-  css(paragraphStyle, {
+  css({
+    ...paragraphStyle,
     borderTop: `1px solid transparent`,
     borderColor: theme.colors.text,
     fontFamily: theme.font.family.heading,
@@ -57,7 +58,8 @@ const experienceStyle = ({ theme }) =>
   })
 
 const experienceParagraphStyle = ({ theme }) =>
-  css(paragraphStyle, {
+  css({
+    ...paragraphStyle,
     borderTop: `1px solid transparent`,
     borderColor: theme.colors.text,
     fontSize: theme.font.size[6],
