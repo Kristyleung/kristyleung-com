@@ -20,15 +20,15 @@ keywords: ['product designer', 'ux']
 
 <ProjectLink title={`Electronic Arts`} abstract={`Product Designer`} link={`https://www.ea.com/`}/>
 
-<Experience title={`8it`} abstract={`Product Designer`} />
+<ProjectLink title={`8it`} abstract={`Product Designer`} />
 
-<Experience title={`Edenspiekermann`} abstract={`UX Designer`} link={'https://www.edenspiekermann.com/`}/>
+<ProjectLink title={`Edenspiekermann`} abstract={`UX Designer`} link={'https://www.edenspiekermann.com/`}/>
 
-<Experience title={`Visier`} abstract={`UX Design Intern`} link={`https://www.visier.com/`}/>
+<ProjectLink title={`Visier`} abstract={`UX Design Intern`} link={`https://www.visier.com/`}/>
 
 <SectionHeader>Connect</SectionHeader>
 
-<ProjectLink title={`LinkedIn`} link={`https://www.linkedin.com/in/kristyleung/`} />
+<ProjectLink title={`Linkedin`} link={`https://www.linkedin.com/in/kristyleung/`} />
 
 <ProjectLink title={`Resume`} link={`./Kristy-Leung-Product-Designer-Resume.pdf`} />
 
