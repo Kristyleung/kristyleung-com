@@ -12,13 +12,9 @@ keywords: ['product designer', 'ux']
 
 <ProjectLink title={`Taskforce Wildlife by United for Wildlife`} abstract={`Supporting transport businesses in planning safe routes to avoid wildlife traffickers`} link={`/united-for-wildlife/`} />
 
-<ProjectLink title={`Workforce Planning by Visier`} abstract={` — Facilitating collaboration for businesses to analyse their headcount data`} link={`/visier/`} />
+<ProjectLink title={`Workforce Planning by Visier`} abstract={`Facilitating collaboration for businesses to analyse their headcount data`} link={`/visier/`} />
 
 <ProjectLink title={`Storybooks by Cirque du Soleil`} abstract={`Enticing a new generation of circus-goers with storytelling`} link={`/cirque-du-soleil/`} />
-
-
-
-
 
 <SectionHeader>Experience</SectionHeader>
 

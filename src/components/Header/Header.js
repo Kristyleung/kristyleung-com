@@ -4,11 +4,11 @@ import PropTypes from 'prop-types'
 import { brandLinkStyle, headerStyle, navStyle, navLinkActiveStyle, navLinkStyle } from './styles'
 import { navigationData } from './data'
 import { useTheme } from '@emotion/react'
-import { withPrefix } from "gatsby"
+import { withPrefix } from 'gatsby'
 
 const Header = ({ location, siteTitle }) => {
   const theme = useTheme()
-  const isHomepage = location.pathname === withPrefix("/")
+  const isHomepage = location.pathname === withPrefix('/')
   return (
     <header css={headerStyle({ theme })}>
       <Link to="/" css={brandLinkStyle({ theme })}>

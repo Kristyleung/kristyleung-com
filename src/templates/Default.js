@@ -10,7 +10,13 @@ const Default = ({ children, location, pageContext }) => {
       query={pageQuery}
       render={data => {
         return (
-          <Layout siteTitle={data.site.siteMetadata.title} title={title} description={description} keywords={keywords} location={location}>
+          <Layout
+            siteTitle={data.site.siteMetadata.title}
+            title={title}
+            description={description}
+            keywords={keywords}
+            location={location}
+          >
             {children}
           </Layout>
         )

@@ -36,7 +36,7 @@ const layoutStyle = mq({
   ':before, :after': {
     content: '""',
     position: 'fixed',
-    top: 0, 
+    top: 0,
     bottom: 0,
     width: [6, 12],
     zIndex: -1,
@@ -48,7 +48,7 @@ const layoutStyle = mq({
   ':after': {
     right: 0,
     background: `linear-gradient(to bottom, #A7CFEF, #FFBFBF, #95AB41)`,
-  }
+  },
 })
 
 const sectionStyle = mq({
