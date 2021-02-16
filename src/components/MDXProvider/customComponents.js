@@ -37,7 +37,7 @@ const projectParagraphStyle = ({ theme }) =>
     margin: 0,
   })
 
-export const ProjectLink = (props) => {
+export const ProjectLink = props => {
   const theme = useTheme()
   const { abstract, link, title } = props
   return (
@@ -68,7 +68,7 @@ const experienceParagraphStyle = ({ theme }) =>
     margin: 0,
   })
 
-export const Experience = (props) => {
+export const Experience = props => {
   const theme = useTheme()
   const { company, role } = props
   return (
@@ -111,7 +111,7 @@ const pageAbstractStyle = ({ theme }) =>
     marginTop: '2rem',
   })
 
-export const PageHeading = (props) => {
+export const PageHeading = props => {
   const theme = useTheme()
   const { title, abstract } = props
   return (

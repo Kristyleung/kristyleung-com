@@ -18,13 +18,13 @@ keywords: ['product designer', 'ux']
 
 <SectionHeader>Experience</SectionHeader>
 
-<Experience company={`Electronic Arts`} role={`Experience Designer`} />
+<Experience company={`Electronic Arts`} link={`/https://www.ea.com/`} role={`Product Designer`} />
 
-<Experience company={`8it`} role={`User Experience Designer`} />
+<Experience company={`8it`} role={`Product Designer`} />
 
-<Experience company={`Edenspiekermann`} role={`Interaction Designer`} />
+<Experience company={`Edenspiekermann`} link={'/https:/www.edenspiekermann.com/'} role={`UX Designer`} />
 
-<Experience company={`Visier`} role={`User Experience Designer`} />
+<Experience company={`Visier`} link={`/https://www.visier.com/`} role={`UX Design Intern`} />
 
 <SectionHeader>Connect</SectionHeader>
 
