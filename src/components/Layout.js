@@ -43,7 +43,7 @@ const layoutStyle = mq({
   },
   ':before': {
     left: 0,
-    background: `linear-gradient(to bottom, #C27958, #FCD4C1, #E9AA77)`,
+    background: `linear-gradient(to bottom, #C27958, #E4B782)`,
   },
   ':after': {
     right: 0,
