@@ -14,8 +14,6 @@ keywords: ['product designer', 'ux']
 
 <ProjectLink title={`Workforce Planning by Visier`} abstract={`Facilitating collaboration for businesses to analyse their headcount data`} link={`/visier/`} />
 
-<ProjectLink title={`Storybooks by Cirque du Soleil`} abstract={`Enticing a new generation of circus-goers with storytelling`} link={`/cirque-du-soleil/`} />
-
 <SectionHeader>Experience</SectionHeader>
 
 <ProjectLink title={`Electronic Arts`} abstract={`Product Designer`} link={`https://www.ea.com/`} />
