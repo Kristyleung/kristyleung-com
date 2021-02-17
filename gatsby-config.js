@@ -35,7 +35,7 @@ module.exports = {
               quality: 75,
               showCaptions: true,
               linkImagesToOriginal: false,
-              wrapperStyle: `margin: 1em 0;`,
+              wrapperStyle: ``,
             },
           },
           { resolve: `gatsby-remark-responsive-iframe` },

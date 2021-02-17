@@ -59,8 +59,8 @@ const sectionStyle = mq({
   },
   figure: {
     gridColumn: '1 / -1',
-    margin: 'auto !important',
-    maxWidth: 960,
+    margin: 'auto',
+    maxWidth: 1200,
     width: '100%',
   },
 })
@@ -77,7 +77,7 @@ const Layout = ({ children, location, siteTitle, title, description, keywords })
         <main id="content" role="main">
           <section css={sectionStyle}>{children}</section>
         </main>
-        <Footer />
+        <Footer siteTitle={siteTitle} />
       </div>
     </>
   )

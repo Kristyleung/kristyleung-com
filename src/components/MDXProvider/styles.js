@@ -51,6 +51,14 @@ export const thematicBreakStyle = ({ theme }) => ({
 export const blockquoteStyle = ({ theme }) => ({
   color: theme.colors.text,
   fontFamily: theme.font.family.heading,
+  p: {
+    fontFamily: theme.font.family.heading,
+    fontSize: theme.font.size[8],
+    lineHeight: 1.65,
+    ':before': {
+      content: '"— "',
+    },
+  }
 })
 
 export const ulStyle = ({ theme }) => ({
