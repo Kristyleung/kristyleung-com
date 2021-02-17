@@ -30,6 +30,7 @@ export const navStyle = ({ theme }) => ({
 })
 
 export const navLinkStyle = ({ theme }) => ({
+  color: theme.colors.text,
   fontSize: theme.font.size[3],
   padding: theme.spacing[1],
   textDecoration: 'none',
