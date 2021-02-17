@@ -9,6 +9,7 @@ function SEO({ description, lang, meta, keywords, title }) {
       query={detailsQuery}
       render={data => {
         const metaDescription = description || data.site.siteMetadata.description
+        const metaImage = data.site.siteMetadata.url + data.site.siteMetadata.image
         return (
           <Helmet
             htmlAttributes={{
@@ -30,6 +31,10 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
               {
+                property: 'og:image',
+                content: metaImage,
+              },
+              {
                 property: 'og:type',
                 content: 'website',
               },
@@ -48,6 +53,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 name: 'twitter:description',
                 content: metaDescription,
+              },
+              {
+                name: 'twitter:image',
+                content: metaImage,
               },
             ]
               .concat(
@@ -77,7 +86,8 @@ SEO.propTypes = {
   keywords: PropTypes.arrayOf(PropTypes.string),
   lang: PropTypes.string,
   meta: PropTypes.array,
-  title: PropTypes.string.isRequired,
+  url: PropTypes.string,
+  image: PropTypes.string,
 }
 
 export default SEO
@@ -89,6 +99,8 @@ const detailsQuery = graphql`
         title
         description
         author
+        url
+        image
       }
     }
   }
