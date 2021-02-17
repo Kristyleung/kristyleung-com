@@ -1,7 +1,7 @@
 ---
 title: Visier
-description: description
-keywords: ['visier', 'project']
+description: Creating a collaborative experience for workforce planners.
+keywords: ['visier', 'workforce planning']
 image: ./visier-hero.png
 ---
 
