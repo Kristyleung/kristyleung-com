@@ -39,6 +39,7 @@ export const light = {
   ...baseTheme,
   colors: {
     background: color.white,
+    border: color.grey,
     figcaption: color.grey,
     focus: color.amber,
     footer: color.smoke,

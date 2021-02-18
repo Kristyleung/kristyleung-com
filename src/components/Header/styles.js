@@ -22,7 +22,7 @@ export const brandLinkStyle = ({ theme }) => ({
   ...focusState({ theme }),
 })
 
-export const navStyle = ({ theme }) => ({
+export const navHeaderStyle = ({ theme }) => ({
   alignItems: 'center',
   display: 'grid',
   gridAutoFlow: 'column',
