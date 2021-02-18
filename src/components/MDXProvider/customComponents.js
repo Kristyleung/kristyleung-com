@@ -59,15 +59,15 @@ const experienceStyle = ({ theme }) =>
 
 const experienceParagraphStyle = ({ theme }) =>
   css({
-    ...paragraphStyle,
     borderTop: `1px solid transparent`,
     borderColor: theme.colors.text,
+    fontFamily: theme.font.family.text,
     fontSize: theme.font.size[6],
     fontWeight: 300,
     lineHeight: 1.5,
+    margin: 0,
     paddingBottom: '1em',
     paddingTop: '1em',
-    margin: 0,
   })
 
 export const Experience = props => {
