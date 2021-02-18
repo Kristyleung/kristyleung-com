@@ -85,7 +85,7 @@ const sectionHeaderStyle = ({ theme }) =>
   css({
     color: theme.colors.text,
     fontFamily: theme.font.family.text,
-    fontSize: theme.font.size[2],
+    fontSize: theme.font.size[4],
     fontWeight: 'bold',
     paddingTop: theme.spacing[3],
     paddingBottom: theme.spacing[3],
