@@ -11,7 +11,7 @@ const fonts = {
 }
 
 const color = {
-  amber: '#fca623',
+  amber: '#c27958',
   black: '#000',
   blue: '#0000ff',
   bullet: '#1e1e1e',
@@ -39,11 +39,12 @@ export const light = {
   ...baseTheme,
   colors: {
     background: color.white,
+    border: color.grey,
     figcaption: color.grey,
     focus: color.amber,
-    footer: color.smoke,
+    footer: color.white,
     header: color.white,
-    link: color.primary,
+    link: color.caviar,
     text: color.caviar,
   },
 }

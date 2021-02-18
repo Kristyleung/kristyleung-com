@@ -6,12 +6,15 @@ import { mq } from '../../theming/theme'
 
 const projectLinkStyle = ({ theme }) =>
   css({
-    backgroundImage: `linear-gradient(180deg, transparent 65%, #d4d7f9 0)`,
+    backgroundImage: `linear-gradient(180deg, transparent 65%, #dddcc0 0)`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: '0% 100%',
     color: theme.colors.text,
+    fontSize: theme.font.size[6],
+    fontWeight: 300,
     textDecoration: 'none',
     transition: 'background-size .4s ease',
+    borderBottom: 'none !important',
     ':hover': {
       backgroundSize: '100% 100%',
       cursor: 'pointer',
@@ -22,16 +25,13 @@ const projectTitleStyle = ({ theme }) =>
   css({
     fontFamily: theme.font.family.heading,
     fontSize: theme.font.size[7],
+    fontWeight: 'bold',
   })
 
 const projectParagraphStyle = ({ theme }) =>
   css({
-    ...paragraphStyle,
     borderTop: `1px solid transparent`,
-    borderColor: theme.colors.text,
-    fontFamily: theme.font.family.heading,
-    fontSize: theme.font.size[6],
-    fontWeight: 300,
+    borderColor: theme.colors.border,
     lineHeight: 1.5,
     paddingBottom: '1em',
     paddingTop: '1em',
@@ -59,15 +59,15 @@ const experienceStyle = ({ theme }) =>
 
 const experienceParagraphStyle = ({ theme }) =>
   css({
-    ...paragraphStyle,
     borderTop: `1px solid transparent`,
-    borderColor: theme.colors.text,
+    borderColor: theme.colors.border,
+    fontFamily: theme.font.family.text,
     fontSize: theme.font.size[6],
     fontWeight: 300,
     lineHeight: 1.5,
+    margin: 0,
     paddingBottom: '1em',
     paddingTop: '1em',
-    margin: 0,
   })
 
 export const Experience = props => {
@@ -85,7 +85,7 @@ const sectionHeaderStyle = ({ theme }) =>
   css({
     color: theme.colors.text,
     fontFamily: theme.font.family.text,
-    fontSize: theme.font.size[2],
+    fontSize: theme.font.size[4],
     fontWeight: 'bold',
     paddingTop: theme.spacing[3],
     paddingBottom: theme.spacing[3],

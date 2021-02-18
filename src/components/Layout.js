@@ -1,5 +1,5 @@
 import React from 'react'
-import { css } from '@emotion/react'
+import { css, useTheme } from '@emotion/react'
 import Footer from './Footer'
 import Header from './Header'
 import PropTypes from 'prop-types'
@@ -51,7 +51,7 @@ const layoutStyle = mq({
   },
 })
 
-const sectionStyle = mq({
+const sectionStyle = ({ theme }) => mq({
   display: 'grid',
   gridTemplateColumns: ['minmax(24px,1fr) minmax(auto, 960px) minmax(24px,1fr)'],
   '*': {
@@ -63,9 +63,16 @@ const sectionStyle = mq({
     maxWidth: 1200,
     width: '100%',
   },
+  p: {
+    a: {
+      borderBottom: '1px solid transparent',
+      borderColor: theme.colors.link,
+    }
+  },
 })
 
 const Layout = ({ children, location, siteTitle, title, description, keywords }) => {
+  const theme = useTheme()
   return (
     <>
       <a css={skipToContentStyle} href="#content">
@@ -75,7 +82,7 @@ const Layout = ({ children, location, siteTitle, title, description, keywords })
         <SEO title={title} description={description} keywords={keywords} />
         <Header siteTitle={siteTitle} location={location} />
         <main id="content" role="main">
-          <section css={sectionStyle}>{children}</section>
+          <section css={sectionStyle({ theme })}>{children}</section>
         </main>
         <Footer siteTitle={siteTitle} />
       </div>

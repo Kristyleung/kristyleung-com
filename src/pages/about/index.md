@@ -14,4 +14,4 @@ Are you interested in building something together? Send me [a message](mailto:kr
 
 <SectionHeader>Good reads from my Goodreads</SectionHeader>
 
-1. <ProjectLink title={`Everything I Never Told You`} abstract={`Celeste Ng`} link={`https://www.goodreads.com/review/show/3764491209/`} />
+<ProjectLink title={`Everything I Never Told You`} abstract={`Celeste Ng`} link={`https://www.goodreads.com/review/show/3764491209/`} />
