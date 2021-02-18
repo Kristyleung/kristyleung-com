@@ -6,7 +6,7 @@ import { mq } from '../../theming/theme'
 
 const projectLinkStyle = ({ theme }) =>
   css({
-    backgroundImage: `linear-gradient(180deg, transparent 65%, #d4d7f9 0)`,
+    backgroundImage: `linear-gradient(180deg, transparent 65%, #dddcc0 0)`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: '0% 100%',
     color: theme.colors.text,
@@ -14,6 +14,7 @@ const projectLinkStyle = ({ theme }) =>
     fontWeight: 300,
     textDecoration: 'none',
     transition: 'background-size .4s ease',
+    borderBottom: 'none !important',
     ':hover': {
       backgroundSize: '100% 100%',
       cursor: 'pointer',
