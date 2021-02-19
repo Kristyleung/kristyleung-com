@@ -8,7 +8,7 @@ keywords: ['product designer', 'ux']
 
 <SectionHeader>Selected work</SectionHeader>
 
-<ProjectLink title={`Electronic Arts`} abstract={`Pioneering a crossplay gaming experience for millions of players`} link={`/electronic-arts/`} />
+<ProjectLink title={`Electronic Arts`} abstract={`Enabling millions of player to play with anyone, anywhere`} link={`/electronic-arts/`} />
 
 <ProjectLink title={`Taskforce Wildlife by United for Wildlife`} abstract={`Supporting transport businesses in planning safe routes to avoid wildlife traffickers`} link={`/united-for-wildlife/`} />
 
