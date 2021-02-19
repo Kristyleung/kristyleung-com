@@ -5,7 +5,7 @@ keywords: ['Electronic Arts', 'crossplay']
 image: ./ea.jpg
 ---
 
-# Designing design system to enable crossplay for millions of players
+# Enabling millions of player to play with anyone, anywhere
 
 Building a unified approach for gaming for all EA game titles
 
