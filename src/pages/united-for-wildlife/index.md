@@ -5,21 +5,24 @@ keywords: ['United for Wildlife', 'edenspiekermann']
 image: ./taskforce-wildlife-hero.png
 ---
 
-# Supporting transport businesses in combating wildlife traffickers who seek to illegally transport contraband
+# Taskforce Wildlife
+Taskforce Wildlife is a tool that supports transport businesses in combating wildlife traffickers who seek to illegally transport contraband.
+
+- Timeline: Launched Fall 2018
+- Company: Edenspiekermann    
+- Role: Designed and iterated on core experiences within the application. Reported directly to the technical director of the product. 
 
 ![The hero art for United for Wildlife's Taskforce Wildlife](./taskforce-wildlife-hero.png)
 
-| Timeline           | Company         | Role                                                                                                                          |
-| ------------------ | --------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Launched Fall 2018 | Edenspiekermann | Designed and iterated on core experiences within the application. Reported directly to the technical director of the product. |
 
-![Unifed for Wildlife](./taskforce-wildlife-UFW.png)
-
-_United for Wildlife, an initiative led by the Duke of Cambridge to stop wildlife, approached our team us for possible solutions to lower the rate of wildlife trafficking._
 
 ## Context
 
 Organized criminal networks across the globe have caused an unprecedented increase in the illegal hunting and trading of animals. Traffickers exploit unsuspecting transport businesses by using them to smuggle their contraband.
+
+![Unifed for Wildlife](./taskforce-wildlife-UFW.png)
+
+_United for Wildlife, an initiative led by the Duke of Cambridge to stop wildlife, approached our team us for possible solutions to lower the rate of wildlife trafficking._
 
 In response to the increase of illegal wildlife activities, United for Wildlife (UfW), an organization led by the Duke of Cambridge, approached my team at Edenspiekermann and asked us to explore approaches to lower the rate of wildlife trafficking.
 
@@ -27,7 +30,7 @@ To tackle a problem of this complexity, it was important to understand the space
 
 ## Stakeholders
 
-### Key insight from transport business
+### Key insights from transport business
 
 As we learned about transport businesses we gained a key insight from a logistician from Bangkok Airways. He expressed that decisions surrounding route planning are based on outdated reports or historic trends. Logisticians have no real time data to plan routes that these businesses can rely on. This meant that logisticians were unable to combat traffickers and plan routes safely.
 

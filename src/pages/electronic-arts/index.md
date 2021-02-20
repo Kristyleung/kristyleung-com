@@ -7,9 +7,8 @@ image: ./ea.jpg
 
 # Enabling millions of players to play with anyone, anywhere
 
-| Timeline | Company         |
-| -------- | --------------- |
-| Ongoing  | Electronic Arts |
+- Timeline: Ongoing 
+- Company: Electronic Arts
 
 ## Context
 
