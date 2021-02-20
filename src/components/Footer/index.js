@@ -5,25 +5,27 @@ import { navigationData } from './data'
 import { useTheme } from '@emotion/react'
 import { mq } from '../../theming/theme'
 
-const footerStyle = ({ theme }) => mq({
-  alignItems: ['start', 'start', 'center'],
-  display: 'flex',
-  flexDirection: ['column', 'column', 'row'],
-  justifyContent: 'space-between',
-  padding: theme.spacing[2],
-  marginTop: theme.spacing[6],
-  a: {
-    color: theme.colors.text,
-    whiteSpace: 'nowrap',
-  }
-})
+const footerStyle = ({ theme }) =>
+  mq({
+    alignItems: ['start', 'start', 'center'],
+    display: 'flex',
+    flexDirection: ['column', 'column', 'row'],
+    justifyContent: 'space-between',
+    padding: theme.spacing[2],
+    marginTop: theme.spacing[6],
+    a: {
+      color: theme.colors.text,
+      whiteSpace: 'nowrap',
+    },
+  })
 
-const navFooterStyle = ({ theme }) => mq({
-  alignItems: 'center',
-  display: 'grid',
-  gridAutoFlow: ['row', 'column'],
-  gridGap: [0, theme.spacing[1]],
-})
+const navFooterStyle = ({ theme }) =>
+  mq({
+    alignItems: 'center',
+    display: 'grid',
+    gridAutoFlow: ['row', 'column'],
+    gridGap: [0, theme.spacing[1]],
+  })
 
 const Footer = ({ siteTitle }) => {
   const theme = useTheme()
