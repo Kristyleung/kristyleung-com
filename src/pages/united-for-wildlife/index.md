@@ -5,13 +5,13 @@ keywords: ['United for Wildlife', 'edenspiekermann']
 image: ./taskforce-wildlife-hero.png
 ---
 
-# Supporting transport businesses in combating wildlife traffickers who seek to illegally transport contraband 
+# Supporting transport businesses in combating wildlife traffickers who seek to illegally transport contraband
 
 ![The hero art for United for Wildlife's Taskforce Wildlife](./taskforce-wildlife-hero.png)
 
-|Timeline     | Company    | Role |
-| ------- | ------- | ------- | 
-| Launched Fall 2018  | Edenspiekermann   | Designed and iterated on core experiences within the application. Reported directly to the technical director of the product. | 
+| Timeline           | Company         | Role                                                                                                                          |
+| ------------------ | --------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Launched Fall 2018 | Edenspiekermann | Designed and iterated on core experiences within the application. Reported directly to the technical director of the product. |
 
 ![Unifed for Wildlife](./taskforce-wildlife-UFW.png)
 
@@ -19,22 +19,22 @@ _United for Wildlife, an initiative led by the Duke of Cambridge to stop wildlif
 
 ## Context
 
-Organized criminal networks across the globe have caused an unprecedented increase in the illegal hunting and trading of animals. Traffickers exploit unsuspecting transport businesses by using them to smuggle their contraband. 
+Organized criminal networks across the globe have caused an unprecedented increase in the illegal hunting and trading of animals. Traffickers exploit unsuspecting transport businesses by using them to smuggle their contraband.
 
-In response to the increase of illegal wildlife activities, United for Wildlife (UfW), an organization led by the Duke of Cambridge, approached my team at Edenspiekermann and asked us to explore approaches to lower the rate of wildlife trafficking. 
+In response to the increase of illegal wildlife activities, United for Wildlife (UfW), an organization led by the Duke of Cambridge, approached my team at Edenspiekermann and asked us to explore approaches to lower the rate of wildlife trafficking.
 
 To tackle a problem of this complexity, it was important to understand the space and its actors: _How does wildlife trafficking work? Who are the key stakeholders? What are their pain points?_
 
 ## Stakeholders
 
-### Key insight from transport business  
+### Key insight from transport business
 
-As we learned about transport businesses we gained a key insight from a logistician from Bangkok Airways. He expressed that decisions surrounding route planning are based on outdated reports or historic trends. Logisticians have no real time data to plan routes that these businesses can rely on. This meant that logisticians were unable to combat traffickers and plan routes safely. 
+As we learned about transport businesses we gained a key insight from a logistician from Bangkok Airways. He expressed that decisions surrounding route planning are based on outdated reports or historic trends. Logisticians have no real time data to plan routes that these businesses can rely on. This meant that logisticians were unable to combat traffickers and plan routes safely.
 
 ### Key insights from wildlife rangers
 
-As we learned from wildlife rangers appointed by UfW,  we learned that rangers would make reports when they detect any suspicious activity. But these reports would often get buried in a dense backlog, rarely reaching transport businesses in time if at all. 
-It was clear at this point that there was a disconnect between our two key stakeholders. I captured the journeys between UfW rangers and transport businesses in wildlife trafficking to identify the areas of disconnect and friction.  
+As we learned from wildlife rangers appointed by UfW, we learned that rangers would make reports when they detect any suspicious activity. But these reports would often get buried in a dense backlog, rarely reaching transport businesses in time if at all.
+It was clear at this point that there was a disconnect between our two key stakeholders. I captured the journeys between UfW rangers and transport businesses in wildlife trafficking to identify the areas of disconnect and friction.
 
 ![Current journey map of United for Wildlife and transport businesses](./taskforce-wildlife-current-journey.png)
 
@@ -50,7 +50,7 @@ _We realized a point intervention would be enabling these two stakeholders to sh
 
 ![The user journey map of Taskforce Wildlife](taskforce-wildlife-user-journey-map.png)
 
-Our final solution, Taskforce Wildlife, allowed logisticians to propose a route and would then output a bespoke risk report based on recent and historic reports made by rangers. The risk report creates a direct communication channel from rangers to logisticians. I created a user journey that helped the team and client understand how the observations of rangers in the field would directly be equipping logisticians with the information they need to plan safe routes. 
+Our final solution, Taskforce Wildlife, allowed logisticians to propose a route and would then output a bespoke risk report based on recent and historic reports made by rangers. The risk report creates a direct communication channel from rangers to logisticians. I created a user journey that helped the team and client understand how the observations of rangers in the field would directly be equipping logisticians with the information they need to plan safe routes.
 
 ![The user interface of Taskforce Wildlife platform](taskforce-wildlife-risk-calculator.png)
 

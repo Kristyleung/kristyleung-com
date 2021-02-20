@@ -6,7 +6,7 @@ module.exports = {
     description: 'Portfolio',
     author: '@kristyleung',
     url: 'https://www.kristyleung.com',
-    image: '/default-og-image.png'
+    image: '/default-og-image.png',
   },
   plugins: [
     {

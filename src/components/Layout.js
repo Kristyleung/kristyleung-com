@@ -51,25 +51,26 @@ const layoutStyle = mq({
   },
 })
 
-const sectionStyle = ({ theme }) => mq({
-  display: 'grid',
-  gridTemplateColumns: ['minmax(24px,1fr) minmax(auto, 960px) minmax(24px,1fr)'],
-  '*': {
-    gridColumn: 2,
-  },
-  figure: {
-    gridColumn: '1 / -1',
-    margin: 'auto',
-    maxWidth: 1200,
-    width: '100%',
-  },
-  p: {
-    a: {
-      borderBottom: '1px solid transparent',
-      borderColor: theme.colors.link,
-    }
-  },
-})
+const sectionStyle = ({ theme }) =>
+  mq({
+    display: 'grid',
+    gridTemplateColumns: ['minmax(24px,1fr) minmax(auto, 960px) minmax(24px,1fr)'],
+    '*': {
+      gridColumn: 2,
+    },
+    figure: {
+      gridColumn: '1 / -1',
+      margin: 'auto',
+      maxWidth: 1200,
+      width: '100%',
+    },
+    p: {
+      a: {
+        borderBottom: '1px solid transparent',
+        borderColor: theme.colors.link,
+      },
+    },
+  })
 
 const Layout = ({ children, location, siteTitle, title, description, keywords }) => {
   const theme = useTheme()

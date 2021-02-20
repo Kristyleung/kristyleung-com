@@ -58,7 +58,7 @@ export const blockquoteStyle = ({ theme }) => ({
     ':before': {
       content: '"— "',
     },
-  }
+  },
 })
 
 export const ulStyle = ({ theme }) => ({
