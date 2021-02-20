@@ -5,6 +5,7 @@ keywords: ['Electronic Arts', 'crossplay']
 image: ./ea.jpg
 ---
 
+
 # Enabling millions of players to play with anyone, anywhere
 
 ## Context
