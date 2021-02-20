@@ -41,7 +41,9 @@ It was clear at this point that there was a disconnect between our two key stake
 
 ![Current journey map of United for Wildlife and transport businesses](./taskforce-wildlife-current-journey.png)
 
-_We realized a point intervention would be enabling these two stakeholders to share vital information in a timely manner._
+We realized a point intervention would be enabling these two stakeholders to share vital information in a timely manner.
+
+![Current journey map of United for Wildlife and transport businesses](./taskforce-wildlife-ideal-journey.png)
 
 ## Goal
 
