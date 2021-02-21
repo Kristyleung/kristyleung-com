@@ -31,23 +31,20 @@ const IndexPage = ({ location }) => {
             <SectionHeader>Experiences I’ve created</SectionHeader>
             <FeaturedSection>
               <FeaturedProject
-                company={`Electronic Arts`}
-                title={`A Cross-Play Future by Electronic Arts`}
-                //abstract={`Enabling millions of players to play with anyone, anywhere`}
+                company={`A Cross-Play Future by Electronic Arts`}
+                title={`Enabling millions of players to play with anyone, anywhere`}
                 image={ea}
                 link={`/electronic-arts/`}
               />
               <FeaturedProject
-                company={`United for Wildlife`}
-                title={`Taskforce Wildlife by United for Wildlife`}
-                //abstract={`Supporting transport businesses in planning safe routes to avoid wildlife traffickers`}
+                company={`Taskforce Wildlife by United for Wildlife`}
+                title={`Supporting transport businesses in combating wildlife traffickers who seek to illegally transport contraband`}
                 image={ufw}
                 link={`/united-for-wildlife/`}
               />
               <FeaturedProject
-                company={`Visier`}
-                title={`Workforce Planning by Visier`}
-                //abstract={`Facilitating collaboration for businesses to analyse their headcount data`}
+                company={`Workforce Planning by Visier`}
+                title={`Facilitating collaboration for businesses to analyse their headcount data`}
                 image={visier}
                 link={`/visier/`}
               />

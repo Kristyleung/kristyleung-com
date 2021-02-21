@@ -40,11 +40,10 @@ It was clear at this point that there was a disconnect between our two key stake
 
 ![We realized a point intervention would be enabling these two stakeholders to share vital information in a timely manner.](./taskforce-wildlife-ideal-journey.png)
 
-## Goal
+## Goals
 
-> How can we establish communication between rangers and businesses and leverage the knowledge of rangers to improve route planning for businesses?
-
-> How can we help businesses make the most of this information and use it towards planning safer routes?
+- How can we establish communication between rangers and businesses and leverage the knowledge of rangers to improve route planning for businesses?
+- How can we help businesses make the most of this information and use it towards planning safer routes?
 
 ## Taskforce Wildlife
 
