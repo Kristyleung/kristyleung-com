@@ -126,7 +126,8 @@ export const PageHeading = (props) => {
 
 const projectInfoStyle = ({ theme }) =>
   mq({
-    width: ['100%', '50%'],
+    flex: 'auto',
+    minWidth: '33%',
   })
 
 export const ProjectInfo = (props) => {
@@ -137,12 +138,27 @@ export const ProjectInfo = (props) => {
       <h4
         css={[
           paragraphStyle({ theme }),
-          { fontWeight: 'bold', marginBottom: 0 },
+          { 
+            fontWeight: 'bold', 
+            marginBottom: 0, 
+            fontSize: theme.font.size[3],
+            color: theme.colors.text,
+          },
         ]}
       >
         {title}
       </h4>
-      <p css={paragraphStyle({ theme })}>{abstract}</p>
+      <p 
+        css={[
+          paragraphStyle({ theme }),
+          { 
+            fontSize: theme.font.size[3],
+            color: theme.colors.text,
+          },
+        ]}
+      >
+        {abstract}
+      </p>
     </div>
   )
 }
@@ -151,6 +167,10 @@ const projectSectionStyle = ({ theme }) =>
   mq({
     display: 'flex',
     flexDirection: ['column', 'row'],
+    flexWrap: 'wrap',
+    borderTop: `2px solid transparent`,
+    borderColor: theme.colors.border,
+    paddingTop: '1em',
   })
 
 export const ProjectSection = ({ children }) => {

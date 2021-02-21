@@ -10,6 +10,7 @@ image: ./ea-player-silos.png
 <ProjectSection>
   <ProjectInfo title='Timeline' abstract='Ongoing' />
   <ProjectInfo title='Company' abstract='Electronic Arts' />
+  <ProjectInfo title='Role' abstract='Product designer' />
 </ProjectSection>
 
 ## Context

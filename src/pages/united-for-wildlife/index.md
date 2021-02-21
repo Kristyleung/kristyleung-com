@@ -9,9 +9,11 @@ image: ./taskforce-wildlife-hero.png
 
 Taskforce Wildlife is a tool that supports transport businesses in combating wildlife traffickers who seek to illegally transport contraband.
 
-- Timeline: Launched Fall 2018
-- Company: Edenspiekermann
-- Role: Designed and iterated on core experiences within the application. Reported directly to the technical director of the product.
+<ProjectSection>
+  <ProjectInfo title='Timeline' abstract='Launched Fall 2018' />
+  <ProjectInfo title='Company' abstract='Edenspiekermann' />
+  <ProjectInfo title='Role' abstract='Designed and iterated on core experiences within the application. Reported directly to the technical director of the product.' />
+</ProjectSection>
 
 ![](./taskforce-wildlife-hero.png)
 

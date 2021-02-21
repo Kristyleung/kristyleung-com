@@ -9,7 +9,10 @@ image: ./visier-hero.png
 
 Creating a collaborative experience for workforce planners
 
-- Timeline: Launched Fall 2016
+<ProjectSection>
+  <ProjectInfo title='Timeline' abstract='Launched Fall 2016' />
+  <ProjectInfo title='Role' abstract='UX designer' />
+</ProjectSection>
 
 ![The user interface of Visier's Workforce Planning platform](./visier-hero.png)
 
