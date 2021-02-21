@@ -7,7 +7,7 @@ image: ./ea-player-silos.png
 
 # Enabling millions of players to play with anyone, anywhere
 
-- Timeline: Ongoing 
+- Timeline: Ongoing
 - Company: Electronic Arts
 
 ## Context
