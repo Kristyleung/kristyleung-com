@@ -88,19 +88,17 @@ export const tbodyStyle = ({ theme }) => ({})
 
 export const trStyle = ({ theme }) => ({})
 
-export const tdStyle = ({ theme }) => ([
-  paragraphStyle({ theme }),
-  { marginBottom: 0, }
-])
+export const tdStyle = ({ theme }) => [paragraphStyle({ theme }), { marginBottom: 0 }]
 
-export const thStyle = ({ theme }) => mq([
+export const thStyle = ({ theme }) =>
+  mq([
     paragraphStyle({ theme }),
-    { 
+    {
       fontWeight: 'bold',
       textAlign: 'left',
       marginBottom: 0,
-    }
-])
+    },
+  ])
 
 export const emStyle = ({ theme }) => ({
   fontFamily: theme.font.family.text,

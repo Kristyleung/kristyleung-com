@@ -7,6 +7,6 @@ const featuredSectionStyle = () =>
     flexWrap: 'wrap',
   })
 
-export const FeaturedSection = (props) => {
+export const FeaturedSection = props => {
   return <div css={featuredSectionStyle}>{props.children}</div>
 }
