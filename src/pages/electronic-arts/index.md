@@ -17,6 +17,9 @@ There’s always been a looming problem in gaming - players on one console can�
 ![Players on one console can’t play with those on another](./ea-player-silos.png)
 
 Although players have accepted this reality to be the norm, my team and I have worked to break down these silos and bring players together in a way not previously possible enabling a new technology called cross-play.
+
+![With the cross-play services I co-designed, our players are able to play with any other player in the EA network.](./ea-players-with-crossplay.png)
+
 To create these cross-play services, I co-designed and continue to own all social coordination features required for players to play safely and fairly across platforms.
 
 ## Impact
