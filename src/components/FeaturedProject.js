@@ -68,7 +68,7 @@ export const FeaturedProject = props => {
             {title}
           </h2>
         )}
-        {abstract && <p css={[paragraphStyle({ theme }), { fontSize: theme.font.size[6] }]}>{abstract}</p>}
+        {abstract && <p css={[paragraphStyle({ theme }), { fontSize: theme.font.size[6], marginBottom: 0 }]}>{abstract}</p>}
       </div>
     </Link>
   )
