@@ -38,7 +38,7 @@ const IndexPage = ({ location }) => {
               />
               <FeaturedProject
                 company={`Taskforce Wildlife by United for Wildlife`}
-                title={`Supporting transport businesses in combating wildlife traffickers who seek to illegally transport contraband`}
+                title={`Supporting transport businesses in combating wildlife trafficking`}
                 image={ufw}
                 link={`/united-for-wildlife/`}
               />
