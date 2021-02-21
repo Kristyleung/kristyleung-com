@@ -5,7 +5,7 @@ keywords: ['visier', 'workforce planning']
 image: ./visier-hero.png
 ---
 
-<ProjectHeading title='Workforce Planning by Visier' abstract='Creating a collaborative experience for workforce planners.' borderBottom />
+<ProjectHeading title='Workforce Planning by Visier' abstract=' Facilitating collaboration for businesses to analyse their headcount data' borderBottom />
 
 <ProjectSection>
   <ProjectInfo title='Timeline' abstract='Launched Fall 2016' />
@@ -19,10 +19,7 @@ image: ./visier-hero.png
 Workforce Planning (WFP) is a powerful application that allows users to project and analyze labor supply and demand based on economic factors by creating plans. During my 12-month work term as a UX Design Intern at Visier, I spent the majority of my time dedicated to designing features with the PM and Design Lead of WFP.
 
 ### Understanding the problem
-
-To better understand the brand, we did a deep dive into the creative processes of a Cirque du Soleil production. Every show begins with seeking within their diverse team of performers who represent over 40 nationalities. Extraordinary artists specializing in African dancing, Peking opera, and many other are asked to speak about their artistic journeys. Their stories and talents are then extracted, elaborated and materialized into narrative driven productions shared with the world. This was it. This was Cirque’s secret ingredient to artful productions: the ability to bring dreams into reality.
-
-Upon speaking to the development team, I learned that WFP could not allow multiple users to edit simultaneously edits to a plan because a single edit generate changes to values across the grid. Unsurprisingly, this constraint added a new layer of complexity to my mental model of the application’s behavior.
+In many use cases, there are multiple users within an organization who need to collaborate across teams to make decisions about a workforce. WFP needed a feature that allowed users to manage both sharing and editing rights in a plan. Upon speaking to the development team, I learned that WFP could not allow multiple users to edit simultaneously edits to a plan because a single edit generate changes to values across the grid. Unsurprisingly, this constraint added a new layer of complexity to my mental model of the application’s behavior.
 
 ### Pencils over pixels
 
@@ -48,7 +45,9 @@ After identifying these components, I was able to find a jumping off point and c
 
 A later reiteration encapsulated all three requirements determined before. The toggle from before was replaced by buttons that also double as status indicators.
 
-![This design was developed in the mockups below, and was implemented into the platform](./visier-slides.gif)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UuPQBFCXbd0" width="600" height="400"></iframe>
+
+_This design was developed in the mockups below, and was implemented into the platform_
 
 ### The retrospective
 

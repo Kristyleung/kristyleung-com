@@ -5,7 +5,7 @@ keywords: ['United for Wildlife', 'edenspiekermann']
 image: ./taskforce-wildlife-hero.png
 ---
 
-<ProjectHeading title='Taskforce Wildlife' abstract='Taskforce Wildlife is a tool that supports transport businesses in combating wildlife traffickers who seek to illegally transport contraband.' borderBottom />
+<ProjectHeading title='Taskforce Wildlife by United for Wildlife' abstract='Supporting transport businesses in combating wildlife trafficking who seek to illegally transport contraband' borderBottom />
 
 <ProjectSection>
   <ProjectInfo title='Timeline' abstract='Launched Fall 2018' />
@@ -43,7 +43,7 @@ It was clear at this point that there was a disconnect between our two key stake
 ## Goals
 
 - How can we establish communication between rangers and businesses and leverage the knowledge of rangers to improve route planning for businesses?
-- How can we help businesses make the most of this information and use it towards planning safer routes?
+1 How can we help businesses make the most of this information and use it towards planning safer routes?
 
 ## Taskforce Wildlife
 
