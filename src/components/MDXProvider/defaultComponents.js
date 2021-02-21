@@ -27,11 +27,19 @@ import {
   hrStyle,
 } from './styles'
 import CodeBlock from '../CodeBlock'
-import { Experience, PageHeading, ProjectLink, SectionHeader } from './customComponents'
+import {
+  Experience,
+  PageHeading,
+  ProjectHeading,
+  ProjectInfo,
+  ProjectLink,
+  ProjectSection,
+  SectionHeader,
+} from './customComponents'
 
 /** https://mdxjs.com/table-of-components */
 
-const Paragraph = props => {
+export const Paragraph = props => {
   const theme = useTheme()
   return <p css={paragraphStyle({ theme })} {...props} />
 }
@@ -209,7 +217,10 @@ const components = {
   // Custom MDX components
   Experience,
   PageHeading,
+  ProjectHeading,
+  ProjectInfo,
   ProjectLink,
+  ProjectSection,
   SectionHeader,
 }
 

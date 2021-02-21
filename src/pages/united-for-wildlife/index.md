@@ -5,12 +5,13 @@ keywords: ['United for Wildlife', 'edenspiekermann']
 image: ./taskforce-wildlife-hero.png
 ---
 
-# Taskforce Wildlife
-Taskforce Wildlife is a tool that supports transport businesses in combating wildlife traffickers who seek to illegally transport contraband.
+<ProjectHeading title='Taskforce Wildlife by United for Wildlife' abstract='Supporting transport businesses in combating wildlife trafficking who seek to illegally transport contraband' borderBottom />
 
-- Timeline: Launched Fall 2018
-- Company: Edenspiekermann    
-- Role: Designed and iterated on core experiences within the application. Reported directly to the technical director of the product. 
+<ProjectSection>
+  <ProjectInfo title='Timeline' abstract='Launched Fall 2018' />
+  <ProjectInfo title='Company' abstract='Edenspiekermann' />
+  <ProjectInfo title='Role' abstract='Designed and iterated on core experiences within the application. Reported directly to the technical director of the product.' />
+</ProjectSection>
 
 ![](./taskforce-wildlife-hero.png)
 
@@ -39,11 +40,10 @@ It was clear at this point that there was a disconnect between our two key stake
 
 ![We realized a point intervention would be enabling these two stakeholders to share vital information in a timely manner.](./taskforce-wildlife-ideal-journey.png)
 
-## Goal
+## Goals
 
-> How can we establish communication between rangers and businesses and leverage the knowledge of rangers to improve route planning for businesses?
-
-> How can we help businesses make the most of this information and use it towards planning safer routes?
+- How can we establish communication between rangers and businesses and leverage the knowledge of rangers to improve route planning for businesses?
+  1 How can we help businesses make the most of this information and use it towards planning safer routes?
 
 ## Taskforce Wildlife
 

@@ -1,3 +1,5 @@
+import { mq } from '../../theming/theme'
+
 export const paragraphStyle = ({ theme }) => ({
   color: theme.colors.text,
   fontFamily: theme.font.family.text,
@@ -86,13 +88,17 @@ export const tbodyStyle = ({ theme }) => ({})
 
 export const trStyle = ({ theme }) => ({})
 
-export const tdStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
-})
+export const tdStyle = ({ theme }) => [paragraphStyle({ theme }), { marginBottom: 0 }]
 
-export const thStyle = ({ theme }) => ({
-  fontFamily: theme.font.family.text,
-})
+export const thStyle = ({ theme }) =>
+  mq([
+    paragraphStyle({ theme }),
+    {
+      fontWeight: 'bold',
+      textAlign: 'left',
+      marginBottom: 0,
+    },
+  ])
 
 export const emStyle = ({ theme }) => ({
   fontFamily: theme.font.family.text,
@@ -115,4 +121,8 @@ export const inlineCodeStyle = ({ theme }) => ({
   color: theme.colors.background,
 })
 
-export const hrStyle = ({ theme }) => ({})
+export const hrStyle = ({ theme }) => ({
+  border: 0,
+  height: 1,
+  backgroundColor: theme.colors.text,
+})

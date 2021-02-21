@@ -5,10 +5,13 @@ keywords: ['Electronic Arts', 'crossplay']
 image: ./ea-player-silos.png
 ---
 
-# Enabling millions of players to play with anyone, anywhere
+<ProjectHeading title='A Cross-Play Future by Electronic Arts' abstract='Enabling millions of players to play with anyone, anywhere' borderBottom />
 
-- Timeline: Ongoing 
-- Company: Electronic Arts
+<ProjectSection>
+  <ProjectInfo title='Timeline' abstract='Ongoing' />
+  <ProjectInfo title='Company' abstract='Electronic Arts' />
+  <ProjectInfo title='Role' abstract='Product designer' />
+</ProjectSection>
 
 ## Context
 
