@@ -19,6 +19,7 @@ image: ./visier-hero.png
 Workforce Planning (WFP) is a powerful application that allows users to project and analyze labor supply and demand based on economic factors by creating plans. During my 12-month work term as a UX Design Intern at Visier, I spent the majority of my time dedicated to designing features with the PM and Design Lead of WFP.
 
 ### Understanding the problem
+
 In many use cases, there are multiple users within an organization who need to collaborate across teams to make decisions about a workforce. WFP needed a feature that allowed users to manage both sharing and editing rights in a plan. Upon speaking to the development team, I learned that WFP could not allow multiple users to edit simultaneously edits to a plan because a single edit generate changes to values across the grid. Unsurprisingly, this constraint added a new layer of complexity to my mental model of the application’s behavior.
 
 ### Pencils over pixels
@@ -45,9 +46,7 @@ After identifying these components, I was able to find a jumping off point and c
 
 A later reiteration encapsulated all three requirements determined before. The toggle from before was replaced by buttons that also double as status indicators.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UuPQBFCXbd0" width="600" height="400"></iframe>
-
-_This design was developed in the mockups below, and was implemented into the platform_
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTNdm5y9S3qLCtrvRg8TTxw6qB4pxP4cHXqNrPzeoeSpUYj7bse12SzQ8e972rsV_UyHuJ7PL4a-prh/embed?start=true&loop=true&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### The retrospective
 

@@ -43,7 +43,7 @@ It was clear at this point that there was a disconnect between our two key stake
 ## Goals
 
 - How can we establish communication between rangers and businesses and leverage the knowledge of rangers to improve route planning for businesses?
-1 How can we help businesses make the most of this information and use it towards planning safer routes?
+  1 How can we help businesses make the most of this information and use it towards planning safer routes?
 
 ## Taskforce Wildlife
 
