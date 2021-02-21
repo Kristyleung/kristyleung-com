@@ -7,8 +7,10 @@ image: ./ea-player-silos.png
 
 # Enabling millions of players to play with anyone, anywhere
 
-- Timeline: Ongoing
-- Company: Electronic Arts
+<ProjectSection>
+  <ProjectInfo title='Timeline' abstract='Ongoing' />
+  <ProjectInfo title='Company' abstract='Electronic Arts' />
+</ProjectSection>
 
 ## Context
 

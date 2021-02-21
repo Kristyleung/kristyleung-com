@@ -4,7 +4,6 @@ import { paragraphStyle } from './styles'
 import Link from '../Link'
 import { mq } from '../../theming/theme'
 
-
 const projectLinkStyle = ({ theme }) =>
   css({
     backgroundImage: `linear-gradient(180deg, transparent 65%, #dddcc0 0)`,
@@ -123,4 +122,38 @@ export const PageHeading = (props) => {
       <p css={pageAbstractStyle({ theme })}>{abstract}</p>
     </>
   )
+}
+
+const projectInfoStyle = ({ theme }) =>
+  mq({
+    width: ['100%', '50%'],
+  })
+
+export const ProjectInfo = (props) => {
+  const theme = useTheme()
+  const { title, abstract } = props
+  return (
+    <div css={projectInfoStyle({ theme })}>
+      <h4
+        css={[
+          paragraphStyle({ theme }),
+          { fontWeight: 'bold', marginBottom: 0 },
+        ]}
+      >
+        {title}
+      </h4>
+      <p css={paragraphStyle({ theme })}>{abstract}</p>
+    </div>
+  )
+}
+
+const projectSectionStyle = ({ theme }) =>
+  mq({
+    display: 'flex',
+    flexDirection: ['column', 'row'],
+  })
+
+export const ProjectSection = ({ children }) => {
+  const theme = useTheme()
+  return <div css={projectSectionStyle({ theme })}>{children}</div>
 }

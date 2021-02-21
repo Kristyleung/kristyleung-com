@@ -11,8 +11,8 @@ const footerStyle = ({ theme }) =>
     display: 'flex',
     flexDirection: ['column', 'column', 'row'],
     justifyContent: 'space-between',
-    padding: theme.spacing[2],
     marginTop: theme.spacing[6],
+    padding: theme.spacing[2],
     a: {
       color: theme.colors.text,
       whiteSpace: 'nowrap',
