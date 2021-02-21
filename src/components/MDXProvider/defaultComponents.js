@@ -30,6 +30,7 @@ import CodeBlock from '../CodeBlock'
 import {
   Experience,
   PageHeading,
+  ProjectHeading,
   ProjectInfo,
   ProjectLink,
   ProjectSection,
@@ -216,6 +217,7 @@ const components = {
   // Custom MDX components
   Experience,
   PageHeading,
+  ProjectHeading,
   ProjectInfo,
   ProjectLink,
   ProjectSection,

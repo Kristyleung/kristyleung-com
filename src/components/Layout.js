@@ -61,7 +61,7 @@ const sectionStyle = ({ theme }) =>
     figure: {
       gridColumn: '1 / -1',
       margin: 'auto',
-      maxWidth: 1200,
+      maxWidth: 1152,
       width: '100%',
     },
     p: {

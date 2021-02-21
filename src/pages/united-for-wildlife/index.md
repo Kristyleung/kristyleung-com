@@ -5,9 +5,7 @@ keywords: ['United for Wildlife', 'edenspiekermann']
 image: ./taskforce-wildlife-hero.png
 ---
 
-# Taskforce Wildlife
-
-Taskforce Wildlife is a tool that supports transport businesses in combating wildlife traffickers who seek to illegally transport contraband.
+<ProjectHeading title='Taskforce Wildlife' abstract='Taskforce Wildlife is a tool that supports transport businesses in combating wildlife traffickers who seek to illegally transport contraband.' borderBottom />
 
 <ProjectSection>
   <ProjectInfo title='Timeline' abstract='Launched Fall 2018' />

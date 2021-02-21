@@ -121,4 +121,8 @@ export const inlineCodeStyle = ({ theme }) => ({
   color: theme.colors.background,
 })
 
-export const hrStyle = ({ theme }) => ({})
+export const hrStyle = ({ theme }) => ({
+  border: 0,
+  height: 1,
+  backgroundColor: theme.colors.text,
+})

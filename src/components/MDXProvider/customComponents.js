@@ -124,6 +124,54 @@ export const PageHeading = (props) => {
   )
 }
 
+// Project Heading
+
+const projectHeadingStyle = ({ theme }) => ({
+  gridColumn: '1 / -1',
+  maxWidth: 1200,
+  width: '100%',
+  margin: 'auto',
+  marginBottom: 32,
+  padding: '0 24px',
+})
+
+const projectHrStyle = ({ theme }) => ({
+  border: 0,
+  height: 2,
+  backgroundColor: theme.colors.text,
+  marginTop: '2rem',
+  marginBottom: 0,
+})
+
+const projectH1Style = ({ theme }) => ({
+  fontFamily: theme.font.family.heading,
+  fontSize: theme.font.size[11],
+  marginBottom: 0,
+})
+
+const projectAbstractStyle = ({ theme }) =>
+  mq(paragraphStyle, {
+    fontSize: theme.font.size[8],
+    lineHeight: 1.3,
+    fontWeight: 300,
+    marginTop: '2rem',
+    marginBottom: 0,
+  })
+
+export const ProjectHeading = (props) => {
+  const theme = useTheme()
+  const { title, abstract, borderBottom } = props
+  return (
+    <div css={projectHeadingStyle({ theme })}>
+      {title && <h1 css={projectH1Style({ theme })}>{title}</h1>}
+      {abstract && <p css={projectAbstractStyle({ theme })}>{abstract}</p>}
+      {borderBottom && <hr css={projectHrStyle({ theme })} />}
+    </div>
+  )
+}
+
+// Project information
+
 const projectInfoStyle = ({ theme }) =>
   mq({
     flex: 'auto',
@@ -163,14 +211,13 @@ export const ProjectInfo = (props) => {
   )
 }
 
+// Project information section
+
 const projectSectionStyle = ({ theme }) =>
   mq({
     display: 'flex',
     flexDirection: ['column', 'row'],
     flexWrap: 'wrap',
-    borderTop: `2px solid transparent`,
-    borderColor: theme.colors.border,
-    paddingTop: '1em',
   })
 
 export const ProjectSection = ({ children }) => {

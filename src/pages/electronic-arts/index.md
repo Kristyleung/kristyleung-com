@@ -5,7 +5,7 @@ keywords: ['Electronic Arts', 'crossplay']
 image: ./ea-player-silos.png
 ---
 
-# Enabling millions of players to play with anyone, anywhere
+<ProjectHeading title='Enabling millions of players to play with anyone, anywhere' borderBottom />
 
 <ProjectSection>
   <ProjectInfo title='Timeline' abstract='Ongoing' />

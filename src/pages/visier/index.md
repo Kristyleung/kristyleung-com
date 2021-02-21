@@ -5,9 +5,7 @@ keywords: ['visier', 'workforce planning']
 image: ./visier-hero.png
 ---
 
-# Workforce Planning by Visier
-
-Creating a collaborative experience for workforce planners
+<ProjectHeading title='Workforce Planning by Visier' abstract='Creating a collaborative experience for workforce planners.' borderBottom />
 
 <ProjectSection>
   <ProjectInfo title='Timeline' abstract='Launched Fall 2016' />
