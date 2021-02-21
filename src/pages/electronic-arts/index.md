@@ -14,7 +14,7 @@ image: ./ea-player-silos.png
 
 There’s always been a looming problem in gaming - players on one console can’t play with those on another.
 
-![Players on one console can’t play with those on another](./ea-player-silos.png)
+![Players on one console can’t play with those on another.](./ea-player-silos.png)
 
 Although players have accepted this reality to be the norm, my team and I have worked to break down these silos and bring players together in a way not previously possible enabling a new technology called cross-play.
 

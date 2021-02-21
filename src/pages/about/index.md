@@ -5,7 +5,7 @@ keywords: ['product designer', 'kristy leung']
 ---
 
 # Product designer with a passion for building equitable and purposeful systems 
-# Currently a product designer at Electronic Arts. 
+## Currently a product designer at Electronic Arts. 
 
 I've worked with organizations both large and small on identifying user needs throughout all phases of product development while practicing iterative design, testing, and delivery. I am happiest when I’m collaborating with diverse, cross functional teammates. I believe in using design to grapple with human complexities instead of paring them away.
 
