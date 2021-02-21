@@ -14,7 +14,7 @@ keywords: ['product designer', 'ux']
 
 <ProjectLink title={`Workforce Planning by Visier`} abstract={`Facilitating collaboration for businesses to analyse their headcount data`} link={`/visier/`} />
 
-<SectionHeader>About</SectionHeader>
+<SectionHeader>Experience</SectionHeader>
 
 <Experience company={`Electronic Arts`} role={`Product Designer`} />
 
