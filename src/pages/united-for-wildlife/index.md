@@ -39,11 +39,9 @@ As we learned about transport businesses we gained a key insight from a logistic
 As we learned from wildlife rangers appointed by UfW, we learned that rangers would make reports when they detect any suspicious activity. But these reports would often get buried in a dense backlog, rarely reaching transport businesses in time if at all.
 It was clear at this point that there was a disconnect between our two key stakeholders. I captured the journeys between UfW rangers and transport businesses in wildlife trafficking to identify the areas of disconnect and friction.
 
-![Current journey map of United for Wildlife and transport businesses](./taskforce-wildlife-current-journey.png)
+![The current journey map of United for Wildlife and transport businesses highlighted their disconnection.](./taskforce-wildlife-current-journey.png)
 
-We realized a point intervention would be enabling these two stakeholders to share vital information in a timely manner.
-
-![Current journey map of United for Wildlife and transport businesses](./taskforce-wildlife-ideal-journey.png)
+![We realized a point intervention would be enabling these two stakeholders to share vital information in a timely manner.](./taskforce-wildlife-ideal-journey.png)
 
 ## Goal
 
