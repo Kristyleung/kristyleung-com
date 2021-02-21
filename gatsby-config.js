@@ -62,7 +62,7 @@ module.exports = {
         // Accepts the following options, all of which are defined by `babel-plugin-emotion` plugin.
         // The values for each key in this example are the defaults the plugin uses.
         sourceMap: true,
-        autoLabel: process.env.NODE_ENV !== 'production',
+        autoLabel: 'dev-only',
         labelFormat: `[local]`,
         cssPropOptimization: true,
       },
@@ -73,8 +73,8 @@ module.exports = {
         name: 'kristy-leung',
         short_name: 'portfolio',
         start_url: '/',
-        background_color: '#f5e3e7',
-        theme_color: '#f5e3e7',
+        background_color: '#ffffff',
+        theme_color: '#ffffff',
         display: 'minimal-ui',
         icon: 'src/images/favicon.png', // This path is relative to the root of the site.
       },

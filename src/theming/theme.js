@@ -3,7 +3,7 @@ import '../css/typography.css'
 import '@fontsource/public-sans/300.css'
 import '@fontsource/public-sans/700.css'
 
-export const mq = facepaint(['@media(min-width: 420px)', '@media(min-width: 920px)', '@media(min-width: 1120px)'])
+export const mq = facepaint(['@media(min-width: 720px)', '@media(min-width: 920px)', '@media(min-width: 1120px)'])
 
 const fonts = {
   heading: `"Tiempos Fine", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`,

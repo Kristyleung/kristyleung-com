@@ -60,8 +60,11 @@ const sectionStyle = ({ theme }) =>
     },
     figure: {
       gridColumn: '1 / -1',
-      margin: 'auto',
-      maxWidth: 1200,
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      marginBottom: theme.spacing[3],
+      marginTop: 0,
+      maxWidth: 1152,
       width: '100%',
     },
     p: {
