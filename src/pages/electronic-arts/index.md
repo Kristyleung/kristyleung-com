@@ -2,18 +2,19 @@
 title: A crossplay design system for Electronic Arts (EA)
 description: There’s always been a looming problem in gaming - players on one platform can’t play with those one another. Over the years, the technology to make crossplay a reality has significantly matured.
 keywords: ['Electronic Arts', 'crossplay']
-image: ./ea.jpg
+image: ./ea-player-silos.png
 ---
 
 # Enabling millions of players to play with anyone, anywhere
 
-| Timeline | Company         |
-| -------- | --------------- |
-| Ongoing  | Electronic Arts |
+- Timeline: Ongoing 
+- Company: Electronic Arts
 
 ## Context
 
 There’s always been a looming problem in gaming - players on one console can’t play with those on another.
+
+![Players on one console can’t play with those on another](./ea-player-silos.png)
 
 Although players have accepted this reality to be the norm, my team and I have worked to break down these silos and bring players together in a way not previously possible enabling a new technology called cross-play.
 To create these cross-play services, I co-designed and continue to own all social coordination features required for players to play safely and fairly across platforms.
