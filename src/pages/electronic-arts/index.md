@@ -27,6 +27,6 @@ To create these cross-play services, I co-designed and continue to own all socia
 
 ## Impact
 
-Currently, blockbuster games like Apex Legends and Star Wars: Squadrons have already adopted crossplay functionality, which is defined by the design system I helped create. As a result, players of both franchises can now play with any other player across consoles and devices.
+Currently, blockbuster games like [Apex Legends](https://www.ea.com/games/apex-legends/news/ea-play-announcements) and [Star Wars: Squadrons](https://www.ea.com/games/starwars/squadrons/tips-and-tricks/how-to-play-with-friends-in-star-wars-squadrons) have already adopted crossplay functionality, which is defined by the design system I helped create. As a result, players of both franchises can now play with any other player across consoles and devices.
 
 If you would like to learn more about my time at Electronic Arts, please contact me directly.
