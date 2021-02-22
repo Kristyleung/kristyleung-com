@@ -10,9 +10,9 @@ const IndexPage = ({ location }) => {
     <StaticQuery
       query={indexQuery}
       render={data => {
-        const title = `Projects`
-        const description = `Kristy Leung creates human centered systems and experiences. Currently I am creating a brand new  gaming experience for millions of players at Electronic Arts.`
-        const keywords = ['product designer', 'ux']
+        const title = `Portfolio`
+        const keywords = ['product designer', 'vancouver']
+        const description = `The portfolio of Kristy Leung, a product designer based in Vancouver. Currently creating human centered gaming experiences for millions of players at Electronic Arts.`
         const ea = data.eaImage.childImageSharp.fluid
         const ufw = data.ufwImage.childImageSharp.fluid
         const visier = data.visierImage.childImageSharp.fluid
