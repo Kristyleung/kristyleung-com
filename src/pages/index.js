@@ -30,17 +30,17 @@ const IndexPage = ({ location }) => {
             />
             <SectionHeader>Experiences I’ve created</SectionHeader>
             <FeaturedSection>
+            <FeaturedProject
+                abstract={`Supporting transport businesses in combating wildlife trafficking who seek to illegally transport contraband`}
+                title={` Taskforce Wildlife by United for Wildlife`}
+                image={ufw}
+                link={`/united-for-wildlife/`}
+              />
               <FeaturedProject
                 abstract={`Enabling millions of players to play with anyone, anywhere`}
                 title={`A Cross-Play Future by Electronic Arts`}
                 image={ea}
                 link={`/electronic-arts/`}
-              />
-              <FeaturedProject
-                abstract={`Supporting transport businesses in combating wildlife trafficking who seek to illegally transport contraband`}
-                title={` Taskforce Wildlife by United for Wildlife`}
-                image={ufw}
-                link={`/united-for-wildlife/`}
               />
               <FeaturedProject
                 abstract={`Facilitating collaboration for businesses to analyse their headcount data`}
