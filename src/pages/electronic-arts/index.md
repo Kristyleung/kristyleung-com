@@ -29,8 +29,10 @@ To create these cross-play services, I co-designed and continue to own all socia
 
 Currently, blockbuster games like [Apex Legends](https://www.ea.com/games/apex-legends/news/ea-play-announcements) and [Star Wars: Squadrons](https://www.ea.com/games/starwars/squadrons/tips-and-tricks/how-to-play-with-friends-in-star-wars-squadrons) have already adopted crossplay functionality, which is defined by the design system I helped create. As a result, players of both franchises can now play with any other player across consoles and devices.
 
+![](./ea-process.png)
+
 ---
 
-Though this current project is under an NDA, I would be glad to discuss my experience and learnings at Electronic Arts over a Zoom call.
+This current project is under an NDA. However, I would be glad to discuss my experience and learnings at Electronic Arts over a Zoom call.
 
 <ButtonLink to="mailto:kristy.leung11@gmail.com?subject=Schedule%20a%20chat">Schedule a chat 👋🏽</ButtonLink>
