@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "src": "/cirque-du-soleil", "status": 301, "dest": "https://www.kristyleung.com" },
+    { "src": "/google", "status": 301, "dest": "https://www.kristyleung.com" }
+  ]
+}
