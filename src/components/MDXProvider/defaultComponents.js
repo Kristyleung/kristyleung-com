@@ -28,6 +28,7 @@ import {
 } from './styles'
 import CodeBlock from '../CodeBlock'
 import {
+  ButtonLink,
   Experience,
   PageHeading,
   ProjectHeading,
@@ -215,6 +216,7 @@ const components = {
   // img is rendered by gatsby-remark-images
 
   // Custom MDX components
+  ButtonLink,
   Experience,
   PageHeading,
   ProjectHeading,
