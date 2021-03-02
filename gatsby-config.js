@@ -15,6 +15,12 @@ module.exports = {
         trackingIds: [`G-Z01NEP16HB`],
       },
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.kristyleung.com`,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
