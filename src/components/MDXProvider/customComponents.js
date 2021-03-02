@@ -3,6 +3,7 @@ import { css, useTheme } from '@emotion/react'
 import { paragraphStyle } from './styles'
 import Link from '../Link'
 import { mq } from '../../theming/theme'
+import { Paragraph } from './defaultComponents'
 
 const projectLinkStyle = ({ theme }) =>
   css({
@@ -38,7 +39,7 @@ const projectParagraphStyle = ({ theme }) =>
     margin: 0,
   })
 
-export const ProjectLink = props => {
+export const ProjectLink = (props) => {
   const theme = useTheme()
   const { abstract, link, title } = props
   return (
@@ -70,7 +71,7 @@ const experienceParagraphStyle = ({ theme }) =>
     paddingTop: '1em',
   })
 
-export const Experience = props => {
+export const Experience = (props) => {
   const theme = useTheme()
   const { company, role } = props
   return (
@@ -113,7 +114,7 @@ const pageAbstractStyle = ({ theme }) =>
     marginTop: '2rem',
   })
 
-export const PageHeading = props => {
+export const PageHeading = (props) => {
   const theme = useTheme()
   const { title, abstract } = props
   return (
@@ -158,7 +159,7 @@ const projectAbstractStyle = ({ theme }) =>
     marginBottom: 0,
   })
 
-export const ProjectHeading = props => {
+export const ProjectHeading = (props) => {
   const theme = useTheme()
   const { title, abstract, borderBottom } = props
   return (
@@ -178,7 +179,7 @@ const projectInfoStyle = ({ theme }) =>
     minWidth: '33%',
   })
 
-export const ProjectInfo = props => {
+export const ProjectInfo = (props) => {
   const theme = useTheme()
   const { title, abstract } = props
   return (
@@ -223,4 +224,24 @@ const projectSectionStyle = ({ theme }) =>
 export const ProjectSection = ({ children }) => {
   const theme = useTheme()
   return <div css={projectSectionStyle({ theme })}>{children}</div>
+}
+
+// Button Link
+
+const buttonLinkStyle = ({ theme }) => ({
+  backgroundColor: 'black',
+  color: 'white',
+  display: 'inline-flex',
+  padding: '8px 16px',
+})
+
+export const ButtonLink = ({ children, to }) => {
+  const theme = useTheme()
+  return (
+    <Paragraph>
+      <Link to={to} css={buttonLinkStyle({ theme })}>
+        {children}
+      </Link>
+    </Paragraph>
+  )
 }

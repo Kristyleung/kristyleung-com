@@ -33,4 +33,4 @@ Currently, blockbuster games like [Apex Legends](https://www.ea.com/games/apex-l
 
 Though this current project is under an NDA, I would be glad to discuss my experience and learnings at Electronic Arts over a Zoom call.
 
-<button onclick= "mailto:kristy.leung11@gmail.com">Schedule a chat</button>
+<ButtonLink to="mailto:kristy.leung11@gmail.com">Schedule a chat 👋🏽</ButtonLink>
