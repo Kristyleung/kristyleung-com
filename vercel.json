@@ -1,6 +1,8 @@
 {
-  "routes": [
-    { "src": "/cirque-du-soleil", "status": 301, "dest": "https://www.kristyleung.com" },
-    { "src": "/google", "status": 301, "dest": "https://www.kristyleung.com" }
+  "redirects": [
+    { "source": "/cirque-du-soleil", "statusCode": 301, "destination": "/" },
+    { "source": "/cirque-du-soleil/", "statusCode": 301, "destination": "/" },
+    { "source": "/google", "statusCode": 301, "destination": "/" },
+    { "source": "/google/", "statusCode": 301, "destination": "/" }
   ]
 }
