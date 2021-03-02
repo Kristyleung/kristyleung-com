@@ -3,6 +3,7 @@ import { css, useTheme } from '@emotion/react'
 import { paragraphStyle } from './styles'
 import Link from '../Link'
 import { mq } from '../../theming/theme'
+import { Paragraph } from './defaultComponents'
 
 const projectLinkStyle = ({ theme }) =>
   css({
@@ -223,4 +224,24 @@ const projectSectionStyle = ({ theme }) =>
 export const ProjectSection = ({ children }) => {
   const theme = useTheme()
   return <div css={projectSectionStyle({ theme })}>{children}</div>
+}
+
+// Button Link
+
+const buttonLinkStyle = ({ theme }) => ({
+  backgroundColor: 'black',
+  color: 'white',
+  display: 'inline-flex',
+  padding: '8px 16px',
+})
+
+export const ButtonLink = ({ children, to }) => {
+  const theme = useTheme()
+  return (
+    <Paragraph>
+      <Link to={to} css={buttonLinkStyle({ theme })}>
+        {children}
+      </Link>
+    </Paragraph>
+  )
 }

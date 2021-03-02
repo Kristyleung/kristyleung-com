@@ -123,6 +123,8 @@ export const inlineCodeStyle = ({ theme }) => ({
 
 export const hrStyle = ({ theme }) => ({
   border: 0,
-  height: 1,
+  height: 2,
   backgroundColor: theme.colors.text,
+  margin: 0,
+  marginBottom: theme.spacing[3],
 })
