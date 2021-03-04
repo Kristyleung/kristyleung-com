@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/cirque-du-soleil", "statusCode": 301, "destination": "/" },
+    { "source": "/cirque-du-soleil/", "statusCode": 301, "destination": "/" },
+    { "source": "/google", "statusCode": 301, "destination": "/" },
+    { "source": "/google/", "statusCode": 301, "destination": "/" }
+  ]
+}

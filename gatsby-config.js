@@ -7,8 +7,10 @@ module.exports = {
     author: '@kristyleung',
     url: 'https://www.kristyleung.com',
     image: '/default-og-image.png',
+    siteUrl: `https://www.kristyleung.com`, // used by `gatsby-plugin-sitemap`
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -21,9 +23,9 @@ module.exports = {
         siteUrl: `https://www.kristyleung.com`,
       },
     },
-    'gatsby-plugin-react-helmet',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-plugin-mdx`,
@@ -68,7 +70,7 @@ module.exports = {
         // Accepts the following options, all of which are defined by `babel-plugin-emotion` plugin.
         // The values for each key in this example are the defaults the plugin uses.
         sourceMap: true,
-        autoLabel: 'dev-only',
+        autoLabel: `dev-only`,
         labelFormat: `[local]`,
         cssPropOptimization: true,
       },
@@ -87,6 +89,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    'gatsby-plugin-offline',
+    `gatsby-plugin-offline`,
   ],
 }
