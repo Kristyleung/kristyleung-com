@@ -5,7 +5,7 @@ keywords: ['Electronic Arts', 'crossplay']
 image: ./ea-player-silos.png
 ---
 
-<ProjectHeading title='A Cross-Play Future by Electronic Arts' abstract='Enabling millions of players to play with anyone, anywhere' borderBottom />
+<ProjectHeading title='A Cross-Play Future by Electronic Arts' abstract='Enabling millions of players to play with anyone, anywhere' borderBottom huge />
 
 <ProjectSection>
   <ProjectInfo title='Timeline' abstract='Ongoing' />
