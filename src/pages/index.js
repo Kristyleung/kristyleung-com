@@ -13,9 +13,9 @@ const IndexPage = ({ location }) => {
         const title = `Portfolio`
         const keywords = ['product designer', 'vancouver']
         const description = `The portfolio of Kristy Leung, a product designer based in Vancouver. Currently creating human centered gaming experiences for millions of players at Electronic Arts.`
-        const ea = data.eaImage.childImageSharp.fluid
-        const ufw = data.ufwImage.childImageSharp.fluid
-        const visier = data.visierImage.childImageSharp.fluid
+        const ea = data.eaImage
+        const ufw = data.ufwImage
+        const visier = data.visierImage
         return (
           <Layout
             siteTitle={data.site.siteMetadata.title}
@@ -76,23 +76,29 @@ const indexQuery = graphql`
     }
     eaImage: file(relativePath: { regex: "/ea-project-thumbnail.png/" }) {
       childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(
+          width: 600
+          placeholder: BLURRED
+          formats: WEBP
+        )
       }
     }
     ufwImage: file(relativePath: { regex: "/ufw-project-thumbnail.png/" }) {
       childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(
+          width: 600
+          placeholder: BLURRED
+          formats: WEBP
+        )
       }
     }
     visierImage: file(relativePath: { regex: "/visier-project-thumbnail.png/" }) {
       childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(
+          width: 600
+          placeholder: BLURRED
+          formats: WEBP
+        )
       }
     }
   }

@@ -127,14 +127,18 @@ export const PageHeading = props => {
 
 // Project Heading
 
-const projectHeadingStyle = ({ theme }) => ({
-  gridColumn: '1 / -1',
-  maxWidth: 1200,
-  width: '100%',
-  margin: 'auto',
-  marginBottom: 32,
-  padding: '0 24px',
-})
+const projectHeadingStyle = ({ huge }) => [
+  huge && {
+    gridColumn: '1 / -1',
+    padding: '0 24px',
+  },
+  {
+    maxWidth: 1200,
+    width: '100%',
+    margin: 'auto',
+    marginBottom: 32,
+  },
+]
 
 const projectHrStyle = ({ theme }) => ({
   border: 0,
@@ -161,9 +165,9 @@ const projectAbstractStyle = ({ theme }) =>
 
 export const ProjectHeading = props => {
   const theme = useTheme()
-  const { title, abstract, borderBottom } = props
+  const { title, abstract, borderBottom, huge } = props
   return (
-    <div css={projectHeadingStyle({ theme })}>
+    <div css={projectHeadingStyle({ theme, huge })}>
       {title && <h1 css={projectH1Style({ theme })}>{title}</h1>}
       {abstract && <p css={projectAbstractStyle({ theme })}>{abstract}</p>}
       {borderBottom && <hr css={projectHrStyle({ theme })} />}
