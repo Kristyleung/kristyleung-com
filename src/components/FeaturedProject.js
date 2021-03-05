@@ -44,28 +44,16 @@ const featuredImageStyle = ({ theme }) =>
     height: 300,
   })
 
-export const FeaturedProject = (props) => {
+export const FeaturedProject = props => {
   const theme = useTheme()
   const { title, abstract, image, company, link } = props
   const featuredImage = getImage(image)
   return (
     <Link css={featuredStyle({ theme })} to={link}>
-      <GatsbyImage
-        css={featuredImageStyle}
-        image={featuredImage}
-        alt={title}
-        title={title}
-      />
+      <GatsbyImage css={featuredImageStyle} image={featuredImage} alt={title} title={title} />
       <div css={featuredContentStyle({ theme })}>
         {company && (
-          <p
-            css={[
-              paragraphStyle({ theme }),
-              { marginBottom: 0, fontSize: theme.font.size[6] },
-            ]}
-          >
-            {company}
-          </p>
+          <p css={[paragraphStyle({ theme }), { marginBottom: 0, fontSize: theme.font.size[6] }]}>{company}</p>
         )}
         {title && (
           <h2
@@ -82,12 +70,7 @@ export const FeaturedProject = (props) => {
           </h2>
         )}
         {abstract && (
-          <p
-            css={[
-              paragraphStyle({ theme }),
-              { fontSize: theme.font.size[6], marginBottom: 0, marginTop: 16 },
-            ]}
-          >
+          <p css={[paragraphStyle({ theme }), { fontSize: theme.font.size[6], marginBottom: 0, marginTop: 16 }]}>
             {abstract}
           </p>
         )}

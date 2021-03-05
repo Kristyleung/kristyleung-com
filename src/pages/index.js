@@ -31,13 +31,13 @@ const IndexPage = ({ location }) => {
             <SectionHeader>Experiences I’ve created</SectionHeader>
             <FeaturedSection>
               <FeaturedProject
-                abstract={`Supporting transport businesses in combating wildlife trafficking who seek to illegally transport contraband`}
+                abstract={`Supporting transport businesses in becoming more resilient to the exploitation by illegal wildlife traffickers`}
                 title={` Taskforce Wildlife by United for Wildlife`}
                 image={ufw}
                 link={`/united-for-wildlife/`}
               />
               <FeaturedProject
-                abstract={`Enabling millions of players to play with anyone, anywhere`}
+                abstract={`Enabling millions of players to play with anyone on any gaming console and device`}
                 title={`A Cross-Play Future by Electronic Arts`}
                 image={ea}
                 link={`/electronic-arts/`}
@@ -76,29 +76,17 @@ const indexQuery = graphql`
     }
     eaImage: file(relativePath: { regex: "/ea-project-thumbnail.png/" }) {
       childImageSharp {
-        gatsbyImageData(
-          width: 600
-          placeholder: BLURRED
-          formats: WEBP
-        )
+        gatsbyImageData(width: 600, placeholder: BLURRED, formats: WEBP)
       }
     }
     ufwImage: file(relativePath: { regex: "/ufw-project-thumbnail.png/" }) {
       childImageSharp {
-        gatsbyImageData(
-          width: 600
-          placeholder: BLURRED
-          formats: WEBP
-        )
+        gatsbyImageData(width: 600, placeholder: BLURRED, formats: WEBP)
       }
     }
     visierImage: file(relativePath: { regex: "/visier-project-thumbnail.png/" }) {
       childImageSharp {
-        gatsbyImageData(
-          width: 600
-          placeholder: BLURRED
-          formats: WEBP
-        )
+        gatsbyImageData(width: 600, placeholder: BLURRED, formats: WEBP)
       }
     }
   }
