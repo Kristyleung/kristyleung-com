@@ -5,9 +5,9 @@ export const paragraphStyle = ({ theme }) => ({
   fontFamily: theme.font.family.text,
   fontSize: theme.font.size[5],
   fontWeight: 300,
-  lineHeight: 1.5,
+  lineHeight: 1.7,
   margin: 0,
-  marginBottom: theme.spacing[3],
+  marginBottom: theme.spacing[4],
 })
 
 export const h1Style = ({ theme }) => ({
@@ -56,7 +56,7 @@ export const blockquoteStyle = ({ theme }) => ({
   p: {
     fontFamily: theme.font.family.heading,
     fontSize: theme.font.size[8],
-    lineHeight: 1.65,
+    lineHeight: 1.7,
     ':before': {
       content: '"— "',
     },
@@ -65,19 +65,19 @@ export const blockquoteStyle = ({ theme }) => ({
 
 export const ulStyle = ({ theme }) => ({
   margin: 0,
-  marginBottom: theme.spacing[3],
+  marginBottom: theme.spacing[4],
 })
 
 export const olStyle = ({ theme }) => ({
   margin: 0,
-  marginBottom: theme.spacing[3],
+  marginBottom: theme.spacing[4],
 })
 
 export const liStyle = ({ theme }) => ({
   color: theme.colors.text,
   fontFamily: theme.font.family.text,
   fontSize: theme.font.size[5],
-  lineHeight: 1.5,
+  lineHeight: 1.7,
 })
 
 export const tableStyle = ({ theme }) => ({})
@@ -126,5 +126,5 @@ export const hrStyle = ({ theme }) => ({
   height: 2,
   backgroundColor: theme.colors.text,
   margin: 0,
-  marginBottom: theme.spacing[3],
+  marginBottom: theme.spacing[4],
 })

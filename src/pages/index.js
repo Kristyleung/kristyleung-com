@@ -10,7 +10,7 @@ const IndexPage = ({ location }) => {
     <StaticQuery
       query={indexQuery}
       render={data => {
-        const title = `Portfolio`
+        const title = `Product Design Portfolio of Kristy Leung`
         const keywords = ['product designer', 'vancouver']
         const description = `The portfolio of Kristy Leung, a product designer based in Vancouver. Currently creating human centered gaming experiences for millions of players at Electronic Arts.`
         const ea = data.eaImage
