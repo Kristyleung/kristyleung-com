@@ -1,6 +1,6 @@
 ---
-title: Taskforce Wildlife
-description: description
+title: Taskforce Wildlife by United for Wildlife
+description: Supporting transport businesses in becoming more resilient to the exploitation by illegal wildlife traffickers
 keywords: ['United for Wildlife', 'edenspiekermann']
 image: ./taskforce-wildlife-hero.png
 ---
