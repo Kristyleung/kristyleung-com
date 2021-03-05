@@ -1,5 +1,5 @@
 ---
-title: United for Wildlife
+title: Taskforce Wildlife
 description: description
 keywords: ['United for Wildlife', 'edenspiekermann']
 image: ./taskforce-wildlife-hero.png
@@ -11,10 +11,10 @@ image: ./taskforce-wildlife-hero.png
   <ProjectInfo title='Timeline' abstract='Launched Fall 2018' />
   <ProjectInfo title='Company' abstract='Edenspiekermann' />
   <ProjectInfo title='Role' abstract='I designed and iterated on core experiences within the application. I reported directly to the technical director of the product.' />
-  <ProjectInfo title='About' abstract='Taskforce Wildlife is a tool that enables companies in the transport sector to assess their logistical decisions and confidently plan safe routes.'>
+  <ProjectInfo title='About' abstract='Taskforce Wildlife is a tool that enables companies in the transport sector to assess their logistical decisions and confidently plan safe routes.' />
 </ProjectSection>
 
-![ ](./taskforce-wildlife-hero.png)
+![The desktop interfact of Taskforce Wildlife.](./taskforce-wildlife-hero.png)
 
 ## Context
 
