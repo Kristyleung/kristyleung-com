@@ -5,16 +5,13 @@ keywords: ['United for Wildlife', 'edenspiekermann']
 image: ./taskforce-wildlife-hero.png
 ---
 
-<<<<<<< Updated upstream
-<ProjectHeading title='Taskforce Wildlife by United for Wildlife' abstract='Supporting transport businesses in combating wildlife trafficking who seek to illegally transport contraband' borderBottom huge />
-=======
 <ProjectHeading title='Taskforce Wildlife by United for Wildlife' abstract='Supporting transport businesses in becoming more resilient to the exploitation by illegal wildlife traffickers' borderBottom />
->>>>>>> Stashed changes
 
 <ProjectSection>
   <ProjectInfo title='Timeline' abstract='Launched Fall 2018' />
   <ProjectInfo title='Company' abstract='Edenspiekermann' />
   <ProjectInfo title='Role' abstract='Designed and iterated on core experiences within the application. Reported directly to the technical director of the product.' />
+  <ProjectInfo title='About' abstract='Taskforce Wildlife is a tool that enables companies in the transport sector to assess their logistical decisions and confidently plan safe routes.'>
 </ProjectSection>
 
 ![ ](./taskforce-wildlife-hero.png)
@@ -22,7 +19,6 @@ image: ./taskforce-wildlife-hero.png
 ## Context
 
 Organized criminal networks across the globe have caused an unprecedented increase in the illegal hunting and trading of animals. Traffickers exploit unsuspecting transport businesses by using them to smuggle their contraband.
-
 
 ![United for Wildlife, an initiative led by the Duke of Cambridge to stop wildlife, approached our team us for possible solutions to lower the rate of wildlife trafficking.](./taskforce-wildlife-UFW.png)
 
