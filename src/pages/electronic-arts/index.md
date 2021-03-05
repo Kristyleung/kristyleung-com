@@ -16,6 +16,8 @@ image: ./ea-player-silos.png
   <ProjectInfo title='Timeline' abstract='Ongoing' />
   <ProjectInfo title='Company' abstract='Electronic Arts' />
   <ProjectInfo title='Role' abstract='Product designer' />
+  <ProjectInfo title='About' abstract='The EA crossplay design system provides a safe and accessible environment for players that scales across every device and gaming console.' />
+
 </ProjectSection>
 
 ## Context
