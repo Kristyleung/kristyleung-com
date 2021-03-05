@@ -20,7 +20,7 @@ image: ./taskforce-wildlife-hero.png
 
 Organized criminal networks across the globe have caused an unprecedented increase in the illegal hunting and trading of animals. Traffickers exploit unsuspecting transport businesses, such as passenger and cargo airlines and shipping companies, by using them to smuggle their contraband.
 
-In response to the increase of illegal wildlife activities, United for Wildlife (UfW), an organization led by the Duke of Cambridge, approached my team at Edenspiekermann and asked us to explore approaches to lower the rate of wildlife trafficking.
+In response to the increase of illegal wildlife activities, United for Wildlife (UfW) approached my team at Edenspiekermann and asked us to explore approaches to lower the rate of wildlife trafficking. 
 
 My teammates and I knew this scope of the problem was too large and complex. Instead, we looked for ways to pare it down to bite-sized pieces to establish an approachable problem space.
 
