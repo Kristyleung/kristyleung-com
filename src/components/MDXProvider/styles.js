@@ -7,7 +7,7 @@ export const paragraphStyle = ({ theme }) => ({
   fontWeight: 300,
   lineHeight: 1.7,
   margin: 0,
-  marginBottom: theme.spacing[4],
+  marginBottom: 42,
 })
 
 export const h1Style = ({ theme }) => ({
