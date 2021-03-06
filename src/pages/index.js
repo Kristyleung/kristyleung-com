@@ -31,7 +31,7 @@ const IndexPage = ({ location }) => {
             <SectionHeader>Experiences I’ve created</SectionHeader>
             <FeaturedSection>
               <FeaturedProject
-                abstract={`Supporting transport businesses in becoming more resilient to the exploitation by illegal wildlife traffickers`}
+                abstract={`Supporting companies in the transport sector in becoming more resilient to the exploitation of illegal wildlife traffickers`}
                 title={` Taskforce Wildlife by United for Wildlife`}
                 image={ufw}
                 link={`/united-for-wildlife/`}
