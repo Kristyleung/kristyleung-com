@@ -47,7 +47,7 @@ At this point, it was clear to me that logistics plays a critical role in wildli
 
 ## Taskforce Wildlife
 
-![The user journey map of Taskforce Wildlife](taskforce-wildlife-user-journey-map.png)
+![The user journey map of Taskforce Wildlife](taskforce-wildlife-ideal-journey.png)
 
 Our final solution, Taskforce Wildlife, allowed logisticians to propose a route and would then output a bespoke risk report based on recent and historic reports made by rangers. The risk report creates a direct communication channel from rangers to logisticians. I created a user journey that helped the team and client understand how the observations of rangers in the field would directly be equipping logisticians with the information they need to plan safe routes.
 
