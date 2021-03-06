@@ -1,11 +1,11 @@
 ---
-title: Visier
+title: Workforce Planning by Visier
 description: Creating a collaborative experience for workforce planners.
 keywords: ['visier', 'workforce planning']
 image: ./visier-hero.png
 ---
 
-<ProjectHeading title='Workforce Planning by Visier' abstract=' Facilitating collaboration for businesses to analyse their headcount data' borderBottom huge />
+<ProjectHeading title='Workforce Planning by Visier' abstract='Facilitating collaboration for businesses to analyse their headcount data' borderBottom huge />
 
 <ProjectSection>
   <ProjectInfo title='Timeline' abstract='Launched Fall 2016' />
