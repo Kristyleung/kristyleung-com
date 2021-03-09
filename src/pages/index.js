@@ -26,7 +26,7 @@ const IndexPage = ({ location }) => {
           >
             <PageHeading
               title={`Kristy Leung`}
-              abstract={`Creates human centered systems and experiences. Currently — designing a brand new gaming experience for millions of players at Electronic Arts`}
+              abstract={`Creates human centered systems and experiences. Currently — designing a brand new gaming experience for millions of players at Electronic Arts.`}
             />
             <SectionHeader>Experiences I’ve created</SectionHeader>
             <FeaturedSection>

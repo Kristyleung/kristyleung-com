@@ -18,36 +18,38 @@ image: ./taskforce-wildlife-hero.png
 
 ## Context
 
-Organized criminal networks across the globe have caused an unprecedented increase in the illegal hunting and trading of animals. Traffickers exploit unsuspecting transport businesses, such as passenger and cargo airlines and shipping companies, by using them to smuggle their contraband.
+Organized criminal networks across the globe have caused an unprecedented increase in the illegal hunting and trading of animals. Traffickers exploit unsuspecting transport businesses, such as passenger and cargo airlines and shipping companies, by using them to smuggle their contraband. 
 
-In response to the increase of illegal wildlife activities, United for Wildlife (UfW) approached my team at Edenspiekermann and asked us to explore approaches to lower the rate of wildlife trafficking. 
+![The current state of wildlife trafficking](./taskforce-wildlife-problem.png)
 
-My teammates and I knew this scope of the problem was too large and complex. Instead, we looked for ways to pare it down to bite-sized pieces to establish an approachable problem space.
+In response to the increase of illegal wildlife activities, United for Wildlife (UfW) approached my team at Edenspiekermann and asked us to explore approaches to slow the rate of wildlife trafficking. 
 
 ![United for Wildlife, an initiative led by the Duke of Cambridge to stop wildlife, approached our team us for possible solutions to lower the rate of wildlife trafficking.](./taskforce-wildlife-UFW.png)
 
-## Key insights from our research
+## Understanding wildlife trafficking 
 
-While interviewing a representative from the logistics team from Bangkok Airways, we learned that decisions surrounding route planning are based on outdated reports or historic trends. Logisticians have no real time data to plan routes that they are sure aren’t compromised.
+Due to the complexity of the problem, we looked for ways to pare it down to bite-sized pieces to tighten the scope. We conducted user interviews with the actors involved. In the interview with the logistics team from Bangkok Airways, we learned transport businesses often unwittingly become conduits to illegal wildlife trading. To combat this, the logistics team aims to help transport vehicles avoid compromised areas. Before a logistician plans a transport route, they attempt to track and analyse historic trafficking reports on the map.
 
-![The current journey map of transport businesses.](./taskforce-wildlife-transport-businesses-journey.png)
+![The current journey map of transport businesses](./taskforce-wildlife-transport-businesses-journey.png)
 
-To understand the workflow of wildlife rangers appointed by UfW, we learned that rangers would make reports when they detect any suspicious activity. But these reports would often get buried in a dense backlog, rarely reaching transport businesses in time if at all.
+To understand the workflow of wildlife rangers appointed by UfW, we learned that rangers would make reports when they detect any suspicious activity. But these reports would often get buried in a dense backlog, rarely reaching transport businesses in time if at all. 
 
 ![The current journey map of United for Wildlife and their wildlife rangers.](./taskforce-wildlife-UFW-journey.png)
 
-## The breakthrough
+I extracted key insights from logisticians and rangers that helped the team reframe the problem space.
 
-At this point, it was clear to me that logistics plays a critical role in wildlife trafficking. The moments of friction I identified in the journey map (above) allowed me to show my team how we could tighten the problem space. Since we could not prevent wildlife trafficking from hijacking commercial vehicles, perhaps we could help transport businesses outsmart traffickers.
+![Some key insights I gleaned from our interview with the logisitcs from Bangkok Airways](./taskforce-wildlife-logistician-pain-points.png)
 
-## Goals
+![Some key insights about rangers I gleaned from our interview with the UfW](./taskforce-wildlife-ranger-pain-points.png)
 
-- How can we establish communication between rangers and businesses and leverage the knowledge of rangers to improve route planning for businesses?
-- How can we help businesses make the most of this information and use it towards planning safer routes?
+## Problem
+- **Long-term goal**: To slow the rate of wildlife trafficking
+- **Short-term goal**: To help transport businesses **outmaneuver wildlife traffickers**
+- **Opportunity**: How can we help businesses **leverage the intel of rangers to avoid traffickers** en route? 
 
 ## Taskforce Wildlife
 
-Our final solution, Taskforce Wildlife, allowed logisticians to propose a route and would then output a bespoke risk report based on recent and historic reports made by rangers. The risk report creates a direct communication channel from rangers to logisticians. I created a user journey that helped the team and client understand how the observations of rangers in the field would directly be equipping logisticians with the information they need to plan safe routes.
+The final solution, Taskforce Wildlife, allowed logisticians to propose a route and would then output a bespoke risk report based on recent and historic reports made by rangers. The risk report creates a direct communication channel from rangers to logisticians. I created a user journey that helped the team and client understand how the observations of rangers in the field would directly be equipping logisticians with the information they need to plan safe routes.
 
 ![The user journey map of Taskforce Wildlife](taskforce-wildlife-ideal-journey.png)
 
