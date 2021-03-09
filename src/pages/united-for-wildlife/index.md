@@ -43,9 +43,9 @@ I extracted key insights from logisticians and rangers that helped the team refr
 ![Some key insights about rangers I gleaned from our interview with the UfW](./taskforce-wildlife-ranger-pain-points.png)
 
 ## Problem
-- Long-term goal: To slow the rate of wildlife trafficking
-- Short-term goal: To help transport businesses **outmaneuver wildlife traffickers**
-- Opportunity: How can we help businesses **leverage the intel of rangers to avoid traffickers en route**? 
+- **Long-term goal**: To slow the rate of wildlife trafficking
+- **Short-term goal**: To help transport businesses **outmaneuver wildlife traffickers**
+- **Opportunity**: How can we help businesses **leverage the intel of rangers to avoid traffickers** en route? 
 
 ## Taskforce Wildlife
 
