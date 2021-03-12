@@ -18,47 +18,50 @@ image: ./taskforce-wildlife-hero.png
 
 ## Context
 
-Organized criminal networks across the globe have caused an unprecedented increase in the illegal hunting and trading of animals. Traffickers exploit unsuspecting transport businesses, such as passenger and cargo airlines and shipping companies, by using them to smuggle their contraband.
+Organized criminal networks across the globe have caused an unprecedented increase in the illegal hunting and trading of animals. Traffickers exploit unsuspecting transport businesses, such as passenger and cargo airlines and shipping companies, by using them to smuggle their contraband. 
 
 ![The current state of wildlife trafficking](./taskforce-wildlife-problem.png)
 
-In response to the increase of illegal wildlife activities, [United for Wildlife](https://royalfoundation.com/programme/private-sector/) (UfW) approached my team at Edenspiekermann and asked us to explore approaches to slow the rate of wildlife trafficking.
+In response to the increase of illegal wildlife activities, [United for Wildlife](https://royalfoundation.com/programme/private-sector/) (UfW) approached my team at Edenspiekermann and asked us to explore approaches to slow the rate of wildlife trafficking. 
 
-## Understanding wildlife trafficking
+![United for Wildlife, an initiative led by the Duke of Cambridge to stop wildlife, approached our team us for possible solutions to lower the rate of wildlife trafficking.](./taskforce-wildlife-UFW.png)
 
-Due to the complexity of the problem, we looked for ways to pare it down to bite-sized pieces to tighten the scope. We conducted user interviews with the actors involved. In the interview with the logistics team from Bangkok Airways, we learned transport businesses often unwittingly become conduits to illegal wildlife trading. To combat this, the logistics team aims to help transport vehicles avoid compromised areas. Before a logistician plans a transport route, they attempt to track and analyse historic trafficking reports on the map.
+## Understanding wildlife trafficking 
+
+Due to the complexity of the problem, we looked for ways to pare it down to bite-sized pieces to tighten the scope. We conducted user interviews with the actors involved.
+
+
+In the interview with the logistics team from Bangkok Airways, we learned transport businesses often unwittingly become conduits to illegal wildlife trading. To combat this, the logistics team aimed to help transport vehicles avoid compromised areas. Before a logistician plans a transport route, they attempt to track and analyse historic trafficking reports on the map.
 
 ![The current journey map of transport businesses](./taskforce-wildlife-transport-businesses-journey.png)
 
-To understand the workflow of wildlife rangers appointed by UfW, we learned that rangers would make reports when they detect any suspicious activity. But these reports would often get buried in a dense backlog, rarely reaching transport businesses in time if at all.
+To understand the workflow of UfW wildlife rangers, we learned that they would make reports when they detect any suspicious activity. But these reports would often get buried in a dense backlog, rarely reaching transport businesses in time if at all. 
 
 ![The current journey map of United for Wildlife and their wildlife rangers](./taskforce-wildlife-UFW-journey.png)
 
-### Key insights from logisticians
 
+### Key insights from logisticians
 ![Some key insights I gleaned from our interview with the logisitcs from Bangkok Airways](./taskforce-wildlife-logistician-pain-points.png)
 
 ### Key insights from rangers
-
 ![Some key insights about rangers I gleaned from our interview with the UfW](./taskforce-wildlife-ranger-pain-points.png)
 
 ## Problem
-
 - **Long-term goal**: To slow the rate of wildlife trafficking
 - **Short-term goal**: To help transport businesses **outmaneuver wildlife traffickers**
-- **Opportunity**: How can we help businesses **leverage the intel of rangers to avoid traffickers** en route?
+- **Opportunity**: How can we help businesses **leverage the intel of rangers to avoid traffickers** en route? 
 
 ## Explorations
-
-I searched for precedents in the navigation domain for ideas that would rectify the anxiety of logisticians. My favorite was [TomTom’s Traffic](https://www.tomtom.com/products/real-time-traffic/), a tool that visualizes patterns of traffic congestion for drivers by analyzing historical traffic patterns for roads over time.
-
-I wondered if we could bring the analysis of real-time reports to predict trafficking before it happens. In this early exploration, I ideated a tool that used existing risk reports to predict the safest and fastest routes. However, this idea required our tech team to amalgamate the technology behind each logistic solution used by logisticians. This wasn’t feasible for the scope of the project so I tabled the idea.
+I searched for precedents in the navigation domain for ideas that would rectify the anxiety of logisticians. My favorite was [TomTom’s Traffic](https://www.tomtom.com/products/real-time-traffic/), a tool that visualizes patterns of traffic congestion for drivers by analyzing historical traffic patterns for roads over time. 
+ 
+I wondered if we could bring the analysis of real-time reports to predict trafficking before it happens. In this early exploration, I ideated a tool that used existing risk reports to predict the safest and fastest routes. However, this idea required our tech team to amalgamate the technology behind each logistic solution used by logisticians. This wasn’t feasible for the scope of the project so I tabled the idea. 
 
 ![I ideated a tool that used existing risk reports to predict the safest and fastest routes](taskforce-wildlife-explorations.png)
 
+
 ## Solution
 
-I looked for ideas that would align with our tech constraints, specifically towards analytic and forecasting tools on ways data is made to be actionable for users. I wondered if there was a way to aggregate reports that are specific to a logistician’s route. Once again referencing my notes from our Bangkok Airways interview, my tech director, data engineer and I established a set of basic parameters needed from a route plan to assess the projected risk. I created an experience that allowed logisticians to input a route to see if it is safe.
+I looked for ideas that would align with our tech constraints. I was specifically interested in  the way analytic and forecasting tools made data actionable for users. I wondered if there was a way to achieve this by aggregating reports that are specific to a logistician’s route. Once again referencing notes from our Bangkok Airways interview, my tech director and I established a set of basic parameters needed from a route plan to assess the projected risk. I created an experience that allowed logisticians to input a route to see if it is safe. 
 
 ### How Taskforce Wildlife works:
 
@@ -66,9 +69,11 @@ I looked for ideas that would align with our tech constraints, specifically towa
 
 ![I created an experience that allowed logisticians to input a route to see if it is safe](taskforce-wildlife-how-it-works-2.png)
 
+
 ## Deisgn guidelines
 
 Unlike many products on the market today, we knew a wildlife product needed to work with specific real-world constraints. For this reason, we established two major guidelines.
+
 
 ### Guideline #1: Prompt action without fear-mongering
 
@@ -78,9 +83,10 @@ The tool needed to present critical information and a ton of it. However, we kne
 
 ### Guideline #2: Provide accessibility
 
-Users needed to be able to access Taskforce Wildlife while patrolling rural areas with limited technological access and send reports in real time. It needed to be lightweight, yet reliable. The design system needed to lean enough that loading time would not be compromised.
-
+Users needed to be able to access Taskforce Wildlife while patrolling rural areas with limited technological access and send reports in real time. It needed to be lightweight, yet reliable. The design system needed to lean enough that loading time would not be compromised. 
+ 
 I worked closely with the technical director to develop a library of responsive components fluid across all screen sizes and browser versions. We also opted for typography and high contrast visual treatments that would be communicative in smaller and older devices.
+
 
 ![I worked closely with the technical director to create a lean library of less than 10 responsive components that was screen and browser agnostic.](taskforce-wildlife-components.png)
 
