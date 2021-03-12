@@ -14,7 +14,7 @@ image: ./taskforce-wildlife-hero.png
   <ProjectInfo title='About' abstract='Taskforce Wildlife is a tool that enables companies in the transport sector to assess their logistical decisions and confidently plan safe routes.' />
 </ProjectSection>
 
-![The desktop interfact of Taskforce Wildlife.](./taskforce-wildlife-hero.png)
+![The desktop interfact of Taskforce Wildlife.](./taskforce-wildlife-hero.jpg)
 
 ## Context
 
@@ -61,11 +61,10 @@ I looked for ideas that would align with our tech constraints, specifically towa
 
 ![The user journey map of Taskforce Wildlife](taskforce-wildlife-how-it-works.png)
 
-## A design system to support our product
+## Deisgn guidelines
 
 Unlike many products on the market today, we knew a wildlife product needed to work with specific real-world constraints. For this reason, we established two major guidelines.
 
-![Taskforce Wildlife was designed to allow logisticians to propose a route and would then output a bespoke risk report based reports made by rangers.](taskforce-wildlife-risk-calculator.png)
 
 ### Guideline #1: Prompt action without fear-mongering
 
