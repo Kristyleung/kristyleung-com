@@ -34,12 +34,13 @@ Due to the complexity of the problem, we looked for ways to pare it down to bite
 
 To understand the workflow of wildlife rangers appointed by UfW, we learned that rangers would make reports when they detect any suspicious activity. But these reports would often get buried in a dense backlog, rarely reaching transport businesses in time if at all. 
 
-![The current journey map of United for Wildlife and their wildlife rangers.](./taskforce-wildlife-UFW-journey.png)
+![The current journey map of United for Wildlife and their wildlife rangers](./taskforce-wildlife-UFW-journey.png)
 
-I extracted key insights from logisticians and rangers that helped the team reframe the problem space.
 
+### Key insights from logisticians
 ![Some key insights I gleaned from our interview with the logisitcs from Bangkok Airways](./taskforce-wildlife-logistician-pain-points.png)
 
+### Key insights from rangers
 ![Some key insights about rangers I gleaned from our interview with the UfW](./taskforce-wildlife-ranger-pain-points.png)
 
 ## Problem
@@ -52,14 +53,19 @@ I searched for precedents in the navigation domain for ideas that would rectify 
  
 I wondered if we could bring the analysis of real-time reports to predict trafficking before it happens. In this early exploration, I ideated a tool that used existing risk reports to predict the safest and fastest routes. However, this idea required our tech team to amalgamate the technology behind each logistic solution used by logisticians. This wasn’t feasible for the scope of the project so I tabled the idea. 
 
-![I ideated a tool that used existing risk reports to predict the safest and fastest routes.](taskforce-wildlife-explorations.png)
+![I ideated a tool that used existing risk reports to predict the safest and fastest routes](taskforce-wildlife-explorations.png)
 
 
 ## Solution
 
 I looked for ideas that would align with our tech constraints, specifically towards analytic and forecasting tools on ways data is made to be actionable for users. I wondered if there was a way to aggregate reports that are specific to a logistician’s route. Once again referencing my notes from our Bangkok Airways interview, my tech director, data engineer and I established a set of basic parameters needed from a route plan to assess the projected risk. I created an experience that allowed logisticians to input a route to see if it is safe. 
 
-![The user journey map of Taskforce Wildlife](taskforce-wildlife-how-it-works.png)
+### How Taskforce Wildlife works:
+
+![ ](taskforce-wildlife-how-it-works-1.png)
+
+![I created an experience that allowed logisticians to input a route to see if it is safe](taskforce-wildlife-how-it-works-2.png)
+
 
 ## Deisgn guidelines
 
