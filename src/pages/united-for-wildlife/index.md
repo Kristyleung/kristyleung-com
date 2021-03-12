@@ -63,17 +63,9 @@ Unlike many products on the market today, we knew a wildlife product needed to w
 
 The tool needed to present critical information and a ton of it. However, we knew that jampacking the tool with terrifying warnings and complicated jargon would only overwhelm transport businesses. The design needed to strike a balance between approachable and actionable without downplaying the severity or urgency of the issue.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rs56Yv-ZqUY" width="600" height="400"></iframe>
-
-_The design needed convey information in a manner that was approachable and actionable without downplaying the severity or urgency of what was at stake._
-
 ### Guideline #2: Provide accessibility
 
 Rangers needed to be able to access Taskforce Wildlife while patrolling rural areas with limited technological access and send reports in real time. It needed to be lightweight, yet reliable. The design system needed to lean enough that loading time would not be compromised. I worked closely with the technical director to develop a library of responsive components fluid across all screen sizes and browser versions. We also opted for typography and high contrast visual treatments that would be communicative in smaller and older devices.
-
-<iframe src="https://www.youtube.com/embed/B60NKcKKRiM" width="600" height="400"></iframe>
-
-_We constructed a set of lightweight and responsive components so that rangers could load Taskforce Wildlife while patrolling rural areas with limited technological access._
 
 ### Impact
 
