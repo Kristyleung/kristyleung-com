@@ -14,7 +14,7 @@ image: ./taskforce-wildlife-hero.png
   <ProjectInfo title='About' abstract='Taskforce Wildlife is a tool that enables companies in the transport sector to assess their logistical decisions and confidently plan safe routes.' />
 </ProjectSection>
 
-![The desktop interfact of Taskforce Wildlife.](./taskforce-wildlife-hero.png)
+![The desktop interfact of Taskforce Wildlife.](./taskforce-wildlife-hero.jpg)
 
 ## Context
 
