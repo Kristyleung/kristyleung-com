@@ -5,7 +5,7 @@ keywords: ['United for Wildlife', 'edenspiekermann']
 image: ./taskforce-wildlife-hero.png
 ---
 
-<ProjectHeading title='Taskforce Wildlife by United for Wildlife' abstract='Supporting companies in the transport sector with becoming more resilient to the exploitation by illegal wildlife traffickers ' borderBottom huge />
+<ProjectHeading title='Taskforce Wildlife by United for Wildlife' abstract='Supporting transportation companies with becoming more resilient to the exploitation caused by illegal wildlife traffickers ' borderBottom huge />
 
 <ProjectSection>
   <ProjectInfo title='Timeline' abstract='Launched Fall 2018' />
