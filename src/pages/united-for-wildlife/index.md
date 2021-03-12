@@ -47,11 +47,19 @@ I extracted key insights from logisticians and rangers that helped the team refr
 - **Short-term goal**: To help transport businesses **outmaneuver wildlife traffickers**
 - **Opportunity**: How can we help businesses **leverage the intel of rangers to avoid traffickers** en route? 
 
-## Taskforce Wildlife
+## Explorations
+I searched for precedents in the navigation domain for ideas that would rectify the anxiety of logisticians. My favorite was [TomTom’s Traffic](https://www.tomtom.com/products/real-time-traffic/), a tool that visualizes patterns of traffic congestion for drivers by analyzing historical traffic patterns for roads over time. 
+ 
+I wondered if we could bring the analysis of real-time reports to predict trafficking before it happens. In this early exploration, I ideated a tool that used existing risk reports to predict the safest and fastest routes. However, this idea required our tech team to amalgamate the technology behind each logistic solution used by logisticians. This wasn’t feasible for the scope of the project so I tabled the idea. 
 
-The final solution, Taskforce Wildlife, allowed logisticians to propose a route and would then output a bespoke risk report based on recent and historic reports made by rangers. The risk report creates a direct communication channel from rangers to logisticians. I created a user journey that helped the team and client understand how the observations of rangers in the field would directly be equipping logisticians with the information they need to plan safe routes.
+![I ideated a tool that used existing risk reports to predict the safest and fastest routes.](taskforce-wildlife-explorations.png)
 
-![The user journey map of Taskforce Wildlife](taskforce-wildlife-ideal-journey.png)
+
+## Solution
+
+I looked for ideas that would align with our tech constraints, specifically towards analytic and forecasting tools on ways data is made to be actionable for users. I wondered if there was a way to aggregate reports that are specific to a logistician’s route. Once again referencing my notes from our Bangkok Airways interview, my tech director, data engineer and I established a set of basic parameters needed from a route plan to assess the projected risk. I created an experience that allowed logisticians to input a route to see if it is safe. 
+
+![The user journey map of Taskforce Wildlife](taskforce-wildlife-how-it-works.png)
 
 ## A design system to support our product
 
@@ -63,18 +71,17 @@ Unlike many products on the market today, we knew a wildlife product needed to w
 
 The tool needed to present critical information and a ton of it. However, we knew that jampacking the tool with terrifying warnings and complicated jargon would only overwhelm transport businesses. The design needed to strike a balance between approachable and actionable without downplaying the severity or urgency of the issue.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rs56Yv-ZqUY" width="600" height="400"></iframe>
-
-_The design needed convey information in a manner that was approachable and actionable without downplaying the severity or urgency of what was at stake._
+![To ensure logisticians are empowered and not overwhelmed, the risk report is separated into 3 sections: summary, what to Know and what to do.](taskforce-wildlife-prompt-action.png)
 
 ### Guideline #2: Provide accessibility
 
-Rangers needed to be able to access Taskforce Wildlife while patrolling rural areas with limited technological access and send reports in real time. It needed to be lightweight, yet reliable. The design system needed to lean enough that loading time would not be compromised. I worked closely with the technical director to develop a library of responsive components fluid across all screen sizes and browser versions. We also opted for typography and high contrast visual treatments that would be communicative in smaller and older devices.
+Users needed to be able to access Taskforce Wildlife while patrolling rural areas with limited technological access and send reports in real time. It needed to be lightweight, yet reliable. The design system needed to lean enough that loading time would not be compromised. 
+ 
+I worked closely with the technical director to develop a library of responsive components fluid across all screen sizes and browser versions. We also opted for typography and high contrast visual treatments that would be communicative in smaller and older devices.
 
-<iframe src="https://www.youtube.com/embed/B60NKcKKRiM" width="600" height="400"></iframe>
 
-_We constructed a set of lightweight and responsive components so that rangers could load Taskforce Wildlife while patrolling rural areas with limited technological access._
+![I worked closely with the technical director to create a lean library of less than 10 responsive components that was screen and browser agnostic.](taskforce-wildlife-components.png)
 
 ### Impact
 
-Taskforce Wildlife has since been released and used by rangers and logisticians regularly. United for Wildlife was very satisfied with how we approached the problem. This project was featured in a presentation led by the Duke of Cambridge at the 2018 Illegal Wildlife Trade Conference.
+Taskforce Wildlife has since garnered corporate buy-in from numerous businesses in the transport sector, including Virgin Atlantic. In late 2018, service was released and is used by thousands of rangers and logisticians across the globe. Our client, United for Wildlife reported back with very positive feedback from users. Additionally, this project was featured in a presentation led by the Duke of Cambridge at the 2018 Illegal Wildlife Trade Conference.
