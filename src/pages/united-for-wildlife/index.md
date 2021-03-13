@@ -14,7 +14,7 @@ image: ./taskforce-wildlife-hero.png
   <ProjectInfo title='About' abstract='Taskforce Wildlife is a tool that enables companies in the transport sector to assess their logistical decisions and confidently plan safe routes.' />
 </ProjectSection>
 
-![The desktop interfact of Taskforce Wildlife.](./taskforce-wildlife-hero.jpg)
+![The desktop interface of Taskforce Wildlife.](./taskforce-wildlife-hero.jpg)
 
 ## Context
 
@@ -41,7 +41,7 @@ To understand the workflow of UfW wildlife rangers, we learned that they would m
 
 
 ### Key insights from logisticians
-![Some key insights I gleaned from our interview with the logisitcs from Bangkok Airways](./taskforce-wildlife-logistician-pain-points.png)
+![Some key insights I gleaned from our interview with the logisticians from Bangkok Airways](./taskforce-wildlife-logistician-pain-points.png)
 
 ### Key insights from rangers
 ![Some key insights about rangers I gleaned from our interview with the UfW](./taskforce-wildlife-ranger-pain-points.png)
@@ -70,7 +70,7 @@ I looked for ideas that would align with our tech constraints. I was specificall
 ![I created an experience that allowed logisticians to input a route to see if it is safe](taskforce-wildlife-how-it-works-2.png)
 
 
-## Deisgn guidelines
+## Design Guidelines
 
 Unlike many products on the market today, we knew a wildlife product needed to work with specific real-world constraints. For this reason, we established two major guidelines.
 
