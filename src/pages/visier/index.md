@@ -17,19 +17,21 @@ image: ./visier-hero.png
 
 ## Context
 
-Workforce Planning (WFP) is an application that allows users to plan and analyze labor supply and demand based on business needs and constraints. Generally, workforce planning is a collaborative effort between Finance and HR teams. To create the most effective workforce plans, organizations need a tool that can facilitate teamwork. However, WFP could not allow multiple users to edit simultaneously. 
+Workforce Planning (WFP) is an application that allows users to plan and analyze labor supply and demand based on business needs and constraints. Generally, workforce planning is a collaborative effort between Finance and HR teams. To create the most effective workforce plans, organizations need a tool that can facilitate teamwork. However, WFP could not allow multiple users to edit simultaneously.
 
 ## Goals
 
 ### Constraints
-Multiple users need to be able to edit the same workforce plan on WFP.  Unlike other spreadsheet tools on the market, a single edit generates changes to values across the grid that takes time to load. As a result, the feature was subject to these constraints:
+
+Multiple users need to be able to edit the same workforce plan on WFP. Unlike other spreadsheet tools on the market, a single edit generates changes to values across the grid that takes time to load. As a result, the feature was subject to these constraints:
 
 1. Only one user can edit at a time.
 2. The user must manually refresh the plan in order for the sharing status to take effect.
 
-
 ### Success metrics
+
 Given these constraints, I established 3 success metrics for this feature:
+
 1. The user can give editing or reading access to a plan.
 2. The editing user can easily start and end editing.
 3. The user can clearly identify who the current and sole editor is.
@@ -38,12 +40,11 @@ After identifying these goals, I was able to find a jumping off point and create
 
 ![Mapping out user decisions and software behavior helps to break down complexity](./visier-mindmap.png)
 
-## Explorations 
+## Explorations
 
 This sketch details one of many early attempts to visually represent the behavior of the plan-sharing feature: a switch that could be toggled by an editor to turn editing capabilities on and off to allow another user to edit. However, the toggle did not provide adequate visual cues to prompt users to refresh their plan to update the sharing status.
 
 ![A preliminary sketch of a toggle controlled by the plan editor](./visier-sketch-toggle.png)
-
 
 ## The design
 
