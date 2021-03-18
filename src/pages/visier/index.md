@@ -13,7 +13,7 @@ image: ./visier-hero.png
   <ProjectInfo title='Role' abstract='As a UX designer, I worked with developers, product managers, and my design lead to create Share Plan, a feature that allows multiple users to edit the same document. ' />
 </ProjectSection>
 
-![The user interface of Visier's Workforce Planning platform](./visier-hero.png)
+![The user interface of Visier's Workforce Planning platform](./visier-hero.jpg)
 
 ## Context
 
