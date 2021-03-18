@@ -10,47 +10,55 @@ image: ./visier-hero.png
 <ProjectSection>
   <ProjectInfo title='Timeline' abstract='Launched Fall 2016' />
   <ProjectInfo title='Role' abstract='I designed and iterated on numerous features in the application while reporting directly to the design lead of the product. ' />
-  <ProjectInfo title='Role' abstract='As a UX designer, I worked with developers, product managers, and my design lead to create Share Plan, a feature that allows multiple users to edit the same document. ' />
+  <ProjectInfo title='Role' abstract='As a UX designer, I worked with developers, my product manager, and design lead to create a new feature that helps multiple users to edit the same plan. ' />
 </ProjectSection>
 
 ![The user interface of Visier's Workforce Planning platform](./visier-hero.jpg)
 
 ## Context
 
-Workforce Planning (WFP) is an application that allows users to plan and analyze labor supply and demand based on business needs and constraints. Generally, workforce planning is a collaborative effort between Finance and HR teams. To create the most effective workforce plans, organizations need a tool that can facilitate teamwork. However, WFP could not allow multiple users to edit simultaneously.
+Workforce Planning (WFP) is an application that allows users to plan and analyze their workforce supply and demand based on business needs and constraints. Generally, workforce planning is a collaborative effort between Finance and HR teams. To create the most effective workforce plans, organizations need a tool that can facilitate teamwork. However, WFP could not allow multiple users to edit simultaneously. 
 
-## Goals
+## Problem
 
-### Constraints
-
-Multiple users need to be able to edit the same workforce plan on WFP. Unlike other spreadsheet tools on the market, a single edit generates changes to values across the grid that takes time to load. As a result, the feature was subject to these constraints:
+Unlike other spreadsheet tools on the market, a single edit generates changes to values across the grid that takes time to load. As a result, the feature was subject to these constraints:
 
 1. Only one user can edit at a time.
 2. The user must manually refresh the plan in order for the sharing status to take effect.
 
-### Success metrics
+### Goals
+Long-term goal: To facilitate multiple users to edit the same workforce plan
+Short-term goals: 
+To help users identify who is editing a plan
+To help users transfer editing control
+To help users share permissions to a plan
+After identifying these goals, I was able to find a jumping off point and create a mind map and another iteration of the interface sketch.
 
-Given these constraints, I established 3 success metrics for this feature:
+**Long-term goal**: To facilitate multiple users to edit the same workforce plan
 
-1. The user can give editing or reading access to a plan.
-2. The editing user can easily start and end editing.
-3. The user can clearly identify who the current and sole editor is.
+**Short-term goal**: 
+- To help users identify who is editing a plan
+- To help users transfer editing control
+- To help users share permissions to a plan
 
 After identifying these goals, I was able to find a jumping off point and create a mind map and another iteration of the interface sketch.
 
 ![Mapping out user decisions and software behavior helps to break down complexity](./visier-mindmap.png)
 
-## Explorations
+## Designing the system
 
-This sketch details one of many early attempts to visually represent the behavior of the plan-sharing feature: a switch that could be toggled by an editor to turn editing capabilities on and off to allow another user to edit. However, the toggle did not provide adequate visual cues to prompt users to refresh their plan to update the sharing status.
+We needed a way to present the functionality to share, edit and identify the editor in a plan. I created two controls in the toolbar that would help users take sharing and editing actions as well as convey useful information about sharing and editing statues.
 
-![A preliminary sketch of a toggle controlled by the plan editor](./visier-sketch-toggle.png)
+![These controls help users take sharing and editing actions while conveying useful information about sharing and editing statues.](./visier-controls-breakdown.png)
+
+The controls a user can access is contingent on their permissions to the plan. To break down these complexities I created the following framework for all 4 possible cases. 
+
+![Based on their permissions and the status of the plan, a user might see their toolbar in 4 different ways.](./visier-sketch-states.png)
+
 
 ## The design
 
-![This design was developed in the mockups below, and was implemented into the platform](./visier-sketch-states.png)
-
-A later reiteration encapsulated all three requirements determined before. The toggle from before was replaced by buttons that also double as status indicators.
+This design was developed in the mockups below, and was implemented into the platform.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTNdm5y9S3qLCtrvRg8TTxw6qB4pxP4cHXqNrPzeoeSpUYj7bse12SzQ8e972rsV_UyHuJ7PL4a-prh/embed?start=true&loop=true&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
