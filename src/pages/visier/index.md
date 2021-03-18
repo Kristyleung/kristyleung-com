@@ -27,13 +27,6 @@ Unlike other spreadsheet tools on the market, a single edit generates changes to
 2. The user must manually refresh the plan in order for the sharing status to take effect.
 
 ### Goals
-Long-term goal: To facilitate multiple users to edit the same workforce plan
-Short-term goals: 
-To help users identify who is editing a plan
-To help users transfer editing control
-To help users share permissions to a plan
-After identifying these goals, I was able to find a jumping off point and create a mind map and another iteration of the interface sketch.
-
 **Long-term goal**: To facilitate multiple users to edit the same workforce plan
 
 **Short-term goal**: 
