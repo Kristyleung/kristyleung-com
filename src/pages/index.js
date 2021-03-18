@@ -43,7 +43,7 @@ const IndexPage = ({ location }) => {
                 link={`/electronic-arts/`}
               />
               <FeaturedProject
-                abstract={`Facilitating collaboration for businesses to analyse their headcount data`}
+                abstract={`Facilitating collaboration for businesses to analyse their workforce`}
                 title={`Workforce Planning by Visier`}
                 image={visier}
                 link={`/visier/`}
