@@ -17,7 +17,7 @@ image: ./visier-hero.png
 
 ## Context
 
-Workforce Planning (WFP) is an application that allows users to plan and analyze their workforce supply and demand based on business needs and constraints. Generally, workforce planning is a collaborative effort between Finance and HR teams. To create the most effective workforce plans, organizations need a tool that can facilitate teamwork. However, WFP could not allow multiple users to edit simultaneously.
+Workforce Planning (WFP) is an application that allows users to plan and analyze their workforce supply and demand based on business needs and constraints. Generally, workforce planning is a collaborative effort between Finance and HR teams. To create the most effective workforce plans, organizations need a tool that can facilitate teamwork. 
 
 ## Problem
 
@@ -28,15 +28,12 @@ Unlike other spreadsheet tools on the market, a single edit generates changes to
 
 ### Goals
 
-**Long-term goal**: To facilitate multiple users to edit the same workforce plan
-
-**Short-term goal**:
-
+Given our constraints, we couldn’t facilitate multiple users to edit the same workforce plan in real time. In the meantime, I aimed to create a design that accomplished the following:
 - To help users identify who is editing a plan
 - To help users transfer editing control
 - To help users share permissions to a plan
 
-After identifying these goals, I was able to find a jumping off point and create a mind map and another iteration of the interface sketch.
+After identifying these goals, I was able to find a jumping off point and create a mind map.
 
 ![Mapping out user decisions and software behavior helps to break down complexity](./visier-mindmap.png)
 
@@ -62,14 +59,4 @@ After collaborating with the development team to ensure a successful handoff, th
 
 ## The retrospective
 
-Through the process of completing UX concepts and specifications for new features, I have learned the importance of finding the most feasible UX that supports the necessary functionality. To achieve this, I learned to be meticulous by questioning each moment in user interaction. Can I simply this method by using fewer affordances? How can I make this new functionality more accessible? Can I reuse an existing piece of UI or do I have to make a new one? If I propose a new interface, is it worthwhile for the developers to program? Can it reused? During the start of the work term, I often failed to ask these questions. As a result, I had to make many more iterations of the mockups to achieve the completeness I would have had if I considered the previous questions.
-
-## Other Projects
-
-### Data Management Tool
-
-I worked with a Data Engineer intern to design and help implement (using HTML and LESS) an overhaul for an internal tool that helped reconfigure, validate and load incoming data into the Visier database. My contribution laid down the groundwork for the tool to continuously grow and assist Data Engineers in other aspects of their work.
-
-### WFP Reintegration
-
-Visier is currently in the process of integrating WFP into a new platform with other tools. By doing so, WFP will be more effective in sharing their plans, forecasts and budgets to the platform's business users. During the later months of my work term, I worked alongside my design lead to develop a comprehensive set of mockups which detailed end to end user work flows of the application.
+Through the process of completing UX concepts and specifications for new features, I learned to be meticulous by questioning each moment in user interaction. Can I simplify this method by using fewer affordances? How can I make this new functionality using existing affordances that the user is familiar with? If I propose a new interface, is it worthwhile for the developers to program? During the start of the work term, I often failed to ask these questions. As a result, I had to make many more iterations of the mockups to achieve the completeness I would have had if I considered the previous questions.
