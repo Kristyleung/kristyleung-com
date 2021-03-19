@@ -55,6 +55,9 @@ Here’s how my design works:
 
 ![My design helped multiple users edit a plan within our technical constraints by establishing a clear transfer of editing control to users.](./visier-how-it-works.png)
 
+## Impact
+After collaborating with the development team to ensure a successful handoff, the new feature was implemented into the build. During the month of release, the new functionality drove the user bases of each enterprise customer to increase by an average of 25%. Additionally, we received very favorable feedback from our reference customers. Given this success, my design lead and I advocated for this editing permission system to be used across our other services.
+
 ## The retrospective
 
 Through the process of completing UX concepts and specifications for new features, I have learned the importance of finding the most feasible UX that supports the necessary functionality. To achieve this, I learned to be meticulous by questioning each moment in user interaction. Can I simply this method by using fewer affordances? How can I make this new functionality more accessible? Can I reuse an existing piece of UI or do I have to make a new one? If I propose a new interface, is it worthwhile for the developers to program? Can it reused? During the start of the work term, I often failed to ask these questions. As a result, I had to make many more iterations of the mockups to achieve the completeness I would have had if I considered the previous questions.
@@ -67,4 +70,4 @@ I worked with a Data Engineer intern to design and help implement (using HTML an
 
 ### WFP Reintegration
 
-Visier is currently in the process of integrating WFP into a new platform with other tools. By doing so, WFP will be more effective in sharing their plans, forecasts and budgets to the platform's business users. During the later months of my work term, I worked alongside the WFP PM and UX Lead to develop a comprehensive set of mockups which detailed end to end user work flows of the application.
+Visier is currently in the process of integrating WFP into a new platform with other tools. By doing so, WFP will be more effective in sharing their plans, forecasts and budgets to the platform's business users. During the later months of my work term, I worked alongside my design lead to develop a comprehensive set of mockups which detailed end to end user work flows of the application.
