@@ -38,7 +38,9 @@ After identifying these goals, I was able to find a jumping off point and create
 
 ![Mapping out user decisions and software behavior helps to break down complexity](./visier-mindmap.png)
 
-## Designing the system
+## Solution
+
+### Designing the system
 
 We needed a way to present the functionality to share, edit and identify the editor in a plan. I created two controls in the toolbar that would help users take sharing and editing actions as well as convey useful information about sharing and editing statues.
 
@@ -48,12 +50,10 @@ The controls a user can access is contingent on their permissions to the plan. T
 
 ![Based on their permissions and the status of the plan, a user might see their toolbar in 4 different ways.](./visier-sketch-states.png)
 
+### Final design 
+Here’s how my design works:
 
-## The design
-
-This design was developed in the mockups below, and was implemented into the platform.
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTNdm5y9S3qLCtrvRg8TTxw6qB4pxP4cHXqNrPzeoeSpUYj7bse12SzQ8e972rsV_UyHuJ7PL4a-prh/embed?start=true&loop=true&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+![My design helped multiple users edit a plan within our technical constraints by establishing a clear transfer of editing control to users.](./visier-how-it-works.png)
 
 ## The retrospective
 
