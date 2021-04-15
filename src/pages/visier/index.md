@@ -17,7 +17,7 @@ image: ./visier-hero.png
 
 ## Context
 
-Workforce Planning (WFP) is an application that allows users to plan and analyze their workforce supply and demand based on business needs and constraints. Generally, workforce planning is a collaborative effort between Finance and HR teams. To create the most effective workforce plans, organizations need a tool that can facilitate teamwork. 
+Workforce Planning (WFP) is an application that allows users to plan and analyze their workforce supply and demand based on business needs and constraints. Generally, workforce planning is a collaborative effort between Finance and HR teams. To create the most effective workforce plans, organizations need a tool that can facilitate teamwork.
 
 ## Problem
 
@@ -29,6 +29,7 @@ Unlike other spreadsheet tools on the market, a single edit generates changes to
 ### Goals
 
 Given our constraints, we couldn’t facilitate multiple users to edit the same workforce plan in real time. In the meantime, I aimed to create a design that accomplished the following:
+
 - To help users identify who is editing a plan
 - To help users transfer editing control
 - To help users share permissions to a plan
