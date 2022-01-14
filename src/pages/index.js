@@ -26,13 +26,13 @@ const IndexPage = ({ location }) => {
           >
             <PageHeading
               title={`Kristy Leung`}
-              abstract={`Creates human centered systems and experiences. Currently — designing a brand new gaming experience for millions of players at Electronic Arts.`}
+              abstract={`Creates human centered systems and experiences. Currently — designing new ways for people stay connected at Microsoft.`}
             />
             <SectionHeader>Experiences I’ve created</SectionHeader>
             <FeaturedSection>
               <FeaturedProject
                 abstract={`Supporting companies in the transport sector in becoming more resilient to the exploitation of illegal wildlife traffickers`}
-                title={` Taskforce Wildlife by United for Wildlife`}
+                title={`Taskforce Wildlife by United for Wildlife`}
                 image={ufw}
                 link={`/united-for-wildlife/`}
               />

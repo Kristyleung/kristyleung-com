@@ -4,7 +4,7 @@ description: A product designer who loves tackling interesting problems with ele
 keywords: ['product designer', 'kristy leung']
 ---
 
-<ProjectHeading title='Product designer with a passion for building equitable and purposeful systems' abstract='Currently a product designer at Electronic Arts.' borderBottom />
+<ProjectHeading title='Product designer with a passion for building equitable and purposeful systems' abstract='Currently a product designer at Microsoft' borderBottom />
 
 I've worked with organizations both large and small on identifying user needs throughout all phases of product development while practicing iterative design, testing, and delivery. I am happiest when I’m collaborating with diverse, cross functional teammates. I believe in using design to grapple with human complexities instead of paring them away.
 
