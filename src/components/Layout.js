@@ -3,7 +3,7 @@ import { css, useTheme } from '@emotion/react'
 import Footer from './Footer'
 import Header from './Header'
 import PropTypes from 'prop-types'
-import SEO from './SEO'
+import Seo from './Seo'
 import { mq } from '../theming/theme'
 
 const skipToContentStyle = css(`
@@ -83,7 +83,7 @@ const Layout = ({ children, location, siteTitle, title, description, keywords })
         Skip to content
       </a>
       <div css={layoutStyle}>
-        <SEO title={title} description={description} keywords={keywords} />
+        <Seo title={title} description={description} keywords={keywords} />
         <Header siteTitle={siteTitle} location={location} />
         <main id="content" role="main">
           <section css={sectionStyle({ theme })}>{children}</section>
