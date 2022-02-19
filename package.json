@@ -3,7 +3,7 @@
   "private": true,
   "description": "Kristy Leung's Product Design Portfolio",
   "author": "Kristy Leung <kristy.leung11@gmail.com>",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
