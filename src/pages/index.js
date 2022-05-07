@@ -50,6 +50,7 @@ const IndexPage = ({ location }) => {
               />
             </FeaturedSection>
             <SectionHeader>About</SectionHeader>
+            <Experience company={`Microsoft`} role={`Product Designer`} />
             <Experience company={`Electronic Arts`} role={`Product Designer`} />
             <Experience company={`8it`} role={`Product Designer`} />
             <Experience company={`Edenspiekermann`} role={`UX Designer`} />
