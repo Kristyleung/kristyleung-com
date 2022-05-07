@@ -5,16 +5,15 @@ import { brandLinkStyle, headerStyle, navHeaderStyle, navLinkActiveStyle, navLin
 import { navigationData } from './data'
 import { useTheme } from '@emotion/react'
 import { withPrefix } from 'gatsby'
-import { isBrowser } from '../../lib/is-browser'
 
 const Header = ({ location, siteTitle }) => {
   const theme = useTheme()
-  const isHomepage = isBrowser && location.pathname === withPrefix('/')
+  const isHomepage = location.pathname === withPrefix('/')
   
   return (
     <header css={headerStyle({ theme })}>
       <div>
-        {!isHomepage && (
+        {isHomepage ? '' : (
           <Link to="/" css={brandLinkStyle({ theme })} aria-label="Home">
             {siteTitle}
           </Link>
