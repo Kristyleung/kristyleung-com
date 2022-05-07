@@ -10,12 +10,17 @@ import { isBrowser } from '../../lib/is-browser'
 const Header = ({ location, siteTitle }) => {
   const theme = useTheme()
   const isHomepage = isBrowser && location.pathname === withPrefix('/')
+  
   return (
     <header css={headerStyle({ theme })}>
-      <Link to="/" css={brandLinkStyle({ theme })}>
-        {!isHomepage && siteTitle}
-      </Link>
-      <nav css={navHeaderStyle({ theme })}>
+      <div>
+        {!isHomepage && (
+          <Link to="/" css={brandLinkStyle({ theme })} aria-label="Home">
+            {siteTitle}
+          </Link>
+        )}
+      </div>
+      <nav css={navHeaderStyle({ theme })} role="navigation" aria-label="Main navigation">
         {navigationData.map((item, index) => (
           <Link key={index} activeStyle={navLinkActiveStyle} css={navLinkStyle({ theme })} to={item.to}>
             {item.label}
