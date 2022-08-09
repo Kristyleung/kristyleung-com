@@ -8,12 +8,14 @@ image: ./ea-player-silos.png
 <ProjectHeading title='A Cross-Play Future by Electronic Arts' abstract='Enabling millions of players to play with anyone on any gaming console and device' borderBottom huge />
 
 <ProjectSection>
-  <ProjectInfo title='Timeline' abstract='Ongoing' />
+  <ProjectInfo title='Timeline' abstract='Launched July 2022' />
   <ProjectInfo title='Company' abstract='Electronic Arts' />
   <ProjectInfo title='Role' abstract='Product designer' />
   <ProjectInfo title='About' abstract='The EA crossplay design system provides a safe and accessible environment for players that scales across every device and gaming console.' />
 
 </ProjectSection>
+
+<ButtonLink to="https://www.ea.com/en-gb/games/fifa/fifa-23/news/pitch-notes-fifa-23-cross-play-deep-dive">Read more about EA Cross-Play</ButtonLink>
 
 ## Context
 
