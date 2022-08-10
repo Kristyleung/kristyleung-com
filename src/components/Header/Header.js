@@ -9,11 +9,13 @@ import { withPrefix } from 'gatsby'
 const Header = ({ location, siteTitle }) => {
   const theme = useTheme()
   const isHomepage = location.pathname === withPrefix('/')
-  
+
   return (
     <header css={headerStyle({ theme })}>
       <div>
-        {isHomepage ? '' : (
+        {isHomepage ? (
+          ''
+        ) : (
           <Link to="/" css={brandLinkStyle({ theme })} aria-label="Home">
             {siteTitle}
           </Link>
